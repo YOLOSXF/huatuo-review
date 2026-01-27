@@ -1,0 +1,21 @@
+{
+  "question": "尖牙保护[img=~/QImg/2013-10-14-16-30-25/image001.jpg]与组牙功能[img=~/QImg/2013-10-14-16-30-25/image001.jpg]出现在哪种颌位",
+  "options": {
+    "A": "牙尖交错位",
+    "B": "后退接触位",
+    "C": "下颌姿势位",
+    "D": "前伸颌位",
+    "E": "侧方颌位"
+  },
+  "answer_idx": "E",
+  "answer": "侧方颌位",
+  "Open-ended Verifiable Question": "尖牙保护与组牙功能出现在哪种颌位？",
+  "Ground-True Answer": "侧方颌位",
+  "Question": "In which occlusal position do canine protection and group function occur?",
+  "Complex_CoT": "Okay, let's think about how teeth come together when we move our jaws. They don't just clench up and down; there's a lot more to it. One of the key positions is when the jaw shifts side to side - that's called lateral movement.\n\nNow, in this lateral movement, the teeth contact differently compared to when mouth/jaw is in a resting position. One interesting thing going on here is this concept called canine protection. So, what’s that about? Basically, when you move your jaw to the side, your canine teeth are like guides. They lead the motion, preventing your back teeth from clashing together. Pretty smart, right?\n\nBut that’s not the whole story. There's also something called group function. Imagine a team of teeth, including your canines and maybe some others like premolars, all working together to manage that load when you chomp down sideways. It's like sharing the pressure so no single tooth takes all the stress. This is another way our body ensures our teeth don't wear down too quickly.\n\nOh, and these concepts of canine protection and group function? They kick in during what's known as lateral movements, also termed lateral excursions. So every time your jaw shifts left or right, those mechanisms are in play. Some folks might talk about lateral occlusion as a broader term, which just means any time there's any side-moving action.\n\nTo sum it all up, whether it's canine protection or group function, both occur specifically during these side-to-side movements of the jaw. That's really what we're looking at here - lateral excursions, which happen to be a crucial part of how our teeth interact.",
+  "Response": "Canine protection and group function occur during lateral excursions, which are the side-to-side movements of the jaw. These mechanisms specifically manage occlusal contact when the jaw moves laterally, ensuring that the teeth interact efficiently and protectively during these movements.",
+  "process_id": 169,
+  "options_str": "A. 牙尖交错位\nB. 后退接触位\nC. 下颌姿势位\nD. 前伸颌位\nE. 侧方颌位",
+  "gpt_reformat_query": "I will provide you with a multiple-choice question, and your task is to rewrite it into an open-ended question, along with a Ground-True Answer. The requirements are:\n\n1. The question must be specific, targeting the point being tested in the original multiple-choice question. Ensure it is open-ended, meaning no options are provided, but there must be a definitive Ground-True Answer.\n2. Based on the correct answer from the original question, provide a concise Ground-True Answer. The answer should allow for precise matching to determine whether the model's response is correct.\n\nHere is the multiple-choice question for you to rewrite:\n<Multiple-choice Question>\n尖牙保护[img=~/QImg/2013-10-14-16-30-25/image001.jpg]与组牙功能[img=~/QImg/2013-10-14-16-30-25/image001.jpg]出现在哪种颌位\nA. 牙尖交错位\nB. 后退接触位\nC. 下颌姿势位\nD. 前伸颌位\nE. 侧方颌位\nCorrect Answer: 侧方颌位\n</Multiple-choice Question>\n\nPlease output the result in the following JSON format:\n```json\n{\n\"Open-ended Verifiable Question\": \"...\",\n\"Ground-True Answer\": \"...\"\n}\n```\nIMPORTANT OUTPUT FORMAT:\nYou must strictly output a valid JSON object with EXACTLY these two keys:\n1. \"Open-ended Verifiable Question\"\n2. \"Ground-True Answer\"\n\nDo not use any other key names.\n",
+  "gpt_reformat_response": "```json\n{\n\"Open-ended Verifiable Question\": \"尖牙保护与组牙功能出现在哪种颌位？\",\n\"Ground-True Answer\": \"侧方颌位\"\n}\n```"
+}

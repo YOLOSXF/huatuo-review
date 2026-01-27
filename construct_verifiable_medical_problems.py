@@ -60,6 +60,38 @@ def parse_gpt_response(response):
             response = extract_bracket_content(response)
         parsed_data = json.loads(response.replace('\n', ''))
 
+        # 1. 自动修正 "Question" 相关的 Key 拼写错误
+        # 找到所有可能的 key 变体
+        question_key_candidates = [
+            "Open-ended Verifiable Question", # 正确的
+            "Open-ended Verolvable Question", # 你遇到的错误
+            "Open-ended Question",            # 常见的简化
+            "Question", "question"            # 最基础的
+        ]
+        
+        # 遍历候选列表，谁在字典里就用谁的值，并赋给标准 Key
+        found_q = False
+        for key in question_key_candidates:
+            if key in parsed_data:
+                parsed_data["Open-ended Verifiable Question"] = parsed_data[key] # 统一归位
+                found_q = True
+                break
+        
+        if not found_q:
+            # 如果实在找不到，可以尝试拿字典的第一个值当作 Question（终极兜底）
+            pass 
+
+        # 2. 自动修正 "Answer" 相关的 Key 拼写错误 (防止 Answer 也拼错)
+        answer_key_candidates = [
+            "Ground-True Answer",  # 正确的
+            "Ground-Truth Answer", # 常见的变体 (True vs Truth)
+            "Answer", "answer"
+        ]
+        for key in answer_key_candidates:
+            if key in parsed_data:
+                parsed_data["Ground-True Answer"] = parsed_data[key]
+                break
+
         assert len(parsed_data) == 2, "Response JSON should contain exactly two keys."
         assert isinstance(parsed_data["Open-ended Verifiable Question"], str), "Open-ended Question must be a string."
         assert isinstance(parsed_data["Ground-True Answer"], str), "Ground-True Answer must be a string."
@@ -67,6 +99,9 @@ def parse_gpt_response(response):
         return True, parsed_data
     except Exception as e:
         print(f"Error parsing GPT response: {e}")
+        print(f"\n[DEBUG] Parsing Failed!") 
+        print(f"[DEBUG] Error Type: {e}")
+        print(f"[DEBUG] Model Raw Response: {response}\n")
         return False, None
 
 def process_single_item(item, gpt_instance, save_directory, filter_prompt, reformat_prompt, filter_enabled):
@@ -187,7 +222,14 @@ Please output the result in the following JSON format:
 "Open-ended Verifiable Question": "...",
 "Ground-True Answer": "..."
 }}
-```"""
+```
+IMPORTANT OUTPUT FORMAT:
+You must strictly output a valid JSON object with EXACTLY these two keys:
+1. "Open-ended Verifiable Question"
+2. "Ground-True Answer"
+
+Do not use any other key names.
+"""
 
     # Merge previously processed files
     processed_data = merge_saved_files(save_directory)

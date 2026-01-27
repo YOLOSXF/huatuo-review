@@ -41,8 +41,18 @@ class Train_dataset(torch.utils.data.Dataset):
 
         # 如果从Base LLMs训练，选择 llama3-instruct作为模版
         chat_template_llama3 = "{% set loop_messages = messages %}{% for message in loop_messages %}{% set content = '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' %}{% if loop.index0 == 0 %}{% set content = bos_token + content %}{% endif %}{{ content }}{% endfor %}{% if add_generation_prompt %}{{ '<|start_header_id|>assistant<|end_header_id|>\n\n' }}{% endif %}"
+        # if not tokenizer.chat_template:
+        #     tokenizer.chat_template = chat_template_llama3
+        
         if not tokenizer.chat_template:
-            tokenizer.chat_template = chat_template_llama3
+            model_path_lower = str(getattr(config, "model_path", "")).lower()
+            if "llama-3" in model_path_lower or "llama3" in model_path_lower:
+                tokenizer.chat_template = chat_template_llama3
+            else:
+                raise ValueError(
+                    "Tokenizer.chat_template is empty. For Qwen2.5-Instruct, please use its built-in chat_template "
+                    "(recommended) or provide a Qwen-compatible template, instead of the Llama3 template."
+                )
             
         self.template = Template(tokenizer.chat_template)
 
@@ -76,7 +86,9 @@ class Train_dataset(torch.utils.data.Dataset):
         labels = [item["labels"] for item in data]
         max_len = max(len(x) for x in input_ids)
         max_len = min(max_len,self.max_seq_len)
-        input_ids = [ item[:max_len] + [self.tokenizer.eos_token_id]*(max_len-len(item)) for item in input_ids]
+        pad_id = self.tokenizer.pad_token_id if self.tokenizer.pad_token_id is not None else self.tokenizer.eos_token_id
+        # input_ids = [ item[:max_len] + [self.tokenizer.eos_token_id]*(max_len-len(item)) for item in input_ids]
+        input_ids = [ item[:max_len] + [pad_id]*(max_len-len(item)) for item in input_ids]
         labels = [ item[:max_len] + [-100]*(max_len-len(item)) for item in labels]
         if self.debug < 3:
             print('input_ids',self.tokenizer.decode(input_ids[-1]))
@@ -140,6 +152,11 @@ def train(args):
     accelerator.state.deepspeed_plugin.deepspeed_config['train_batch_size'] = args.train_bsz_per_gpu*dist.get_world_size()*accelerator.gradient_accumulation_steps
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True)
+
+    # Qwen/多数 CausalLM：推荐 pad_token 对齐 eos_token，避免 padding 报错/异常mask
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token = tokenizer.eos_token
+        tokenizer.pad_token_id = tokenizer.eos_token_id
 
     model = AutoModelForCausalLM.from_pretrained(args.model_path, trust_remote_code=True)
 
@@ -290,4 +307,16 @@ if __name__ == '__main__':
     os.makedirs(args.output_dir, exist_ok=True)
 
     set_seed(args.seed)
-    train(args)           
+    try:
+        train(args)
+    except Exception:
+        import os as _os
+        import traceback as _traceback
+        print(
+            f"[FATAL] RANK={_os.environ.get('RANK')} "
+            f"LOCAL_RANK={_os.environ.get('LOCAL_RANK')} "
+            f"WORLD_SIZE={_os.environ.get('WORLD_SIZE')}"
+        )
+        _traceback.print_exc()
+        raise
+    # train(args)           

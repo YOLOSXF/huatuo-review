@@ -4,3 +4,8 @@ evaluation/logs/
 evaluation/__pycache__/
 __pycache__/
 *.log
+
+data/medical_o1_sft.json
+data/train.json
+data/medical_o1_sft_Chinese.json
+data/train_zh.jsonl

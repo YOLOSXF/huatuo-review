@@ -1,0 +1,20 @@
+{
+  "question": "The base sequence of the strand of DNA used as the template for transcription has the base sequence GATCTAC. What is the base sequence of RNA product?",
+  "options": {
+    "A": "CTAGATG",
+    "B": "GTAGATC",
+    "C": "GAUCUAC",
+    "D": "GUAGAUC"
+  },
+  "answer_idx": "D",
+  "answer": "GUAGAUC",
+  "Open-ended Verifiable Question": "Given the DNA template strand with the base sequence GATCTAC, what is the base sequence of the RNA product after transcription?",
+  "Ground-True Answer": "GUAGAUC",
+  "Question": "If the base sequence of a DNA strand used as the template for transcription is GATCTAC, what is the resulting RNA sequence?",
+  "Complex_CoT": "Alright, let's figure out how this DNA to RNA transcription works. So, with DNA, there are these four bases: adenine (A), thymine (T), cytosine (C), and guanine (G). But when we're talking RNA, it gets a bit different because instead of thymine, we've got uracil (U).  \n\nNow, when you transcribe from DNA to RNA, you have to match these bases up, you know? It's like pairing your socks but with bases. Adenine (A) in DNA pairs with uracil (U) in RNA, thymine (T) in DNA goes with adenine (A) in RNA, cytosine (C) pairs with guanine (G), and guanine (G) with cytosine (C). So classic.  \n\nThe given DNA template sequence here is GATCTAC. Let's transcribe this, one base at a time. So, starting off with G in DNA – that pairs with C in RNA. Got it. Next up is A, and as we said, in RNA that becomes U. Then there's T, which should pair with A in RNA.  \n\nNext, we have C in the DNA sequence, which means it pairs with G in RNA. We're on a roll here. Another T follows, so it goes with A again. Then there's A, which matches up nicely with U. Finally, we've got another C at the end – it matches with G.  \n\nNow, if you put that all together after this meticulous pairing, the RNA sequence we end up with is CUAGAUG. Let's just make sure I got this down right. Rechecking each part: G to C, A to U, T to A, C to G, T to A, A to U, and C to G.  \n\nLooks like everything matches perfectly, giving us the final RNA strand: CUAGAUG. It's kind of like cracking a code in a way, just got to make sure each part lines up with the rules we know.",
+  "Response": "The resulting RNA sequence transcribed from the DNA template strand GATCTAC is CUAGAUG.",
+  "process_id": 68,
+  "options_str": "A. CTAGATG\nB. GTAGATC\nC. GAUCUAC\nD. GUAGAUC",
+  "gpt_reformat_query": "I will provide you with a multiple-choice question, and your task is to rewrite it into an open-ended question, along with a Ground-True Answer. The requirements are:\n\n1. The question must be specific, targeting the point being tested in the original multiple-choice question. Ensure it is open-ended, meaning no options are provided, but there must be a definitive Ground-True Answer.\n2. Based on the correct answer from the original question, provide a concise Ground-True Answer. The answer should allow for precise matching to determine whether the model's response is correct.\n\nHere is the multiple-choice question for you to rewrite:\n<Multiple-choice Question>\nThe base sequence of the strand of DNA used as the template for transcription has the base sequence GATCTAC. What is the base sequence of RNA product?\nA. CTAGATG\nB. GTAGATC\nC. GAUCUAC\nD. GUAGAUC\nCorrect Answer: GUAGAUC\n</Multiple-choice Question>\n\nPlease output the result in the following JSON format:\n```json\n{\n\"Open-ended Verifiable Question\": \"...\",\n\"Ground-True Answer\": \"...\"\n}\n```\nIMPORTANT OUTPUT FORMAT:\nYou must strictly output a valid JSON object with EXACTLY these two keys:\n1. \"Open-ended Verifiable Question\"\n2. \"Ground-True Answer\"\n\nDo not use any other key names.\n",
+  "gpt_reformat_response": "```json\n{\n\"Open-ended Verifiable Question\": \"Given the DNA template strand with the base sequence GATCTAC, what is the base sequence of the RNA product after transcription?\",\n\"Ground-True Answer\": \"GUAGAUC\"\n}\n```"
+}

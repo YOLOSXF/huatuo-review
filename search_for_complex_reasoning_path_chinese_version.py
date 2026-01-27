@@ -48,28 +48,32 @@ class GPT:
     def retry_call(self, content, additional_args={"max_tokens": 8192}):
         return self.call(content, additional_args)
 
-verify_prompt = """<Model Response>  
-{}  
-</Model Response>  
-
-<Reference Answer>  
+verify_prompt = """<模型回答>
 {}
-</Reference Answer>  
+</模型回答>
 
-You are provided with a model-generated response (<Model Response>) and a reference answer (<Reference Answer>). Compare the model response with the reference answer and determine its correctness. Your task is to simply output "True" if the response is correct, and "False" otherwise."""
-
-
-query_prompt_init = """<question>
+<参考答案>
 {}
-</question>
+</参考答案>
 
-Please respond to the above question <question> using the Chain of Thought (CoT) reasoning method. Your response should consist of multiple steps, each of which includes three types of actions: **"Inner Thinking"**, **"Final Conclusion"**, and **"Verification"**:
+你将获得一段模型生成的回答<模型回答>以及对应的参考答案<参考答案>。
+请比较两者并判断模型回答是否正确。
+你的任务就只输出：
+- "True"（正确）
+- "False"（不正确）"""
 
-- **'Inner Thinking'**: This is the step where thinking is done. Note that multiple 'Inner Thinking' steps are required to describe thorough reasoning. Each step should first generate a brief title.
-- **'Final Conclusion'**: At this stage, you summarize the correct reasoning from previous 'Inner Thinking' steps and provide the final answer. No title is required here.
-- **'Verification'**: At this stage, you verify the conclusion from the "Final Conclusion" step. If the conclusion holds, end the process. If not, return to "Inner Thinking" for further reasoning. No title is required here.
 
-The output format must strictly follow the JSON structure below, and all content within the JSON fields should be written in **Chinese**:
+query_prompt_init = """<问题>
+{}
+</问题>
+
+请使用链式思维（CoT）方法回答以上 <问题> 中的问题。你的回复应包含多个步骤，每个步骤包含三类动作：**"Inner Thinking"**、**"Final Conclusion"**、**"Verification"**：
+
+- **'Inner Thinking'**：进行思考的步骤。需要多个 'Inner Thinking' 以展示完整推理。每一步首先生成一个简短标题。
+- **'Final Conclusion'**：总结前面 'Inner Thinking' 的正确推理并给出最终答案。此处不需要标题。
+- **'Verification'**：核验 "Final Conclusion" 的结论是否成立。若成立则结束；否则返回 "Inner Thinking" 继续推理。此处不需要标题。
+
+输出格式必须严格遵循下面的 JSON 结构，且 JSON 字段内所有内容必须使用**中文**：
 ```json
 {{
   "CoT": [
@@ -81,27 +85,30 @@ The output format must strictly follow the JSON structure below, and all content
 }}
 ```"""
 
-gen_prompt_rethink_Backtracking = """<question>
+gen_prompt_rethink_Backtracking = """<问题>
 {}
-</question>
+</问题>
 
-<previous reasoning>
+<先前推理>
 {}
-<previous reasoning>
+</先前推理>
 
-<response requirements>
-Your response must include the following steps, each composed of three types of actions: **"Inner Thinking"**, **"Final Conclusion"**, and **"Verification"**:
+<回复要求>
+你的回复必须包含以下步骤，每个步骤由三类动作构成：**"Inner Thinking"**、**"Final Conclusion"**、**"Verification"**：
 
-1. **Inner Thinking**: Break down the reasoning process into multiple concise steps. Each step should start with a brief title to clarify its purpose.
-2. **Final Conclusion**: Summarize the correct reasoning from all previous 'Inner Thinking' steps and provide the final answer. No title is needed for this section.
-3. **Verification**: Verify the accuracy of the "Final Conclusion". If it holds, conclude the process. Otherwise, return to "Inner Thinking" for further refinement.
+1. **"Inner Thinking"**：将推理过程拆解为多个简洁步骤。每一步以一个简短标题（title）开头，说明该步目的。
+2. **"Final Conclusion"**：汇总所有 "Inner Thinking" 的正确推理并给出最终答案。本步不需要 title。
+3. **"Verification"**：核验 "Final Conclusion" 的正确性。若成立则结束；否则回到 "Inner Thinking" 继续完善。本步不需要 title。
 
-</response requirements>
+</回复要求>
 
-<question> represents the question to be answered, and <previous reasoning> contains your prior reasoning. Your task is to continue from the current 'Verification' step. I have manually reviewed the reasoning and determined that the **Final Conclusion** is false. Your 'Verification' results must align with mine. Proceed to refine the reasoning using **backtracking** to revisit earlier points of reasoning and construct a new Final Conclusion.
+其中，<问题> 表示要回答的问题，<先前推理> 包含你之前的推理过程。你的任务是从当前的 "Verification" 步继续。
+我已人工审阅并确认：你之前的 **"Final Conclusion" 是错误的**，因此你接下来的 "Verification" 结论必须与此一致。
 
-### Output Format
-Strictly follow the JSON structure below. All content within the JSON fields must be written in **Chinese**. You do not need to repeat your previous reasoning. Begin directly from the next 'Verification' stage.
+请使用**回溯（backtracking）**策略，回到较早的推理节点，重新构建一条正确路径，并给出新的 "Final Conclusion"。
+
+### 输出格式
+严格遵循以下 JSON 结构。JSON 字段内所有内容必须使用**中文**。不需要重复粘贴你之前的推理，从下一步 "Verification" 直接开始。
 
 ```json
 {{
@@ -115,27 +122,30 @@ Strictly follow the JSON structure below. All content within the JSON fields mus
 }}
 ```"""
 
-gen_prompt_rethink_Exploring_New_Path = """<question>
+gen_prompt_rethink_Exploring_New_Path = """<问题>
 {}
-</question>
+</问题>
 
-<previous reasoning>
+<先前推理>
 {}
-<previous reasoning>
+</先前推理>
 
-<response requirements>
-Your response must include the following steps, each composed of three types of actions: **"Inner Thinking"**, **"Final Conclusion"**, and **"Verification"**:
+<回复要求>
+你的回复必须包含以下步骤，每个步骤由三类动作构成：**"Inner Thinking"**、**"Final Conclusion"**、**"Verification"**：
 
-1. **Inner Thinking**: Break down the reasoning process into multiple concise steps. Each step should start with a brief title to clarify its purpose.
-2. **Final Conclusion**: Summarize the correct reasoning from all previous 'Inner Thinking' steps and provide the final answer. No title is needed for this section.
-3. **Verification**: Verify the accuracy of the "Final Conclusion". If it holds, conclude the process. Otherwise, return to "Inner Thinking" for further refinement.
+1. **"Inner Thinking"**：将推理过程拆解为多个简洁步骤。每一步以一个简短标题（title）开头，说明该步目的。
+2. **"Final Conclusion"**：汇总所有 "Inner Thinking" 的正确推理并给出最终答案。本步不需要 title。
+3. **"Verification"**：核验 "Final Conclusion" 的正确性。若成立则结束；否则回到 "Inner Thinking" 继续完善。本步不需要 title。
 
-</response requirements>
+</回复要求>
 
-<question> represents the question to be answered, and <previous reasoning> contains your prior reasoning. Your task is to continue from the current 'Verification' step. I have manually reviewed the reasoning and determined that the **Final Conclusion** is false. Your 'Verification' results must align with mine. Proceed to refine the reasoning by exploring new approaches to solving this problem and construct a new Final Conclusion.
+其中，<问题> 表示要回答的问题，<先前推理> 包含你之前的推理过程。你的任务是从当前的 "Verification" 步继续。
+我已人工审阅并确认：你之前的 **"Final Conclusion" 是错误的**，因此你接下来的 "Verification" 结论必须与此一致。
 
-### Output Format
-Strictly follow the JSON structure below. All content within the JSON fields must be written in **Chinese**. You do not need to repeat your previous reasoning. Begin directly from the next 'Verification' stage.
+请使用**探索新路径（exploring new approaches）**策略，尝试不同的解题思路，构建新的推理链并给出新的 "Final Conclusion"。
+
+### 输出格式
+严格遵循以下 JSON 结构。JSON 字段内所有内容必须使用**中文**。不需要重复粘贴你之前的推理，从下一步 "Verification" 直接开始。
 
 ```json
 {{
@@ -149,27 +159,30 @@ Strictly follow the JSON structure below. All content within the JSON fields mus
 }}
 ```"""
 
-gen_prompt_rethink_Verification = """<question>
+gen_prompt_rethink_Verification = """<问题>
 {}
-</question>
+</问题>
 
-<previous reasoning>
+<先前推理>
 {}
-<previous reasoning>
+</先前推理>
 
-<response requirements>
-Your response must include the following steps, each composed of three types of actions: **"Inner Thinking"**, **"Final Conclusion"**, and **"Verification"**:
+<回复要求>
+你的回复必须包含以下步骤，每个步骤由三类动作构成：**"Inner Thinking"**、**"Final Conclusion"**、**"Verification"**：
 
-1. **Inner Thinking**: Break down the reasoning process into multiple concise steps. Each step should start with a brief title to clarify its purpose.
-2. **Final Conclusion**: Summarize the correct reasoning from all previous 'Inner Thinking' steps and provide the final answer. No title is needed for this section.
-3. **Verification**: Verify the accuracy of the "Final Conclusion". If it holds, conclude the process. Otherwise, return to "Inner Thinking" for further refinement.
+1. **"Inner Thinking"**：将推理过程拆解为多个简洁步骤。每一步以一个简短标题（title）开头，说明该步目的。
+2. **"Final Conclusion"**：汇总所有 "Inner Thinking" 的正确推理并给出最终答案。本步不需要 title。
+3. **"Verification"**：核验 "Final Conclusion" 的正确性。若成立则结束；否则回到 "Inner Thinking" 继续完善。本步不需要 title。
 
-</response requirements>
+</回复要求>
 
-<question> represents the question to be answered, and <previous reasoning> contains your prior reasoning. Your task is to continue from the current 'Verification' step. I have manually reviewed the reasoning and determined that the **Final Conclusion** is false. Your 'Verification' results must align with mine. Proceed to refine the reasoning by conducting a thorough **validation** process to ensure validity and construct a new Final Conclusion.
+其中，<问题> 表示要回答的问题，<先前推理> 包含你之前的推理过程。你的任务是从当前的 "Verification" 步继续。
+我已人工审阅并确认：你之前的 **"Final Conclusion" 是错误的**，因此你接下来的 "Verification" 结论必须与此一致。
 
-### Output Format
-Strictly follow the JSON structure below. All content within the JSON fields must be written in **Chinese**. You do not need to repeat your previous reasoning. Begin directly from the next 'Verification' stage.
+请使用**强化验证（validation/verification）**策略，系统检查先前推理中的薄弱环节，补全关键证据，并给出新的 "Final Conclusion"。
+
+### 输出格式
+严格遵循以下 JSON 结构。JSON 字段内所有内容必须使用**中文**。不需要重复粘贴你之前的推理，从下一步 "Verification" 直接开始。
 
 ```json
 {{
@@ -183,27 +196,30 @@ Strictly follow the JSON structure below. All content within the JSON fields mus
 }}
 ```"""
 
-gen_prompt_rethink_Correction = """<question>
+gen_prompt_rethink_Correction = """<问题>
 {}
-</question>
+</问题>
 
-<previous reasoning>
+<先前推理>
 {}
-<previous reasoning>
+</先前推理>
 
-<response requirements>
-Your response must include the following steps, each composed of three types of actions: **"Inner Thinking"**, **"Final Conclusion"**, and **"Verification"**:
+<回复要求>
+你的回复必须包含以下步骤，每个步骤由三类动作构成：**"Inner Thinking"**、**"Final Conclusion"**、**"Verification"**：
 
-1. **Inner Thinking**: Break down the reasoning process into multiple concise steps. Each step should start with a brief title to clarify its purpose.
-2. **Final Conclusion**: Summarize the correct reasoning from all previous 'Inner Thinking' steps and provide the final answer. No title is needed for this section.
-3. **Verification**: Verify the accuracy of the "Final Conclusion". If it holds, conclude the process. Otherwise, return to "Inner Thinking" for further refinement.
+1. **"Inner Thinking"**：将推理过程拆解为多个简洁步骤。每一步以一个简短标题（title）开头，说明该步目的。
+2. **"Final Conclusion"**：汇总所有 "Inner Thinking" 的正确推理并给出最终答案。本步不需要 title。
+3. **"Verification"**：核验 "Final Conclusion" 的正确性。若成立则结束；否则回到 "Inner Thinking" 继续完善。本步不需要 title。
 
-</response requirements>
+</回复要求>
 
-<question> represents the question to be answered, and <previous reasoning> contains your prior reasoning. Your task is to continue from the current 'Verification' step. I have manually reviewed the reasoning and determined that the **Final Conclusion** is false. Your 'Verification' results must align with mine. Proceed to refine the reasoning by making precise **corrections** to address prior flaws and construct a new Final Conclusion.
+其中，<问题> 表示要回答的问题，<先前推理> 包含你之前的推理过程。你的任务是从当前的 "Verification" 步继续。
+我已人工审阅并确认：你之前的 **"Final Conclusion" 是错误的**，因此你接下来的 "Verification" 结论必须与此一致。
 
-### Output Format
-Strictly follow the JSON structure below. All content within the JSON fields must be written in **Chinese**. You do not need to repeat your previous reasoning. Begin directly from the next 'Verification' stage.
+请使用**纠错（correction）**策略：明确指出先前结论错误的关键点，修正错误假设或推导，并给出新的 "Final Conclusion"。
+
+### 输出格式
+严格遵循以下 JSON 结构。JSON 字段内所有内容必须使用**中文**。不需要重复粘贴你之前的推理，从下一步 "Verification" 直接开始。
 
 ```json
 {{
@@ -217,27 +233,30 @@ Strictly follow the JSON structure below. All content within the JSON fields mus
 }}
 ```"""
 
-gen_prompt_w_label = """<question>
+gen_prompt_w_label = """<问题>
 {}
-</question>
+</问题>
 
-<previous reasoning>
+<先前推理>
 {}
-</previous reasoning>
+</先前推理>
 
-<response requirements>
-Your response must include the following steps, each composed of three types of actions: **"Inner Thinking"**, **"Final Conclusion"**, and **"Verification"**:
+<回复要求>
+你的回复必须包含以下步骤，每个步骤由三类动作构成：**"Inner Thinking"**、**"Final Conclusion"**、**"Verification"**：
 
-1. **Inner Thinking**: Break down the reasoning process into multiple concise steps. Each step should start with a brief title to clarify its purpose.
-2. **Final Conclusion**: Summarize the correct reasoning from all previous 'Inner Thinking' steps and provide the final answer. No title is needed for this section.
-3. **Verification**: Verify the accuracy of the "Final Conclusion". If it holds, conclude the process. Otherwise, return to "Inner Thinking" for further refinement.
+1. **"Inner Thinking"**：将推理过程拆解为多个简洁步骤。每一步以一个简短标题（title）开头，说明该步目的。
+2. **"Final Conclusion"**：汇总所有 "Inner Thinking" 的正确推理并给出最终答案。本步不需要 title。
+3. **"Verification"**：核验 "Final Conclusion" 的正确性。若成立则结束；否则回到 "Inner Thinking" 继续完善。本步不需要 title。
 
-</response requirements>
+</回复要求>
 
-<question> represents the question to be answered, and <previous reasoning> contains your prior reasoning. Your task is to continue from the current 'Verification' step. Now, I'll secretly tell you that the labeled answer is "{}", but you must pretend not to know. Your 'Verification' requires careful consideration, and if incorrect, you need to provide new Inner Thinking steps and a new Final Conclusion to ensure the final answer aligns with the correct one.
+其中，<问题> 表示要回答的问题，<先前推理> 包含你之前的推理过程。你的任务是从当前的 "Verification" 步继续。
 
-### Output Format
-Strictly follow the JSON structure below. All content within the JSON fields must be written in **Chinese**. You do not need to repeat your previous reasoning. Begin directly from the next 'Verification' stage.
+现在我将“偷偷告诉你”标注答案是“{}”，但你必须假装并不知道。
+你的 "Verification" 需要认真权衡；如果发现不一致，你必须给出新的 "Inner Thinking" 与新的 "Final Conclusion"，确保最终答案与正确标注对齐。
+
+### 输出格式
+严格遵循以下 JSON 结构。JSON 字段内所有内容必须使用**中文**。不需要重复粘贴你之前的推理，从下一步 "Verification" 直接开始。
 
 ```json
 {{
@@ -251,37 +270,43 @@ Strictly follow the JSON structure below. All content within the JSON fields mus
 }}
 ```"""
 
-reformat_to_complex_cot_prompt = """<Thought Process>
+reformat_to_complex_cot_prompt = """<思考过程>
 {}
-</Thought Process>
+</思考过程>
 
-<Question>
+<问题>
 {}
-</Question>
+</问题>
 
-The <Thought Process> above reflects the model's reasoning based on the <Question>. Your task is to rewrite the <Thought Process> to resemble a more human-like, intuitive natural thinking process in Chinese. The new version should:
+以上 <思考过程> 反映了模型基于 <问题> 的推理路径。请将该 <思考过程> 改写为更贴近人类、直觉化的中文自然思考过程，要求：
 
-1. Be presented as step-by-step reasoning, with each thought on a new line separated by a line break.
-2. Avoid structured titles or formatting, focusing on natural transitions. Use casual and natural language for transitions or validations, such as "hmm," "oh," "also," or "wait."
-4. Expand the content, making the reasoning richer, more detailed, and logically clear while still being conversational and intuitive.
+1. 以逐步推理的形式呈现，**每一条想法单独成行，用换行符分隔**。
+2. 避免结构化标题或刻板格式，强调自然衔接。
+3. 可以使用更口语、更自然的过渡或自检表达，例如“嗯”、“等等”、“另外”、“我再确认一下”等。
+4. 适当扩写，使推理更丰富、更细致、更合乎逻辑，但仍保持对话式与直觉化。
+5. 必须至少包含 5 行，每行用换行符 \n 分隔；不得输出成单段话。
 
-Return directly the revised natural thinking in JSON format as follows:
+请直接以 JSON 形式返回改写后的自然思考过程：
 ```json
 {{
   "NaturalReasoning": "..."
 }}
-```"""
+```
+"""
 
-get_final_response_prompt = """<Internal Thinking>
+get_final_response_prompt = """<内部思考>
 {}
-</Internal Thinking>
+</内部思考>
 
-<Question>
+<问题>
 {}
-</Question>
+</问题>
 
-The <Internal Thinking> represents your internal thoughts about the <Question>. Based on this, generate a rich and high-quality final response to the user in Chinese. If there is a clear answer, provide it first. Ensure your final response closely follows the <Question>. The response style should resemble GPT-4's style as much as possible. Output only your final response, without any additional content."""
-
+<内部思考> 表示你对 <问题> 的内部推理。请基于此生成给用户的最终回答（中文），要求：
+- 如果存在明确答案，请在开头先给出答案；
+- 回答应紧扣 <问题>；
+- 只输出最终回答正文，不要输出任何额外内容。
+"""
 # search strategies
 search_strategies = [('Backtracking',gen_prompt_rethink_Backtracking),('Exploring New Paths',gen_prompt_rethink_Exploring_New_Path),('Verification',gen_prompt_rethink_Verification),('Correction',gen_prompt_rethink_Correction)]
 
@@ -294,8 +319,12 @@ def extract_bracket_content(text):
 
 def parse_gpt_response(response):
     try:
+        if not response or not isinstance(response, str):
+            raise ValueError("empty response")
+        #判断响应字符串的第一个字符是否为左大括号 ‘{’（JSON 的标准起始符）
         if '{' != response[0]:
             response = extract_bracket_content(response)
+        #json.loads(...)：将JSON 字符串，解析为 Python 字典 da；
         da = json.loads(response.replace('\n',''))
         assert isinstance(da["CoT"],list), "CoT should be list"
         assert da['CoT'][-3]['action'] == 'Inner Thinking', 'Inner Thinking should be the third last action'
@@ -309,10 +338,13 @@ def parse_gpt_response(response):
 
 def parse_gpt_response_reformat(response):
     try:
+        if not response or not isinstance(response, str):
+            raise ValueError("empty response")
+
         if '{' != response[0]:
             response = extract_bracket_content(response)
         da = json.loads(response.replace('\n',''))
-
+       
         assert isinstance(da["NaturalReasoning"],str), "NaturalReasoning should be str"
         assert '\n' in da["NaturalReasoning"], "NaturalReasoning should have \\n"
         return True,da
@@ -321,8 +353,14 @@ def parse_gpt_response_reformat(response):
         traceback.print_exc()
         return False,None 
     
-
+#将结构化的列表数据格式化为统一的 Markdown 风格文本串
 def get_stream_of_search(longcot):
+    """
+    temp = '### {}\n{}\n'：固定文本格式，用 ### 标记二级标题（Markdown 语法），结构为：
+    第一行：### 标题内容（对应字典中的某个字段）
+    第二行：内容详情（对应字典中的 content 字段）
+    末尾换行，保证多条记录分隔清晰
+    """
     temp = '### {}\n{}\n'
     resstr = []
     for x in longcot:
@@ -330,7 +368,7 @@ def get_stream_of_search(longcot):
             resstr.append(temp.format(x['title'],x['content']))
         else:
             resstr.append(temp.format(x['action'].replace('Final Conclusion','Conclusion'),x['content']))
-    return '\n'.join(resstr).strip()
+    return '\n'.join(resstr).strip() #用换行符 \n 连接，最后用 strip() 去除首尾可能的多余空白
 
 def main():
     parser = argparse.ArgumentParser()
@@ -349,7 +387,7 @@ def main():
     def filter_data(tmpdata):
         filtered_data = []
         for da in tmpdata:
-            if 'Open-ended Verifiable Question' not in da or 'Ground-True Answer' not in da:
+            if '开放式可验证问题' not in da or '标准答案' not in da:
                 continue
             filtered_data.append(da)
 
@@ -357,6 +395,7 @@ def main():
         return filtered_data
 
     with open(args.data_path) as f:
+        #自动解析 JSON 字符串，转换为对应 Python 类型（如 JSON 对象→字典、JSON 数组→列表、数字 / 字符串保持对应类型）
         tmpdata = json.load(f)
 
     tmp_id = 1
@@ -370,7 +409,7 @@ def main():
         
     print(f"read data:{len(data)}")
 
-    task_name = f'{os.path.split(args.data_path)[-1].replace(".json","")}_CoT_search'
+    task_name = f'{os.path.split(args.data_path)[-1].replace(".json","")}_CoT_search_{args.model_name}'
     save_dir = f'output_data/{task_name}'
 
     gpt_instance = GPT(model_name=args.model_name, api_url=args.api_url, api_key=args.api_key)
@@ -379,8 +418,8 @@ def main():
     def verify_gpt(conclusion,answer,d):
         query = verify_prompt.format(conclusion,answer)
         response = gpt_instance.retry_call(query)
-        d['gpt4_query_cot'].append(query)
-        d['gpt4_response_cot'].append(response)
+        d['qwen_query_cot'].append(query)
+        d['qwen_response_cot'].append(response)
         if 'true' in response.lower():
             d['verify'].append(True)
             return True
@@ -393,11 +432,11 @@ def main():
     def write_piece_order_data(d):
         global wrongtime
         try:
-            retry_time = 1
+            retry_time = 2
             d['verify'] = []
             d['Long_CoT'] = []
-            d['gpt4_query_cot'] = []
-            d['gpt4_response_cot'] = []
+            d['qwen_query_cot'] = []
+            d['qwen_response_cot'] = []
             d['response_struct'] = []
             d['response_type'] = []
             d['prior_fail_try'] = []
@@ -405,12 +444,12 @@ def main():
             save_path = os.path.join(save_dir, str(d['process_id']) + ".json")
 
             # init reason
-            query = query_prompt_init.format(d['Open-ended Verifiable Question'])
-            d['gpt4_query_cot'].append(query)
+            query = query_prompt_init.format(d['开放式可验证问题'])
+            d['qwen_query_cot'].append(query)
             for ii in range(retry_time):
                 response = gpt_instance.retry_call(query)
                 if ii == 0:
-                    d['gpt4_response_cot'].append(response)
+                    d['qwen_response_cot'].append(response)
                 flag, struct = parse_gpt_response(response)
                 if flag:
                     d['response_struct'].append(struct["CoT"])
@@ -422,12 +461,12 @@ def main():
             if not flag:
                 raise Exception('init error')
 
-            verify_gpt(d['Long_CoT'][-2]['content'],d['Ground-True Answer'],d)
+            verify_gpt(d['Long_CoT'][-2]['content'],d['标准答案'],d)
 
             for rethinking_try_time in range(args.max_search_attempts):
                 if rethinking_try_time > 0:
                     # Archive the failed state
-                    del d['prior_fail_try']
+                    del d['prior_fail_try'] #删除d中存储的 “历史失败记录” 字段（避免归档时重复嵌套）
                     save_d['prior_fail_try'].append(d)
                     # Replace with a new state
                     d = save_d
@@ -439,23 +478,28 @@ def main():
                 for rethink_time in range(args.max_search_depth):
                     if d['verify'][-1]:
                         break
+                    """
+                    json.dumps(...)：Python json 模块的序列化函数，将 Python 对象（此处是切片后的列表）转为 JSON 字符串；
+                    ensure_ascii=False：保留非 ASCII 字符（如中文、特殊符号），不进行 ASCII 编码；
+                    indent=2：JSON 字符串按 2 个空格缩进格式化
+                    """
                     reasoning = json.dumps(d['Long_CoT'][:-1],ensure_ascii=False,indent=2)
                     # Search strategy
                     if rethink_time > 0:
                         strategy_name,strategy = random.choice(search_strategies)
                     else:
-                        # exclude Backtracking
+                        # exclude Backtracking ,第一次不选 Backtracking
                         strategy_name,strategy = random.choice(search_strategies[1:])
 
-                    query = strategy.format(d['Open-ended Verifiable Question'],reasoning)
-                    d['gpt4_query_cot'].append(query)
+                    query = strategy.format(d['开放式可验证问题'],reasoning)
+                    d['qwen_query_cot'].append(query)
                     
                     for ii in range(retry_time):
                         response = gpt_instance.retry_call(query)
                         flag, struct = parse_gpt_response(response)
 
                         if flag:
-                            d['gpt4_response_cot'].append(response)
+                            d['qwen_response_cot'].append(response)
                             d['response_struct'].append(struct["CoT"])
                             d['Long_CoT'] =  d['Long_CoT'][:-1] + struct["CoT"]
                             d['response_type'].append(f'Re_CoT_{strategy_name}')
@@ -464,7 +508,7 @@ def main():
                             print(f'retrying strategy {strategy_name}',flush=True)
                     if not flag:
                         raise Exception('rethink error')
-                    verify_gpt(d['Long_CoT'][-2]['content'],d['Ground-True Answer'],d)
+                    verify_gpt(d['Long_CoT'][-2]['content'],d['标准答案'],d)
                 
                 if d['verify'][-1]:
                     break
@@ -472,13 +516,13 @@ def main():
             # If it is still incorrect, generate a final Label_CoT round
             if not d['verify'][-1] and args.efficient_search:
                 reasoning = json.dumps(d['Long_CoT'][:-1],ensure_ascii=False,indent=2)
-                query = gen_prompt_w_label.format(d['Open-ended Verifiable Question'],reasoning,d['Ground-True Answer'])
-                d['gpt4_query_cot'].append(query)
+                query = gen_prompt_w_label.format(d['开放式可验证问题'],reasoning,d['标准答案'])
+                d['qwen_query_cot'].append(query)
                 for ii in range(retry_time):
                     response = gpt_instance.retry_call(query)       
                     flag, struct = parse_gpt_response(response)
                     if flag:
-                        d['gpt4_response_cot'].append(response)
+                        d['qwen_response_cot'].append(response)
                         d['response_struct'].append(struct["CoT"])
                         d['Long_CoT'] =  d['Long_CoT'][:-1] + struct["CoT"]
                         d['response_type'].append('Label_CoT')
@@ -493,23 +537,23 @@ def main():
             if d['verify'][-1]:
                 # Generate complex CoT and final response (Complex_CoT, response)
                 sos = get_stream_of_search(d['Long_CoT'])
-                query = reformat_to_complex_cot_prompt.format(sos,d['Open-ended Verifiable Question'])
-                d['gpt4_query_cot'].append(query)
+                query = reformat_to_complex_cot_prompt.format(sos,d['开放式可验证问题'])
+                d['qwen_query_cot'].append(query)
                 for ii in range(retry_time):
                     response = gpt_instance.retry_call(query)
                     flag, struct = parse_gpt_response_reformat(response)
                     if flag:
-                        d['gpt4_response_cot'].append(response)
+                        d['qwen_response_cot'].append(response)
                         d["Complex_CoT"] = struct["NaturalReasoning"]
                         # get response
-                        query = get_final_response_prompt.format(d['Complex_CoT'],d['Open-ended Verifiable Question'])
-                        d['gpt4_query_cot'].append(query)
+                        query = get_final_response_prompt.format(d['Complex_CoT'],d['开放式可验证问题'])
+                        d['qwen_query_cot'].append(query)
                         response = gpt_instance.retry_call(query)
-                        d['gpt4_response_cot'].append(response)
+                        d['qwen_response_cot'].append(response)
                         d["Response"] = response
-                        d['Question'] = d['Open-ended Verifiable Question']
+                        d['Question'] = d['开放式可验证问题']
                         break
-
+                    
             with open(save_path, mode="w", encoding="utf-8") as fw:
                 json.dump(d, fw, ensure_ascii=False,indent=2)
                 wrongtime = 0
@@ -550,7 +594,7 @@ def main():
     print(f"Items remaining for processing: {len(input_data)}")
 
     with ThreadPoolExecutor(max_workers=args.num_process) as executor:
-        list(tqdm(executor.map(write_piece_order_data, data), total=len(data), desc="Processing samples", unit="sample"))
+        list(tqdm(executor.map(write_piece_order_data, input_data), total=len(input_data), desc="Processing samples", unit="sample"))
 
      # Merge and save final output
     final_data = merge_saved_files(save_dir)
