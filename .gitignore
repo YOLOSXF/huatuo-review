@@ -1,0 +1,6 @@
+ckpts/
+train_logs/
+evaluation/logs/
+evaluation/__pycache__/
+__pycache__/
+*.log
