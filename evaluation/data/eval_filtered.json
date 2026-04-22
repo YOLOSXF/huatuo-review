@@ -1,0 +1,2122 @@
+{
+  "MedMCQA_validation": [
+    {
+      "question": "A dentist suffered from Hepatitis B infection 3 months back. His laboratory tests are normal, but he is not allowed by the medical board to do surgical practice. He is:",
+      "options": {
+        "A": "Inactive carrier",
+        "B": "Healthy carrier",
+        "C": "Convalescent carrier",
+        "D": "Paradoxical carrier"
+      },
+      "answer_idx": "C",
+      "answer": "Convalescent carrier"
+    },
+    {
+      "question": "A pediatrician in a district hospital with specialization neonatal care unit calls an ophthalmologist for consultation for which of the following?",
+      "options": {
+        "A": "A newborn with respiratory distress",
+        "B": "A baby born at 28 weeks of gestation",
+        "C": "Newborn with jaundice",
+        "D": "A newborn with bih weight 2300 grams"
+      },
+      "answer_idx": "B",
+      "answer": "A baby born at 28 weeks of gestation"
+    },
+    {
+      "question": "In a child with active liver failure, the most important prognosis factor for death is –",
+      "options": {
+        "A": "Increasing transaminases",
+        "B": "Increasing bilirubin",
+        "C": "Increasing prothrombin time",
+        "D": "Gram (–)ve sepsis"
+      },
+      "answer_idx": "D",
+      "answer": "Gram (–)ve sepsis"
+    },
+    {
+      "question": "SD plasma destroys lipid enveloped virus. On SD plasma transfusion, which of the following infection is the likely possibility?",
+      "options": {
+        "A": "HIV",
+        "B": "HAV",
+        "C": "HBV",
+        "D": "HCV"
+      },
+      "answer_idx": "B",
+      "answer": "HAV"
+    },
+    {
+      "question": "A neonate is being investigated for jaundice. A liver biopsy shows features of a \"Giant Cell/Neonatal hepatitis\". Which one of the following conditions usually results in this case –",
+      "options": {
+        "A": "Congenital hepatic fibrosis",
+        "B": "Hemochromatosis",
+        "C": "Alpha–1–antitrypsin deficiency",
+        "D": "Glycogen storage disease Type 1"
+      },
+      "answer_idx": "C",
+      "answer": "Alpha–1–antitrypsin deficiency"
+    },
+    {
+      "question": "In a child, surgery was done for biliary stricture with hepatojejunal anastomosis. Postoperative bilirubin level after 2 weeks was 6 mg/dL from a preoperative level 12mg/dL. The reason for this could be:",
+      "options": {
+        "A": "Normal lowering of bilirubin takes time",
+        "B": "Anastomotic stricture",
+        "C": "Delta bilirubin",
+        "D": "Mistake in lab technique"
+      },
+      "answer_idx": "C",
+      "answer": "Delta bilirubin"
+    },
+    {
+      "question": "A child has bilirubin of 4 mg. Conjugated bilirubin and alkaline phosphatase are normal, bile salts and bile in urine are absent. However urobilinogen in urine is raised. What is the likely diagnosis –",
+      "options": {
+        "A": "Obstructive jaundice",
+        "B": "Rotor's syndrome",
+        "C": "Biliary cholestasis",
+        "D": "Hemolytic jaundice"
+      },
+      "answer_idx": "D",
+      "answer": "Hemolytic jaundice"
+    },
+    {
+      "question": "A 42 years old male patient presented with jaundice. His AST was 48 U, ALT was 51 U, ALP, GGTP were normal. Ultrasound of liver was suggestive of cirrhosis. Viral markers were done and the following results were obtained.TestResultAnti-HAVNegativeAnti-HBsAgNegativeAnti-HBeAgNegativeAnti-HBcAg IgGPositiveAnti-HBcAg IgMNegativeHBsAgNegativeAnti-HCVPositiveAnti-HEVNegativeWhat is the next best step in management of this patient?",
+      "options": {
+        "A": "Sta interferon therapy",
+        "B": "Liver biopsy",
+        "C": "-PCR for hepatitis C virus",
+        "D": "PCR for HBV-DNA"
+      },
+      "answer_idx": "C",
+      "answer": "-PCR for hepatitis C virus"
+    },
+    {
+      "question": "A case of jaundice with 50% direct bilirubin, other LFTs normal. Diagnosis is –",
+      "options": {
+        "A": "Rotor syndrome",
+        "B": "Gilbert syndrome",
+        "C": "Glucuronyl transferase deficiency",
+        "D": "Primary biliary cirrhosis"
+      },
+      "answer_idx": "A",
+      "answer": "Rotor syndrome"
+    },
+    {
+      "question": "A pregnant lady is diagnosed to be HBs Ag positive. Which of the following is the best way to prevent infection to the child:",
+      "options": {
+        "A": "Hepatitis vaccine to the child",
+        "B": "Full course of Hepatitis B vaccine and immunoglobulin to the child",
+        "C": "Hepatitis B immunoglobulin to the mother",
+        "D": "Hepatitis B immunization to mother"
+      },
+      "answer_idx": "B",
+      "answer": "Full course of Hepatitis B vaccine and immunoglobulin to the child"
+    },
+    {
+      "question": "Which of the following statements concerning hepatitis infection in pregnancy is true?:",
+      "options": {
+        "A": "Hepatitis B core antigen status is the most sensitive indicator of positive vertical transmission of disease",
+        "B": "Hepatitis B is the most common form of hepatitis after blood transfusion",
+        "C": "The proper treatment of infants born to infected mothers includes the administration of hepatitis B immune globulin as well as vaccine",
+        "D": "Patients who develop chronic active hepatitis should undergo MTP"
+      },
+      "answer_idx": "C",
+      "answer": "The proper treatment of infants born to infected mothers includes the administration of hepatitis B immune globulin as well as vaccine"
+    },
+    {
+      "question": "The one measurement of fetal maturity that is not affected by a 'bloody tap' during amniocentesis is:",
+      "options": {
+        "A": "L/S ratio",
+        "B": "Phosphatidyl glycerol",
+        "C": "α-fetoprotein",
+        "D": "Bilirubin as a measured by DOD 450"
+      },
+      "answer_idx": "B",
+      "answer": "Phosphatidyl glycerol"
+    },
+    {
+      "question": "A 4-year old girl presents with severe vomiting after a viral fever of 5 days. She is hospitalized and develops cerebral edema. Liver biopsy is most likely to demonstrate w hich of the following?",
+      "options": {
+        "A": "Centrizonal hemorrhagic necrosis",
+        "B": "Non-alcoholic steatohepatitis",
+        "C": "Ring granulomas",
+        "D": "Marked microvesicular steatosis"
+      },
+      "answer_idx": "D",
+      "answer": "Marked microvesicular steatosis"
+    },
+    {
+      "question": "A 60-year-old chronic smoker presented with progres-sive jaundice, pruritus and clay colored stools for 2 months. History of waxing and waning of jaundice was present. A CT scan revealed dilated main pancre-atic duct and common bile duct. What is the likely di-agnosis?",
+      "options": {
+        "A": "Carcinoma head of pancreas",
+        "B": "Periampullary carcinoma",
+        "C": "Chronic pancreatitis",
+        "D": "H lar cholangiocarcinoma"
+      },
+      "answer_idx": "B",
+      "answer": "Periampullary carcinoma"
+    },
+    {
+      "question": "40-year male patient who was a known smoker presents in AIIMS OPD with fever, latigue, jaundice, yellow colored urine with clay colored stools. For the past few days he had developed aversion to cigarette smoking. On examination scleral icterus was present. LFT are:Total Bill18.5Direct Bill7.5SGOT723SGPT812What investigations will you send for ruling out acute viral hepatitis?",
+      "options": {
+        "A": "HBsAg, IgM antiHBC, AntiHCV AntiHEV",
+        "B": "AntiHAV, HBsAg, IgM antiHBc, AntiHCV",
+        "C": "HBsAg, IgM antiHBC,AntiHDV AntiHCV AntiHEV",
+        "D": "AntiHAV IgMantiHBC, AntiHCV, AntiHEV."
+      },
+      "answer_idx": "B",
+      "answer": "AntiHAV, HBsAg, IgM antiHBc, AntiHCV"
+    },
+    {
+      "question": "A young female patient presents with jaundice and elevated liver enzymes. She has a history of two smilar episodes in the past. Her serum ANA was 1:40 and IgG was 2400 IU. Her serum copper levels were normal and viral markers were negative. A liver biopsy was carried out and based on the pathology repo, you treated her with immunosuppressants and the patient's condition improved. What was the most likely finding on pathology repo to suggest the treatment?",
+      "options": {
+        "A": "Non-alcoholic steatohepatitis",
+        "B": "Hemosiderosis",
+        "C": "Autoimmune hepatitis",
+        "D": "Primary biliary cirrhosis"
+      },
+      "answer_idx": "C",
+      "answer": "Autoimmune hepatitis"
+    },
+    {
+      "question": "Which drug is not given in Wilson disease?",
+      "options": {
+        "A": "Trientine",
+        "B": "Calcium",
+        "C": "Penicillamine",
+        "D": "Zinc"
+      },
+      "answer_idx": "B",
+      "answer": "Calcium"
+    },
+    {
+      "question": "Exclusive breast feeding may be associated with all of the following except –",
+      "options": {
+        "A": "Hemolysis due to Vit–K deficiency",
+        "B": "Evening colic",
+        "C": "Golden colour stool",
+        "D": "Prolongation of physiological jaundice"
+      },
+      "answer_idx": "B",
+      "answer": "Evening colic"
+    },
+    {
+      "question": "Which of the following disorder of mother leads to microcephaly in baby –a)  SLEb)  Hepatitis A c) Phenylketonuriad)  Rubella",
+      "options": {
+        "A": "ab",
+        "B": "cd",
+        "C": "bd",
+        "D": "ac"
+      },
+      "answer_idx": "B",
+      "answer": "cd"
+    },
+    {
+      "question": "All are true regarding administration of betamethasone to a mother with premature delivery except –",
+      "options": {
+        "A": "Neonatal morbidity better",
+        "B": "Helps lung maturity",
+        "C": "Prevents hyperbilirubinemia",
+        "D": "Decreases intraventricular hemorrhage"
+      },
+      "answer_idx": "C",
+      "answer": "Prevents hyperbilirubinemia"
+    },
+    {
+      "question": "A 30–year old lady delivered a healthy baby at 37 week of gestation. She was a known case of chronic hepatitis B infection She was positive for HBsAG o but negative for HBeAG. Which of the following is the most appropriate treatment for the baby –",
+      "options": {
+        "A": "Both active and passive immunization soon after birth",
+        "B": "Passive immunization soon afte birth and active immunization at 1 year of age",
+        "C": "Only passive immunization soon after birth",
+        "D": "Only active immunization soon after birth"
+      },
+      "answer_idx": "A",
+      "answer": "Both active and passive immunization soon after birth"
+    },
+    {
+      "question": "A 1-month-old child presented with conjugated bilirubinemia and intrahepatic cholestasis. On Liver biopsy staining with PAS, red colored granules were seen inside the hepatocytes. Probable diagnosis is:",
+      "options": {
+        "A": "Congenital hepatic fibrosis",
+        "B": "Wilson's disease",
+        "C": "Alpha-1 antitrypsin deficiency",
+        "D": "Hemochromatosis"
+      },
+      "answer_idx": "C",
+      "answer": "Alpha-1 antitrypsin deficiency"
+    },
+    {
+      "question": "Which of the following is used for laboratory diagnosis of alcoholic hepatitis?",
+      "options": {
+        "A": "ALP",
+        "B": "AST",
+        "C": "LDH",
+        "D": "GGT"
+      },
+      "answer_idx": "B",
+      "answer": "AST"
+    },
+    {
+      "question": "In a patient with Hepatitis B infection. Which one of the markers will be increased?",
+      "options": {
+        "A": "HbsAg",
+        "B": "HbcAg",
+        "C": "Anti HbsAg IgG",
+        "D": "Anti HbcAg IgG"
+      },
+      "answer_idx": "D",
+      "answer": "Anti HbcAg IgG"
+    },
+    {
+      "question": "Urobilinogen levels in obstructed jaundice due to gallstones will be:",
+      "options": {
+        "A": "Markedly raised",
+        "B": "Slightly increased",
+        "C": "Normal",
+        "D": "Completely absent"
+      },
+      "answer_idx": "D",
+      "answer": "Completely absent"
+    },
+    {
+      "question": "One unit of PRBC raises HCT by: (In exam instead of HCT, they wrote HCV, which we assume to be a spelling error):",
+      "options": {
+        "A": "1%",
+        "B": "2%",
+        "C": "3-5%",
+        "D": "5-8%"
+      },
+      "answer_idx": "C",
+      "answer": "3-5%"
+    },
+    {
+      "question": "A 10 days old neonate is posted for pyloric stenosis in surgery. The investigation report shows a serum calcium level of 6 mg/dL. What information would you like to know before you supplement calcium to this neonate –",
+      "options": {
+        "A": "Blood glucose",
+        "B": "Serum protein",
+        "C": "Serum bilirubin",
+        "D": "Oxygen saturation"
+      },
+      "answer_idx": "B",
+      "answer": "Serum protein"
+    },
+    {
+      "question": "Maximum infective stage of hepatitis B is",
+      "options": {
+        "A": "HBsAg",
+        "B": "HBe Ag",
+        "C": "HBc Ag",
+        "D": "Anti-HBs"
+      },
+      "answer_idx": "B",
+      "answer": "HBe Ag"
+    },
+    {
+      "question": "Which of the following is not true of boiling water",
+      "options": {
+        "A": "It can kill hepatitis B virus",
+        "B": "Used for sterilizing surgical instruments",
+        "C": "Can kill mycobacterium tuberculosis",
+        "D": "Can kill vegetative bacterial cells"
+      },
+      "answer_idx": "B",
+      "answer": "Used for sterilizing surgical instruments"
+    },
+    {
+      "question": "A 27 years old pregnant lady comes with severe jaundice and altered sensorium. On examination, the patient is deeply icteric, not responding to commands and pelvic sonogram reveals intrauterine fetal death. Serum bilirubin levels are 28.8 mg/dL (direct = 18.6 mg/dL), AST levels are 1063 and ALT levels are 1191. The viral markers are as follows. What is the likely diagnosis?Anti-HAV IgGReactiveAnti-HAV IgMNonreactiveHbSAgNon reactiveAnti-HbSAgNonreactiveAnti-HBc IgMNonreactiveAnti-HBc IgGReactiveAnti-HCV IgGNonreactiveAnti-HEV IgMReactiveAnti-HEV IgGNon reactive",
+      "options": {
+        "A": "Acute hepatitis E superimposed on chronic liver failure due to hepatitis B",
+        "B": "Fulminant hepatitis due to hepatitis B infection",
+        "C": "Acute hepatitis E with chronic hepatitis A",
+        "D": "Fulminant hepatitis due to hepatitis E infection"
+      },
+      "answer_idx": "D",
+      "answer": "Fulminant hepatitis due to hepatitis E infection"
+    },
+    {
+      "question": "A 4 yr old girl child suffering from vomiting, cerebral edema and is being treated for viral infection from past 5 days. Liver biopsy in this patient may show",
+      "options": {
+        "A": "Central haemorrhagic necrosis",
+        "B": "Non-alcoholic steatohepatitis",
+        "C": "Autoimmune hepatitis",
+        "D": "Microvesicular steatohepatitis"
+      },
+      "answer_idx": "D",
+      "answer": "Microvesicular steatohepatitis"
+    },
+    {
+      "question": "A 5–years old male child presents with episodic anaemia and jaundice since birth. He is least likely to have which of the following",
+      "options": {
+        "A": "Hereditary spherocytosis",
+        "B": "Siclde cell anemia",
+        "C": "PNH",
+        "D": "G–6–PD deficiency"
+      },
+      "answer_idx": "C",
+      "answer": "PNH"
+    },
+    {
+      "question": "Asymptomatic hep B is common in 2-3% normal population, but there is increased risk of transmission into hepatocellular carcinoma. Why?",
+      "options": {
+        "A": "Inability to induce inflammation to remove the organism",
+        "B": "High level of transaminases",
+        "C": "High rate of proliferation of virus",
+        "D": "Integration of viral DNA with host DNA"
+      },
+      "answer_idx": "D",
+      "answer": "Integration of viral DNA with host DNA"
+    },
+    {
+      "question": "Following hepatitis B infection through blood transfusion, disease manifests in:",
+      "options": {
+        "A": "1 week",
+        "B": "6 weeks",
+        "C": "3 months",
+        "D": "1 year"
+      },
+      "answer_idx": "C",
+      "answer": "3 months"
+    },
+    {
+      "question": "Serology profile done for a patient is mentioned below. What is the likely cause of the abnormal findings:HbsAg-Non-reactiveHBV DNA-UndetectableHbeAg-Non-reactiveIgG Anti-HbC-Reactive",
+      "options": {
+        "A": "Chronic hepatitis inactive state",
+        "B": "Chronic hepatitis recovery state",
+        "C": "Pre-core mutant infection",
+        "D": "Window period"
+      },
+      "answer_idx": "B",
+      "answer": "Chronic hepatitis recovery state"
+    },
+    {
+      "question": "Which of the following marker persists in chronic hepatitis and recurrent hepatitis?",
+      "options": {
+        "A": "IgG Anti HbcAg",
+        "B": "HBsAg",
+        "C": "IgG Anti HBsAG",
+        "D": "Anti Hbs"
+      },
+      "answer_idx": "A",
+      "answer": "IgG Anti HbcAg"
+    },
+    {
+      "question": "Insulin resistance is seen in liver disease because of-",
+      "options": {
+        "A": "Decreased secretion of insulin",
+        "B": "Hepatic steatosis",
+        "C": "Hepatocytedysfunction",
+        "D": "Low 'C'peptide level"
+      },
+      "answer_idx": "B",
+      "answer": "Hepatic steatosis"
+    },
+    {
+      "question": "In a patient with obstructive jaundice, what is the possible explanation for a bilirubin level of 40 mg/dL?",
+      "options": {
+        "A": "Malignant obstruction",
+        "B": "Complete obstruction of common bile duct",
+        "C": "Renal failure",
+        "D": "Liver failure"
+      },
+      "answer_idx": "C",
+      "answer": "Renal failure"
+    },
+    {
+      "question": "In Rh lso Immunisation, exchange transfusion is indicated if –",
+      "options": {
+        "A": "Cord blood hemoglobin is less than 10 g %",
+        "B": "Cord bilirubin is more than 5 mg",
+        "C": "History of previous sibling affected",
+        "D": "All of these"
+      },
+      "answer_idx": "D",
+      "answer": "All of these"
+    },
+    {
+      "question": "Dried blood spotes test in neonates is used in testing for:-",
+      "options": {
+        "A": "Inborn error of metabolism",
+        "B": "Blood group",
+        "C": "Total cell count",
+        "D": "Creatinine and bilirubin"
+      },
+      "answer_idx": "A",
+      "answer": "Inborn error of metabolism"
+    },
+    {
+      "question": "A paediatrician was called for attending a new born baby in the labour ward. The serum unconjugated bilirubin of this baby was 33 mg/dL. Which of the following drug taken by mother in late 3rd trimester may have lead to this problem?",
+      "options": {
+        "A": "Cotrimoxazole",
+        "B": "Azithromycin",
+        "C": "Ampicillin",
+        "D": "Chloroquine"
+      },
+      "answer_idx": "A",
+      "answer": "Cotrimoxazole"
+    },
+    {
+      "question": "Suganti Devi is 30 weeks pregnant with idiopathic cholestasis, is likely to present with following features except:",
+      "options": {
+        "A": "Serum bilirubin of 2 mg/dl",
+        "B": "Serum alkaline phosphatase slightly elevated",
+        "C": "SGPT of 200 units",
+        "D": "Prolongation of prothrombin time"
+      },
+      "answer_idx": "D",
+      "answer": "Prolongation of prothrombin time"
+    },
+    {
+      "question": "An elderly male presents 2 months after renal trans-planatation with nephropathy. Which of the following can be a viral etiological agent?",
+      "options": {
+        "A": "Polymoa virus BK",
+        "B": "Human herpes virus type 6",
+        "C": "Hepatitis C",
+        "D": "Human papillorna virus, high risk types"
+      },
+      "answer_idx": "A",
+      "answer": "Polymoa virus BK"
+    },
+    {
+      "question": "A term neonate with unconjugated hyperbilirubinemia of 18 mg/dl on 20th day. All are common causes except –",
+      "options": {
+        "A": "Breast rnilk jaundice",
+        "B": "Congenital cholangiopathy",
+        "C": "G 6PD deficiency",
+        "D": "Hypothyroidism"
+      },
+      "answer_idx": "B",
+      "answer": "Congenital cholangiopathy"
+    },
+    {
+      "question": "Calculate net filtration pressure with the following data: PGC = 42 mm Hg pGC = 12 mm Hg PBC= 16 mm Hg Assume that no proteins were filtered.",
+      "options": {
+        "A": "34 mm Hg",
+        "B": "Data not sufficient",
+        "C": "14 mm Hg",
+        "D": "28 mm Hg"
+      },
+      "answer_idx": "C",
+      "answer": "14 mm Hg"
+    },
+    {
+      "question": "A Pediatrician was called for attending a new born baby in the labour ward. The serum unconjugated bilirubin of this baby was 33 mg/dL. Which of the following drug taken by mother in late 3rd trimester may have lead to this problem?",
+      "options": {
+        "A": "Cotrimoxazole",
+        "B": "Azithromycin",
+        "C": "Ampicillin",
+        "D": "Chloroquine"
+      },
+      "answer_idx": "A",
+      "answer": "Cotrimoxazole"
+    },
+    {
+      "question": "Which of the following is true about WILSON disease",
+      "options": {
+        "A": "High copper in urine, high copper in serum",
+        "B": "High ceruloplasmin",
+        "C": "Low serum copper",
+        "D": "Low urinary copper"
+      },
+      "answer_idx": "C",
+      "answer": "Low serum copper"
+    },
+    {
+      "question": "In which of the following, viral load done by Real Time PCR is of no role in investigative procedures?",
+      "options": {
+        "A": "Person with hepatitis B on Tenofovir therapy",
+        "B": "HSV causing temporal encephalitis",
+        "C": "BK virus in patient of allograft renal transplant",
+        "D": "CMV PCR in blood of patient of liver transplant"
+      },
+      "answer_idx": "B",
+      "answer": "HSV causing temporal encephalitis"
+    },
+    {
+      "question": "Premature baby of 34 weeks was delivered. Baby had bullous lesion on the body. X ray shows periosistis what is the next investigation:",
+      "options": {
+        "A": "VDRL for mother and baby",
+        "B": "ELISA for HIV",
+        "C": "PCR for T.B.",
+        "D": "Hepatitis surface antigen for mother"
+      },
+      "answer_idx": "A",
+      "answer": "VDRL for mother and baby"
+    },
+    {
+      "question": "A 50 years old patient presented with progressive jaundice. Liver function test was done in which conju!gated serum bilirubin-4.8% and total bilirubin-6.7%, alkaline phosphatase- 550 IU, SGOT-50, SGPT-65. Most probable diagnosis is;",
+      "options": {
+        "A": "Jaundice due to choledocholithiasis",
+        "B": "Dubin-Johnson syndrome",
+        "C": "Viral hepatitis",
+        "D": "Malignant obstructive jaundice"
+      },
+      "answer_idx": "A",
+      "answer": "Jaundice due to choledocholithiasis"
+    },
+    {
+      "question": "If Patient is identified with Hepatitis B positive, after treatment what should be done with instrument",
+      "options": {
+        "A": "Clean with water for 2 min",
+        "B": "Instruments should be burnt in flame",
+        "C": "Instruments should be washed and sent for autoclave",
+        "D": "None of the above"
+      },
+      "answer_idx": "C",
+      "answer": "Instruments should be washed and sent for autoclave"
+    },
+    {
+      "question": "A neonate presented with jaundice on first day of life. His mother's blood group is `0' positive. How will you manage this patient?",
+      "options": {
+        "A": "Observe only as it is mostly physiological jaundice",
+        "B": "Exchange transfusion",
+        "C": "Liver function tests and liver biopsy as it is mostly due to cholestasis",
+        "D": "Phototherapy"
+      },
+      "answer_idx": "D",
+      "answer": "Phototherapy"
+    },
+    {
+      "question": "In non immune hydrops which of the following is NOT seen:",
+      "options": {
+        "A": "Skin oedema",
+        "B": "Ascites",
+        "C": "Large placenta",
+        "D": "Cardiomegaly"
+      },
+      "answer_idx": "D",
+      "answer": "Cardiomegaly"
+    },
+    {
+      "question": "A patient was found to have splenomegaly, anemia and jaundice. All of the following is true about this condition except:",
+      "options": {
+        "A": "Increased urobilinogen",
+        "B": "Increased LDH",
+        "C": "Decreased haptoglobin",
+        "D": "Low reticulocyte count"
+      },
+      "answer_idx": "D",
+      "answer": "Low reticulocyte count"
+    },
+    {
+      "question": "40 year old female came with fullness in upper right quadrant of abdomen with diabetes type II, hyperlipidemia, biopsy shows",
+      "options": {
+        "A": "Biliary cirrhosis",
+        "B": "Luminal thrombosis",
+        "C": "Non-alcoholic steatohepatitis",
+        "D": "Autoimmune hepatitis"
+      },
+      "answer_idx": "C",
+      "answer": "Non-alcoholic steatohepatitis"
+    },
+    {
+      "question": "A person is HBsAg positive, but Anti- HBc Ab is negative. What should he the next step?",
+      "options": {
+        "A": "Repeat test after 6 months",
+        "B": "Check HBV DNA load",
+        "C": "Check HBeAg, if positive sta interferon",
+        "D": "Reassure patient that he does not have any disease"
+      },
+      "answer_idx": "B",
+      "answer": "Check HBV DNA load"
+    },
+    {
+      "question": "Unconjugated bilirubin is increased in all, except –",
+      "options": {
+        "A": "Criggler Najjar syndrome",
+        "B": "Dubin Johnson syndrome",
+        "C": "Gilbert syndrome",
+        "D": "Hemolytic anaemia"
+      },
+      "answer_idx": "B",
+      "answer": "Dubin Johnson syndrome"
+    },
+    {
+      "question": "Which is not a feature of wilson\\'s disease in a child –",
+      "options": {
+        "A": "Fanconi syndrome",
+        "B": "Sensory changes",
+        "C": "Hemolytic anemia",
+        "D": "Chronic active hepatitis"
+      },
+      "answer_idx": "B",
+      "answer": "Sensory changes"
+    },
+    {
+      "question": "All of the following are the complications in the new born of a diabetic mother except –",
+      "options": {
+        "A": "Hyperbilirubinemia",
+        "B": "Hyperglycemia",
+        "C": "Hypocalcemia",
+        "D": "Hypomagnesemia"
+      },
+      "answer_idx": "B",
+      "answer": "Hyperglycemia"
+    },
+    {
+      "question": "Biomarker of alcoholic hepatitis:",
+      "options": {
+        "A": "ALP",
+        "B": "AST",
+        "C": "LDH",
+        "D": "GGT"
+      },
+      "answer_idx": "D",
+      "answer": "GGT"
+    },
+    {
+      "question": "4 day old breastfed neonate, otherwise well, term neonate presented with jaundice, on testing the bilirubin level was found to be 18 mg/dl. Which of the following is the best step of management?",
+      "options": {
+        "A": "Sta phototherapy and continue breast feeding",
+        "B": "Sta iv fluids and given phototherapy",
+        "C": "Initiate exchange transfusion",
+        "D": "Stop breast feeding and do phototherapy"
+      },
+      "answer_idx": "A",
+      "answer": "Sta phototherapy and continue breast feeding"
+    },
+    {
+      "question": "A neonate presents with jaundice and clay coloured stools. Liver biopsy shows giant cells diagnosis is –",
+      "options": {
+        "A": "Neonatal hepatitis with physiological jaundice",
+        "B": "Neonatal hepatitis with extrahepatic biliary atresia",
+        "C": "Physiological jaundice",
+        "D": "Physiological jaundice with extrahepatic biliary atresia"
+      },
+      "answer_idx": "B",
+      "answer": "Neonatal hepatitis with extrahepatic biliary atresia"
+    },
+    {
+      "question": "Hepatitis B occurs after an incubation period of:",
+      "options": {
+        "A": "1 week",
+        "B": "3 weeks",
+        "C": "3 months",
+        "D": "6 months"
+      },
+      "answer_idx": "C",
+      "answer": "3 months"
+    },
+    {
+      "question": "Out of Syphilitic glossitis, Plummer Vinson syndrome, Mikulicis syndrome and hepatitis A; which of these  predispose to squamous cell carcinoma",
+      "options": {
+        "A": "Syphilitic glossitis and plummer Vinson syndrome",
+        "B": "Syphilitic glossitis and Mikulicz's syndrome",
+        "C": "Plummer Vinson disease and hepatitis A",
+        "D": "hepatitis A and Mikulicz's Syndrome"
+      },
+      "answer_idx": "A",
+      "answer": "Syphilitic glossitis and plummer Vinson syndrome"
+    },
+    {
+      "question": "What is the cause of delirium tremens in alcoholics?",
+      "options": {
+        "A": "Fatty liver",
+        "B": "Abrupt cessation of heavy and prolonged consumption of alcohol",
+        "C": "Gradual withdrawal of alcohol",
+        "D": "Small doses of consumption"
+      },
+      "answer_idx": "B",
+      "answer": "Abrupt cessation of heavy and prolonged consumption of alcohol"
+    }
+  ],
+  "MedQA_USLME_test": [
+    {
+      "question": "A 42-year-old woman comes to the emergency department because of a 2-day history of right upper abdominal pain and nausea. She is 163 cm (5 ft 4 in) tall and weighs 91 kg (200 lb); her BMI is 34 kg/m2. Her temperature is 38.5°C (101.3°F). Physical examination shows a distended abdomen and right upper quadrant tenderness with normal bowel sounds. Laboratory studies show:\nLeukocyte count 14,000/mm3\nSerum\nTotal bilirubin 1.1 mg/dL\nAST 32 U/L\nALT 40 U/L\nAlkaline phosphatase 68 U/L\nAbdominal ultrasonography is performed, but the results are inconclusive. Cholescintigraphy shows the intrahepatic bile ducts, hepatic ducts, common bile duct, and proximal small bowel. Which of the following is the most likely cause of this patient's symptoms?\"",
+      "answer": "Obstruction of the cystic duct",
+      "options": {
+        "A": "Autodigestion of pancreatic parenchyma",
+        "B": "Fistula between the gallbladder and small intestine",
+        "C": "Infection with a hepatotropic virus",
+        "D": "Obstruction of the cystic duct"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 65-year-old man comes to the physician because of a 1-week history of yellowish discoloration of his skin and generalized pruritus. Examination shows jaundice of the skin and scleral icterus. Urinalysis shows an elevated concentration of bilirubin and a low concentration of urobilinogen. Which of the following is the most likely underlying cause of these findings?",
+      "answer": "Defective hepatic bile excretion",
+      "options": {
+        "A": "Absent UDP-glucuronosyltransferase activity",
+        "B": "Increased hemoglobin breakdown",
+        "C": "Increased intestinal bilirubin reabsorption",
+        "D": "Defective hepatic bile excretion"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 2-year-old boy is brought to the physician for evaluation of pallor and increasing lethargy for 2 days. One week ago, he experienced abdominal pain, vomiting, and bloody diarrhea that have since subsided. The patient's father states that they returned early from a 6-week roadtrip in Mexico because of these symptoms. His parents have been giving him oral rehydration solution. His immunizations are up-to-date. He appears pale. His temperature is 38.4°C (101.1°F), pulse is 130/min, respirations are 35/min, and blood pressure is 95/50 mm Hg. Examination shows scleral icterus. The abdomen is soft and nontender; there is no rebound or guarding. Bowel sounds are hyperactive. The remainder of the examination shows no abnormalities. Laboratory studies show:\nHemoglobin 8.5 g/dL\nMean corpuscular volume 94 μm3\nLeukocyte count 18,000/mm3\nPlatelet count 45,000/mm3\nProthrombin time 12 sec\nPartial thromboplastin time 34 sec\nSerum\nUrea nitrogen 28 mg/dL\nCreatinine 1.6 mg/dL\nBilirubin\nTotal 2.5 mg/dL\nDirect 0.1 mg/dL\nLactate dehydrogenase 1658 U/L\nA blood smear shows schistocytes. Which of the following is the most likely diagnosis?\"",
+      "answer": "Hemolytic uremic syndrome",
+      "options": {
+        "A": "Henoch-Schönlein Purpura",
+        "B": "Thrombotic thrombocytopenic purpura",
+        "C": "Hemolytic uremic syndrome",
+        "D": "Immune thrombocytopenic purpura"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 65-year-old man with a history of hypertension, obesity, and alcoholic cirrhosis is seen in clinic for follow-up. He feels well and currently drinks 5 glasses of wine each night. Medications include atenolol and lisinopril. On physical exam, temperature is 98.1 deg F (36.7 deg C), blood pressure is 151/82 mmHg, pulse is 71/min, and respirations are 14/min. He has spider angiomata on his chest; no asterixis, jaundice, ascites, or peripheral edema is noted. Screening ultrasound reveals a new liver nodule, and follow up CT demonstrates a 2 cm right hepatic lobe lesion with enhancement in the arterial phase. No hypodense attenuation is seen on the venous or delayed phase. What is the next step in management?",
+      "answer": "Proceed with liver biopsy",
+      "options": {
+        "A": "Proceed with liver biopsy",
+        "B": "Refer for surgical resection",
+        "C": "Refer for radiofrequency ablation",
+        "D": "Observe and get follow-up imaging in 3 months"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 66-year-old man is brought to the emergency room by his wife due to abdominal distension and persistent somnolence for the past 2 weeks. The patient’s wife says that he has been sleeping much more than usual for the past 5 days. His bowel and bladder habit have not changed. His past medical history is significant for alcoholic liver cirrhosis. His vital signs include: pulse 76/min, respiratory rate 15/min, temperature 38.0°C (100.4°F) and blood pressure 122/75 mm Hg. On physical examination, the patient is altered and not responsive to commands. Oriented x 0. The abdomen is significantly distended. Shifting dullness is present and a positive fluid wave can be elicited. Hyperreflexia and asterixis are noted. Laboratory findings are significant for the following:\nLaboratory test\nSodium 140 mEq/L\nPotassium 3.5 mEq/L\nChloride 97 mEq/L\nGlucose 90 mg/dL\nAmmonia 100 µg/dL (ref: 19-60 µg/dL)\nArterial blood gas\npH 7.4\npCO2 40 mm Hg\npO2 90 mm Hg\nHCO3 26 mEq/L\nAn abdominal ultrasound shows surface nodularity compatible with cirrhosis but no other changes aside from ascites. An upper GI endoscopy is performed which shows gastric varices with no signs of active bleeding. An MRI of the brain is insignificant. What is the most likely precipitating factor that led to this patient’s condition?",
+      "answer": "Spontaneous bacterial peritonitis",
+      "options": {
+        "A": "Spontaneous bacterial peritonitis",
+        "B": "Metabolic alkalosis",
+        "C": "Portal vein thrombosis",
+        "D": "Hypoglycemia"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 56-year-old man presents to the emergency department for progressively worsening fatigue, malaise, fever, and abdominal pain. He reports that his symptoms began approximately 1 week ago and he has noticed episodes of diarrhea. He recently started melatonin and magnesium supplementation in hopes of improving his sleep. Medical history is significant for alcohol use disorder that required multiple hospital admissions for management of acute pancreatitis and cirrhosis. He states that he occasionally injects heroin intravenously. Temperature is 100°F (37.8°C), blood pressure is 105/70 mmHg, pulse is 92/min, and respirations are 17/min. Physical examination is significant for scleral icterus, hepatomegaly, ascites, and diffuse abdominal tenderness. Laboratory testing is significant for leukocytosis and metabolic acidosis. A paracentesis is performed and he is admitted into the hospital to receive intravenous cefotaxime and albumin. Ascitic fluid analysis demonstrates a polymorphonuclear cell count of 280 cells/mm^3, serum-ascites albumin gradient of 1.3 g/dL, and a culture positive for Escherichia coli sensitive to cefotaxime and ceftriaxone. On hospital day 2, the nurse reports that the patient is oliguric in the setting of constant fluid intake. Physical examination is unchanged. Laboratory testing is significant for a serum sodium of 131 mEq/L and creatinine of 1.8 mg/dL (it was 0.9 mg/dL on admission). Urine studies are significant for a low urine sodium level, without evidence of blood or protein. Since the hospital admission, he has not been started on any new medications. Which of the following will be the best treatment option for this patient?",
+      "answer": "Liver transplantation",
+      "options": {
+        "A": "Adding dopamine to his treatment regimen",
+        "B": "Adding lisinopril to his treatment regimen",
+        "C": "Liver transplantation",
+        "D": "Transjugular intrahepatic portosystemic shunting"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 2-day-old male newborn is brought to the physician because of yellowing of the skin and sclerae for 16 hours. He had previously been well. He was born at 38 weeks' gestation via uncomplicated vaginal delivery and weighed 3.1 kg (6 lb 13 oz). The mother has no medical insurance and did not receive prenatal care. The newborn's 4-year-old brother has sickle cell disease. Examination shows jaundice. The abdomen is mildly distended. The liver is palpated 1 cm below the right costal margin and the spleen tip is palpated just below the left costal margin. Laboratory studies show:\nHemoglobin 11 g/dL\nReticulocytes 9%\nLeukocytes 9,100/mm3\nPlatelets 244,000/mm3\nMaternal blood group 0, Rh-negative\nAnti-Rh antibody titer positive\nFetal blood group B, Rh-negative\nSerum\nBilirubin, total 11.3 mg/dL\nDirect 0.3 mg/dL\nWhich of the following is the most likely cause of this patient's condition?\"",
+      "answer": "Anti-B antibodies",
+      "options": {
+        "A": "RBC sickling",
+        "B": "Anti-D antibodies",
+        "C": "Biliary duct malformation",
+        "D": "Anti-B antibodies"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 51-year-old man is brought to the emergency department because of a 2-day history of fever, abdominal pain, and confusion. His wife states that he has been unable to recall his birthday or her name. He was diagnosed with hepatitis C 3 years ago but refused treatment. He has been treated twice in the past year for acute pancreatitis. There is no family history of serious illness. His only medication is a calcium supplement. He emigrated from India 15 years ago. He appears ill. His temperature is 38.3°C (100.9°F), pulse is 101/min, and blood pressure is 104/68 mm Hg. He is confused and oriented only to person. Examination shows scleral icterus and spider angiomas. There are fine tremors of the hands bilaterally. The abdomen is distended and shifting dullness is present. There is diffuse tenderness to palpation with no guarding. Bowel sounds are absent. Laboratory studies show:\nHemoglobin 12.6 g/dL\nLeukocyte count 13,900/mm3\nPlatelet count 342,000/mm3\nSerum\nAlbumin 2.6 g/dL\nTotal bilirubin 2.56 mg/dL\nAlkaline phosphatase 54 U/L\nAST 17 U/L\nALT 44 U/L\nParacentesis is performed. Ascitic fluid analysis shows an albumin concentration of 0.8 g/dL, glucose concentration of 62 mg/dL, and a leukocyte count of 1900/mm3 with 60% neutrophils. Which of the following is the most likely explanation for these findings?\"",
+      "answer": "Bacterial translocation",
+      "options": {
+        "A": "Aseptic peritoneal inflammation",
+        "B": "Neoplastic growth",
+        "C": "Bacterial translocation",
+        "D": "Perforated viscus"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 4-week-old female newborn is brought to the physician because of increasing yellowing of her eyes and skin for 2 weeks. The mother has noticed that the girl's stools have become pale over the past week. She was breastfed since birth but her parents switched her to formula feeds recently after reading on the internet that breastfeeding could be the cause of her current symptoms. The patient was delivered vaginally at 38 weeks' gestation. Pregnancy and delivery were uncomplicated. She appears healthy. Vital signs are within normal limits. She is at the 50th percentile for length and at the 60th percentile for weight. Examination shows scleral icterus and jaundice. The liver is palpated 2 cm below the right costal margin. Cardiopulmonary examination shows no abnormalities. Neurologic examination shows no focal findings. Serum studies show:\nBilirubin\nTotal 15 mg/dL\nDirect 12.3 mg/dL\nAlkaline phosphatase 2007 U/L\nAST 53 U/L\nALT 45 U/L\nγ-glutamyl transferase 154 U/L\nBlood group A positive\nWhich of the following is the most likely diagnosis?\"",
+      "answer": "Biliary atresia",
+      "options": {
+        "A": "Galactosemia",
+        "B": "Biliary atresia",
+        "C": "Crigler–Najjar syndrome",
+        "D": "Breast milk jaundice"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 41-year-old man comes to the emergency department with nausea, abdominal discomfort, and diarrhea for the past 2 days. His abdominal discomfort is worse shortly after meals. He has also had progressive perioral numbness and upper-extremity muscle cramping for the past 24 hours. Six months ago, he underwent a Roux-en-Y gastric bypass to treat obesity. He underwent a total thyroidectomy to treat a Hurthle cell lesion 4 days ago. His mother died of lung cancer at age 68. He has smoked 1 pack of cigarettes daily for 22 years. His only current medication is a multivitamin supplement. He appears fatigued. His temperature is 36°C (96.8°F), pulse is 72/min, respirations are 20/min, and blood pressure is 130/70 mm Hg. While measuring the patient's blood pressure, the nurse observes spasm of the patient's hand. Physical examination shows a well-healing surgical wound on the neck. The abdomen is mildly tender to palpation with well-healed laparoscopic incisional sites. The remainder of the examination shows no abnormalities. Serum studies show:\nNa+ 138 mEq/L\nK+ 4.2 mEq/L\nCl- 102 mEq/L\nHCO3- 25 mEq/L\nMg2+ 1.7 mEq/L\nPhosphorus 4.3 mg/dL\n25-hydroxyvitamin D 20 ng/mL (N: 20-100 ng/mL)\nParathyroid hormone 115 pg/mL\nTotal bilirubin, serum 0.7 mg/dL\nAlanine aminotransferase, serum 14 U/L\nAspartate aminotransferase, serum 15 U/L\nAlkaline phosphatase, serum 42 U/L\nWhich of the following is the most appropriate initial step in the management of this patient?\"",
+      "answer": "Administer calcium gluconate",
+      "options": {
+        "A": "Obtain abdominal CT",
+        "B": "Begin rehydration therapy",
+        "C": "Administer calcium gluconate",
+        "D": "Supplementation with vitamin D"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 5-year-old boy of African descent is presented to the emergency department by his parents. The child is clutching his abdomen and crying about pain in his belly. His mother reports intermittent episodes of jaundice with joint and bone pain since he was 5 months old. At presentation, the patient’s vital signs are within normal limits. Physical examination reveals slight jaundice and pale conjunctiva. The spleen is tender and easily palpable. After a complete blood count with differential and an abdominal ultrasound, the patient is found to have sickle-cell disease with splenic infarct. A partial splenectomy is performed. After the operation, the physician provides vaccines against Neisseria meningitidis, Haemophilus influenzae, and Streptococcus pneumoniae. The picture shows a slide obtained from the resected portion of the patient’s spleen. Dysfunction of the zone marked with which number predisposes the patient to the aforementioned infections?",
+      "answer": "1 and 2",
+      "options": {
+        "A": "2 only",
+        "B": "1 only",
+        "C": "1 and 2",
+        "D": "1, 2, and 3"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 34-year-old woman is assaulted and suffers a number of stab wounds to her abdomen. Bystanders call paramedics and she is subsequently taken to the nearest hospital. On arrival to the emergency department, her vitals are T: 36 deg C, HR: 110 bpm, BP: 100/60, RR: 12, SaO2: 99%. A FAST and abdominal CT are promptly obtained which are demonstrated in Figures A and B, respectively. Her chart demonstrates no other medical problems and vaccinations/boosters up to date. The patient is diagnosed with a Grade V splenic laceration and is immediately brought to the OR for emergent splenectomy. The splenectomy is successfully performed with removal of the damaged spleen (Figure C). Following the operation, the patient should receive which of the following vaccines: (I) H. influenzae (II) Tetanus (III) N. meningitidis (IV) S. pneumoniae (V) Hepatitis B",
+      "answer": "I, III, IV",
+      "options": {
+        "A": "I, II",
+        "B": "I, III, IV",
+        "C": "I, V",
+        "D": "III, IV"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 65-year-old man presents with painless swelling of the neck over the past week. He also says he has been having intermittent fevers and severe night sweats which require a change of bed sheets the next day. His past medical history is significant for human immunodeficiency virus (HIV) diagnosed 10 years ago with which he admits to not always being compliant with his antiretroviral medication. The patient reports a 20-pack-year smoking history but no alcohol or recreational drug use. A review of systems is significant for a 6 kg (13.2 lb) unintentional weight loss over the past 2 months. The vital signs include: temperature 37.8℃ (100.0℉) and blood pressure 120/75 mm Hg. On physical examination, there are multiple non-tender swollen lymph nodes averaging 2 cm in diameter that is palpable in the anterior and posterior triangles of the neck bilaterally. Axillary and inguinal lymphadenopathy is present on the right side. A cardiopulmonary exam is unremarkable. The spleen size is 16 cm on percussion. Laboratory studies show the following:\nHemoglobin 9 g/dL\nMean corpuscular volume 88 μm3\nLeukocyte count 18,000/mm3\nPlatelet count 130,000/mm3\n    Serum creatinine 1.1 mg/dL\nSerum lactate dehydrogenase 1,000 U/L\nAn excisional biopsy of a superficial axillary lymph node on the right is performed and a histopathologic analysis confirms the most likely diagnosis. Which of the following is the next best diagnostic step in the workup of this patient?",
+      "answer": "Hepatitis C virus antibodies",
+      "options": {
+        "A": "Antinuclear antibody",
+        "B": "Hepatitis C virus antibodies",
+        "C": "JAK-2 mutation",
+        "D": "Tartrate-resistant acid phosphatase (TRAP) test"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 60-year-old woman presents to a physician for worsening shortness of breath and increasing abdominal distention over the last 3 months. She says that the shortness of breath is worse on exertion and improves with rest. While she could previously walk to the nearby store for her groceries, she now has to drive because she gets ''winded'' on the way. The patient was diagnosed with diabetes 5 years ago and is compliant with her medications. The medical history is otherwise unremarkable. The physical examination reveals gross ascites and visibly engorged periumbilical veins. Bilateral pitting edema is noted around the ankles. The finger-prick blood glucose level is 100 mg/dL. What is the mechanism of action of the anti-diabetic medication this patient is most likely taking?",
+      "answer": "Increased gene expression of GLUT-4",
+      "options": {
+        "A": "Binding to the alpha subunit of the insulin receptor",
+        "B": "Closure of ATP-sensitive K-channels in the pancreatic beta-cell",
+        "C": "Increased gene expression of GLUT-4",
+        "D": "Glucagon-like peptide-1 receptor agonist"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 21-year-old male presents to his primary care provider for fatigue. He reports that he graduated from college last month and returned 3 days ago from a 2 week vacation to Vietnam and Cambodia. For the past 2 days, he has developed a worsening headache, malaise, and pain in his hands and wrists. The patient has a past medical history of asthma managed with albuterol as needed. He is sexually active with both men and women, and he uses condoms “most of the time.” On physical exam, the patient’s temperature is 102.5°F (39.2°C), blood pressure is 112/66 mmHg, pulse is 105/min, respirations are 12/min, and oxygen saturation is 98% on room air. He has tenderness to palpation over his bilateral metacarpophalangeal joints and a maculopapular rash on his trunk and upper thighs. Tourniquet test is negative. Laboratory results are as follows:\n\nHemoglobin: 14 g/dL\nHematocrit: 44%\nLeukocyte count: 3,200/mm^3\nPlatelet count: 112,000/mm^3\n\nSerum:\nNa+: 142 mEq/L\nCl-: 104 mEq/L\nK+: 4.6 mEq/L\nHCO3-: 24 mEq/L\nBUN: 18 mg/dL\nGlucose: 87 mg/dL\nCreatinine: 0.9 mg/dL\nAST: 106 U/L\nALT: 112 U/L\nBilirubin (total): 0.8 mg/dL\nBilirubin (conjugated): 0.3 mg/dL\n\nWhich of the following is the most likely diagnosis in this patient?",
+      "answer": "Chikungunya",
+      "options": {
+        "A": "Chikungunya",
+        "B": "Dengue fever",
+        "C": "Epstein-Barr virus",
+        "D": "Hepatitis A"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 32-year-old man comes to the physician for a pre-employment examination. He recently traveled to Guatemala. He feels well but has not seen a physician in several years, and his immunization records are unavailable. Physical examination shows no abnormalities. Serum studies show:\nAnti-HAV IgM Positive\nAnti-HAV IgG Negative\nHBsAg Negative\nAnti-HBs Positive\nHBcAg Negative\nAnti-HBc Negative\nHBeAg Negative\nAnti-HBe Negative\nAnti-HCV Negative\nWhich of the following best explains this patient's laboratory findings?\"",
+      "answer": "Active hepatitis A infection",
+      "options": {
+        "A": "Active hepatitis A infection",
+        "B": "Previous hepatitis A infection",
+        "C": "Chronic hepatitis B infection",
+        "D": "Chronic hepatitis C infection"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 43-year-old man with a history of hepatitis C and current intravenous drug use presents with 5 days of fever, chills, headache, and severe back pain. On physical exam, temperature is 100.6 deg F (38.1 deg C), blood pressure is 109/56 mmHg, pulse is 94/min, and respirations are 18/min. He is thin and diaphoretic with pinpoint pupils, poor dentition, and track marks on his arms and legs. A high-pitched systolic murmur is heard, loudest in the left sternal border and with inspiration. He is admitted to the hospital and started on broad-spectrum antibiotics. One of the blood cultures drawn 12 hours ago returns positive for Staphylococcus aureus. Which of the following is the most appropriate next step to confirm the diagnosis?",
+      "answer": "Repeat blood cultures now",
+      "options": {
+        "A": "Repeat blood cultures now",
+        "B": "Repeat blood cultures 24 hours after initial cultures were drawn",
+        "C": "Repeat blood cultures 48 hours after initial cultures were drawn",
+        "D": "Do not repeat blood cultures"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 23-year-old woman is referred to a genetic counselor. She is feeling well but is concerned because her brother was recently diagnosed with hereditary hemochromatosis. All first-degree relatives were encouraged to undergo genetic screening for any mutations associated with the disease. Today, she denies fever, chills, joint pain, or skin hyperpigmentation. Her temperature is 37.0°C (98.6°F), pulse is 85/min, respirations are 16/min, and blood pressure is 123/78 mm Hg. Her physical examination is normal. Her serum iron, hemoglobin, ferritin, and AST and ALT concentrations are normal. Gene screening will involve a blood specimen. Which of the following genes would suggest hereditary hemochromatosis?",
+      "answer": "HFE gene",
+      "options": {
+        "A": "BCR-ABL gene",
+        "B": "BRCA gene",
+        "C": "FA gene",
+        "D": "HFE gene"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 22-year-old primigravida presents for a regular prenatal visit at 16 weeks gestation. She is concerned about the results of a dipstick test she performed at home, which showed 1+ glucose. She does not know  if her liquid consumption has increased, but she urinates more frequently than before. The course of her pregnancy has been unremarkable and she has no significant co-morbidities. The BMI is 25.6 kg/cm2 and she has gained 3 kg (6.72 lb) during the pregnancy. The blood pressure is 110/80 mm Hg, the heart rate is 82/min, the respiratory rate is 14/min, and the temperature is 36.6℃ (97.9℉). The lungs are clear to auscultation, the heart sounds are normal with no murmurs, and there is no abdominal or costovertebral angle tenderness. The laboratory tests show the following results:\nFasting glucose 97 mg/L\nALT 12 IU/L\nAST 14 IU/L\nTotal bilirubin 0.8 mg/dL(15 µmol/L)\nPlasma creatinine 0.7 mg/dL (61.9 µmol/L)\nWhich of the following tests are indicated to determine the cause of the abnormal dipstick test results?",
+      "answer": "No tests required",
+      "options": {
+        "A": "HbA1c measurement",
+        "B": "No tests required",
+        "C": "Urinalysis",
+        "D": "Oral glucose tolerance test"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 48-year-old homeless male is brought to the emergency department, by the police, for altered mental status. Past medical records are unavailable. A physical exam on admission reveals scleral icterus and a flapping tremor of the wrists during extension. The patient is admitted to the hospital and his treatment is started after appropriate investigation. The next morning on rounds, he complains of eleven episodes of diarrhea and near-constant flatulence overnight. His mental status has improved and his hand tremor has resolved. Which of the following medications did this patient most likely receive after admission?",
+      "answer": "Lactulose",
+      "options": {
+        "A": "Thiamine",
+        "B": "Lactulose",
+        "C": "Naloxone",
+        "D": "Rifaximin"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 55-year-old man is brought to the emergency department with altered mental status. The patient is in acute distress and cannot provide history due to disorientation. Temperature is 38.7°C (101.6°F), blood pressure is 80/50 mm Hg, pulse is 103/min, respiratory rate is 22/min, and BMI is 20 kg/m2. On examination, his sclera and skin are icteric. On abdominal examination, the patient moans with deep palpation to his right upper quadrant.\nLaboratory test\nComplete blood count\nHemoglobin 14.5 g/dL\nMCV 88 fl\nLeukocytes 16,500/mm3\nPlatelets 170,000/mm3\nBasic metabolic panel\nSerum Na+ 147 mEq/L\nSerum K+ 3.8 mEq/L\nSerum Cl- 106 mEq/L\nSerum HCO3- 25 mEq/L\nBUN 30 mg/dL\nSerum creatinine 1.2 mg/dL\nLiver function test\nTotal bilirubin 2.8 mg/dL\nAST 50 U/L\nALT 65 U/L\nALP 180 U/L\nThe patient is treated urgently with intravenous fluid, dopamine, and broad spectrum antibiotics. The patient’s blood pressure improves to 101/70 mm Hg. On ultrasound of the abdomen, the common bile duct is dilated. What is the best next step in the management of this patient?",
+      "answer": "ERCP",
+      "options": {
+        "A": "ERCP",
+        "B": "MRCP",
+        "C": "Percutaneous transhepatic cholangiogram",
+        "D": "CT abdomen"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 6-year-old African American boy is referred to the hospital by his family physician for jaundice, normocytic anemia, and severe bone pain. He has a history of several episodes of mild bone pain in the past treated with over the counter analgesics. On physical examination, the child is icteric with nonspecific pain in his hands. His hands are swollen, tender, and warm. There is no chest pain, abdominal pain, fever, or hematuria. A complete metabolic panel and complete blood count with manual differential are performed:\nTotal bilirubin\n8.4 mg/dL\nWBC\n9,800/mm3\nHemoglobin \n6.5 g/dL\nMCV 82.3 fL\nPlatelet count  465,000/mm3\nReticulocyte 7%\nPeripheral blood smear shows multiple clumps of elongated and curved cells and erythrocytes with nuclear remnant. The patient's hemoglobin electrophoresis result is pictured below. What is the most likely cause of his condition?",
+      "answer": "Sickle cell disease",
+      "options": {
+        "A": "Sickle cell trait",
+        "B": "Sickle cell disease",
+        "C": "Hemoglobin F",
+        "D": "HbC"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "Five days after undergoing an emergency appendectomy under general inhalational anesthesia while on a trip to Haiti, a 43-year-old woman develops low-grade fever, vomiting, and abdominal pain. During the surgery, she received a transfusion of 1 unit of packed red blood cells. Three days after the surgery, she was stable enough to be transported back to the United States. She has no history of serious illness and takes no medications. Her temperature is 38.3°C (100.9°F), pulse is 80/min, and blood pressure is 138/76 mm Hg. Examination shows jaundice of the skin and conjunctivae. Abdominal examination shows moderate tenderness over the liver. The liver is palpated 2 to 3 cm below the right costal margin. Laboratory studies show:\nHemoglobin count 12.0 g/dL\nLeukocyte count 10,400 mm3\nSegmented neutrophils 55%\nBands 1%\nEosinophils 13%\nLymphocytes 28%\nMonocytes 3%\nPlatelet count 160,000 mm3\nSerum\nAlkaline phosphatase 102 U/L\nAspartate aminotransferase 760 U/L\nBilirubin\nTotal 3.8 mg/dL\nDirect 3.1 mg/dL\nAnti-HAV IgG positive\nAnti-HAV IgM negative\nAnti-HBs positive\nHBsAg negative\nAnti-HCV antibodies negative\nAbdominal ultrasonography shows an enlarged liver. A biopsy of the liver shows massive centrilobular necrosis. Which of the following is the most likely underlying cause of this patient's condition?\"",
+      "answer": "Adverse effect of anesthetic",
+      "options": {
+        "A": "Adverse effect of anesthetic",
+        "B": "Gram negative bacteria in the bloodstream",
+        "C": "Acalculous inflammation of the gallbladder",
+        "D": "Excessive lysis of red blood cells"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 56-year-old woman comes to the physician because of a 2-week history of fatigue and painless bruising over her arms and trunk. She has also had several episodes of nosebleeds that resolved with compression after a few minutes. She recently completed treatment for a urinary tract infection. She has had no changes in her weight. She has type 2 diabetes mellitus and hypertension. Her last menstrual cycle was 5 years ago. She does not smoke or drink alcohol. Home medications include metformin, amlodipine, and enalapril. Her vital signs are within normal limits. Physical examination shows pale conjunctivae. There are ecchymoses and petechiae over the upper extremities, chest, and back. There is no lymphadenopathy. The remainder of the physical examination is unremarkable. Laboratory studies show:\nHemoglobin 8.7 mg/dL\nLeukocyte count 1100/mm3\nPlatelet count 54,000/mm3\nReticulocyte count 0.1%\nMean corpuscular volume 93 μm3\nSerum\nTotal bilirubin 1.1 mg/dL\nLDH 80 U/L\nWhich of the following is most likely to confirm the diagnosis?\"",
+      "answer": "Bone marrow biopsy",
+      "options": {
+        "A": "Serum transferrin level",
+        "B": "Bone marrow biopsy",
+        "C": "Peripheral blood smear",
+        "D": "Serum porphobilinogen level"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 32-year-old G1P1 patient presents to her obstetrician after having a positive pregnancy test at home. She reports that she and her husband had been trying to have a child for the past three months. She has no history of sexually transmitted disease, intravenous drug use, or blood transfusions, and she has never traveled outside of the United States. She was up-to-date on all immunizations before her pregnancy. Ultrasound is consistent with an 8-week gestational sac. The patient requests as few tests as possible, although she does not want to compromise the health of her fetus. Which of the following screening tests should be performed on all pregnant women?",
+      "answer": "HIV, syphilis, and hepatitis B",
+      "options": {
+        "A": "HIV, syphilis, and hepatitis B",
+        "B": "HIV, syphilis, and N. gonorrhea",
+        "C": "HIV, hepatitis B, and hepatitis C",
+        "D": "HIV, syphilis, hepatitis B, N. gonorrhea, and C. trachomatis"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 34-year-old man currently staying at an addiction center presents to the staff psychiatrist with diarrhea and painful muscle cramps. He has been discontinuing heroin over the last month as part of his treatment plan. He is HIV positive, hepatitis B (HBV) positive, and was recently treated for an infection with Streptococcus pneumoniae. He reports pain over his abdomen, knees, and shoulder. To comprehensively treat these symptoms, which of the following would be the best therapy?",
+      "answer": "Methadone",
+      "options": {
+        "A": "Methadone",
+        "B": "Naloxone",
+        "C": "Alvimopan",
+        "D": "Loperamide"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 15-year-old boy with poorly controlled asthma presents to the emergency room complaining of severe shortness of breath. His mother reports that he had trouble breathing soon after he started playing soccer with some friends and was unable to use his inhaler as it was empty. His family history is notable for emphysema in his paternal uncle and cirrhosis in his maternal grandfather. The child’s temperature is 99.0°F (37.2°C), blood pressure is 130/90 mmHg, pulse is 130/min, respirations are 28/min, and oxygen saturation is 91% on room air. Physical examination demonstrates wheezing bilaterally in all lung fields. The child is started on supplemental oxygen and a nebulized bronchodilator. Which of the following is a downstream effect of this medication?",
+      "answer": "Increased adenylate cyclase activity",
+      "options": {
+        "A": "Decreased leukotriene activity",
+        "B": "Activation of muscarinic receptors",
+        "C": "Decreased phosphodiesterase activity",
+        "D": "Increased adenylate cyclase activity"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 30-year-old primigravid woman at 22 weeks' gestation is brought to the emergency department by her husband for lethargy, nausea, and vomiting for 4 days. This morning she became drowsy. She returned from a business trip to Sudan 3 weeks ago. She denies eating any seafood while traveling. Medications include iron supplements and a multivitamin. Her immunizations are up-to-date and she has never received blood products. Her temperature is 38.9°C (102°F), pulse is 92/min, and blood pressure is 122/76 mm Hg. She is oriented to person and place. Examination shows jaundice and mild asterixis. Pelvic examination shows a uterus consistent in size with a 22-week gestation. Laboratory studies show:\nHemoglobin 11.2 g/dL\nProthrombin time 18 sec (INR=2.0)\nSerum\nTotal bilirubin 4.4 mg/dL\nAlkaline phosphatase 398 U/L\nAST 4,702 U/L\nALT 3,551 U/L\nLactate dehydrogenase 3,412 U/L\nAnti-nuclear antibody negative\nAnti-smooth muscle antibody negative\nAnti-CMV antibody negative\nAnti-EBV nuclear antigen antibody negative\nAn ELISA for HIV is negative. Which of the following is most likely to confirm the diagnosis?\"",
+      "answer": "Anti-HEV IgM",
+      "options": {
+        "A": "HBsAg",
+        "B": "Anti-HAV IgG",
+        "C": "Anti-HCV IgG",
+        "D": "Anti-HEV IgM"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 55-year-old man with chronic hepatitis B virus infection comes to the physician because of generalized fatigue and a 5.4 kg (12 lb) weight loss over the past 4 months. Physical examination shows hepatomegaly. Laboratory studies show an α-fetoprotein concentration of 380 ng/ml (N < 10 ng/mL). A CT scan of the abdomen with contrast shows a solitary mass in the left lobe of the liver that enhances in the arterial phase. Which of the following is the most likely underlying pathogenesis of this patient's current condition?",
+      "answer": "Integration of foreign DNA into host genome\n\"",
+      "options": {
+        "A": "Overexpression of secretory hepatitis antigen",
+        "B": "Intracellular accumulation of misfolded protein",
+        "C": "Gain of function mutation of a proto-oncogene",
+        "D": "Integration of foreign DNA into host genome\n\""
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 28-year-old woman with no significant past medical history presents to her primary care physician with increased menstrual bleeding over the past three months. She also notes easy bruising and bleeding from her gums when brushing her teeth. She is sexually active with multiple partners and has no history of intravenous drug use. Physical exam is remarkable for petechiae and scattered ecchymoses on the patient's bilateral upper and lower extremities. Urine beta-HCG is negative. Laboratory results are as follows: Hgb 13.0 g/dL, WBCs 6,000/mL, platelets 95,000/mL, PT 13.2s, aPTT 30s. Peripheral blood smear shows normocytic, normochromic red blood cells and few platelets with no morphologic abnormalities. Which diagnostic study should be performed next?",
+      "answer": "HIV and HCV testing",
+      "options": {
+        "A": "Serum factor VIII levels and von Willebrand factor activity",
+        "B": "Measurement of ADAMTS13 activity",
+        "C": "HIV and HCV testing",
+        "D": "Bone marrow aspiration"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 42-year-old man comes to the physician after elevated liver function tests were found after a routine screening. He has had occasional headaches over the past year, but otherwise feels well. The patient reports that he was involved in a severe car accident 30 years ago. He does not smoke or drink alcohol. He has never used illicit intravenous drugs. He takes no medications and has no known allergies. His father had a history of alcoholism and died of liver cancer. The patient appears thin. His temperature is 37.8°C (100°F), pulse is 100/min, and blood pressure is 110/70 mm Hg. Physical examination shows no abnormalities. Laboratory studies show:\nHemoglobin 14 g/dL\nLeukocyte count 10,000/mm3\nPlatelet count 146,000/mm3\nSerum\nGlucose 150 mg/dL\nAlbumin 3.2 g/dL\nTotal bilirubin 1.5 mg/dL\nAlkaline phosphatase 75 U/L\nAST 95 U/L\nALT 73 U/L\nHIV negative\nHepatitis B surface antigen negative\nHepatitis C antibody positive\nHCV RNA positive\nHCV genotype 1\nA liver biopsy is performed and shows mononuclear infiltrates that are limited to portal tracts and periportal hepatocyte necrosis. Which of the following is the most appropriate next step in management?\"",
+      "answer": "Sofosbuvir and ledipasvir therapy",
+      "options": {
+        "A": "Sofosbuvir and ledipasvir therapy",
+        "B": "Tenofovir and velpatasvir therapy",
+        "C": "Interferon and ribavirin therapy",
+        "D": "Tenofovir and entecavir therapy"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 61-year-old man complaining of unexplained bleeding by from the mouth is escorted to the emergency department by corrections officers. Upon examination patient states he feels nauseated as he begins to retch violently and vomit bright red blood. His past medical history is remarkable for cirrhosis secondary to alcohol abuse and untreated hepatitis C. His current blood pressure is 90/50 mm Hg, heart rate is 128/min, and oxygen saturation in room air is 88%. On further questioning, he states that he is scared to die and wants everything done to save his life. IV fluids are initiated and packed RBCs are ordered. You begin to review his labs and notice and he has elevated beta-hydroxybutyrate, ammonia, and lactate. What would be the appropriate response to the patient?",
+      "answer": "Accept the patient's wishes and ensure he receives appropriate care.",
+      "options": {
+        "A": "Consult an ethics committee to determine whether to resuscitate the patient",
+        "B": "Accept the patient's wishes and appoint and get a psych evaluation.",
+        "C": "Accept the patient's wishes and ensure he receives appropriate care.",
+        "D": "Obtain an emergency order from a judge to initiate resuscitation."
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A three-day-old, full-term infant born by uncomplicated vaginal delivery is brought to a pediatrician by his mother, who notes that her son's skin appears yellow. She reports that the child cries several times per day, but sleeps 7-8 hours at night, uninterrupted. She has been breastfeeding the infant but feels the latch has been poor and is unsure how much milk he has been consuming but feels it is not enough. A lactation consult was called for the patient and it was noted that despite proper instruction the observed latch was still poor. When asked the mother stated that the baby is currently making stools 2 times per day. Which of the following is the most likely etiology of the patient's presentation?",
+      "answer": "Breastfeeding jaundice",
+      "options": {
+        "A": "Breast milk jaundice",
+        "B": "Breastfeeding jaundice",
+        "C": "Sepsis",
+        "D": "Physiologic hyperbilirubinemia"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 59-year-old man is brought to the emergency department with a history of black, tarry stools but denies vomiting of blood or abdominal pain. His family has noticed progressive confusion. History is significant for liver cirrhosis and alcoholism. His heart rate is 112/min, temperature is 37.1°C (98.7°F), and blood pressure is 110/70 mm Hg. On examination, he is jaundiced, lethargic, is oriented to person and place but not date, and has moderate ascites. Neurological examination reveals asterixis, and his stool is guaiac-positive. Liver function test are shown below:\nTotal albumin 2 g/dL\nProthrombin time 9 seconds\nTotal bilirubin 5 mg/dL\nAlanine aminotransferase (ALT) 100 U/L\nAspartate aminotransferase (AST) 220 U/L\nWhich of the following is a feature of this patient condition?",
+      "answer": "It is a diagnosis of exclusion",
+      "options": {
+        "A": "Ammonia level is the best initial test to confirm the diagnosis",
+        "B": "It is a diagnosis of exclusion",
+        "C": "It only occurs in patients with cirrhosis",
+        "D": "Electroencephalography (EEG) usually shows focal localising abnormality"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 14-year-old boy presents with right upper quadrant abdominal pain and is found on ultrasound to have a gallstone. Based on clinical suspicion, a CBC, a Coombs test, and a bilirubin panel are obtained to determine the etiology of the gallstone. These tests reveal a mild normocytic anemia with associated reticulocytosis as well as an increased RDW. In addition there is an indirect hyperbilirubinemia and the Coombs test results are negative. To confirm the diagnosis, an osmotic fragility test is performed which shows increased fragility in hypotonic solution. In this patient, what findings would most likely be anticipated if a blood smear were obtained?",
+      "answer": "Spherocytes",
+      "options": {
+        "A": "Hypersegmented neutrophils",
+        "B": "Sideroblasts",
+        "C": "Spherocytes",
+        "D": "Dacrocytes"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 30-year-old woman presents to your office with decreased appetite, malaise, and fever. Serologic tests reveal positive Anti-HBsAg and Anti-HAV IgM antibodies. Which of the following is most likely responsible for this patient's presentation?",
+      "answer": "Shellfish",
+      "options": {
+        "A": "Needlestick",
+        "B": "Unprotected sex",
+        "C": "Shellfish",
+        "D": "Acetaminophen overdose"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 40-year-old man presents to the emergency department with altered mental status. He has a history of cirrhosis of the liver secondary to alcoholism. He started becoming more confused a few days ago and it has been getting gradually worse. His temperature is 98.8°F (37.1°C), blood pressure is 134/90 mmHg, pulse is 83/min, respirations are 15/min, and oxygen saturation is 98% on room air. Physical exam reveals a distended abdomen that is non-tender. Neurological exam is notable for a confused patient and asterixis. Laboratory values are ordered as seen below.\n\nSerum:\nNa+: 139 mEq/L\nCl-: 100 mEq/L\nK+: 3.3 mEq/L\nHCO3-: 22 mEq/L\nBUN: 20 mg/dL\nGlucose: 59 mg/dL\nCreatinine: 1.1 mg/dL\nCa2+: 10.2 mg/dL\n\nWhich of the following is the best next treatment for this patient?",
+      "answer": "Potassium",
+      "options": {
+        "A": "Dextrose",
+        "B": "Lactulose",
+        "C": "Potassium",
+        "D": "Rifaximin"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A previously healthy 35-year-old primigravid woman at 12 weeks' gestation comes to the physician because of a fever, persistent headache, nausea, and abdominal discomfort for 1 week. During this time, she has also noticed that her gums bleed while brushing her teeth. A month ago, she returned from a camping trip to Sri Lanka. Her temperature is 39.3°C (102.8°F), pulse is 104/min, respirations are 24/min, and blood pressure is 135/88 mm Hg. Examination shows pallor and mild scleral icterus. There are a few scattered petechiae over the trunk and back. There is no lymphadenopathy. Physical and neurologic examinations show no other abnormalities. Test of the stool for occult blood is positive. Laboratory studies show:\nHemoglobin 8.2 g/dL\nLeukocyte count 10,000/mm3\nPlatelet count 18,000/mm3\nINR 1.0\nCoomb's test negative\nFibrin split products negative\nSerum\nUrea 20 mg/dL\nCreatinine 1.1 mg/dL\nBilirubin\nTotal 3.0 mg/dL\nDirect 0.8 mg/dL\nAlanine aminotransferase 20 U/L\nAspartate aminotransferase 16 U/L\nLactate dehydrogenase 900 U/L\nUrine\nProtein 1+\nWBCs occasional\nRBCs 50–60/hpf\nBacteria nil\nA photograph of the peripheral blood smear is shown. Blood and urine cultures are negative. Which of the following is the most likely diagnosis?\"",
+      "answer": "Thrombotic thrombocytopenic purpura",
+      "options": {
+        "A": "HELLP syndrome",
+        "B": "Thrombotic thrombocytopenic purpura",
+        "C": "Hemolytic uremic syndrome",
+        "D": "Autoimmune hemolytic anemia\n\""
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 10-year-old girl is brought to the physician because of high-grade fever, myalgia, and generalized fatigue for 3 days. She returned from a vacation to northern Brazil 4 days ago. She took the appropriate medications and immunizations prior to her visit. There is no family history of serious illness. She appears ill. Her temperature is 39.4°C (103°F), pulse is 110/min and blood pressure is 94/54 mm Hg. Examination shows jaundice of the conjunctivae and skin. The abdomen is soft and nontender; the spleen is palpated 2 to 3 cm below the left costal margin. Laboratory studies show:\nHemoglobin 10.1 g/dL\nLeukocyte count 4,650/mm3\nPlatelet count 200,000/mm3\nSerum\nGlucose 56 mg/dL\nCreatinine 0.8 mg/dL\nBilirubin\nTotal 4.7 mg/dL\nDirect 0.9 mg/dL\nLactate dehydrogenase 212 U/L\nWhich of the following is the most likely to confirm the diagnosis?\"",
+      "answer": "Thick and thin blood smear",
+      "options": {
+        "A": "Thick and thin blood smear",
+        "B": "Direct antiglobulin test",
+        "C": "Sickle cell test",
+        "D": "Ultrasound of the abdomen"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 63-year-old man with diverticular disease comes to the emergency department because of painless rectal bleeding, dizziness, and lightheadedness for 2 hours. His temperature is 37.6°C (99.6°F), pulse is 115/min, respirations are 24/min, and blood pressure is 86/60 mm Hg. He appears pale. Physical examination shows bright red rectal bleeding. Colonoscopy shows profuse diverticular bleeding; endoscopic hemostasis is performed. After initiating fluid resuscitation, the patient becomes hemodynamically stable. The following day, laboratory studies show:\nHemoglobin 8 g/dL\nLeukocyte count 15,500/mm3\nPlatelet count 170,000/mm3\nSerum\nUrea nitrogen 60 mg/dL\nCreatinine 2.1 mg/dL\nBilirubin\nTotal 1.2 mg/dL\nIndirect 0.3 mg/dL\nAlkaline phosphatase 96 U/L\nAlanine aminotransferase (ALT, GPT) 2,674 U/L\nAspartate aminotransferase (AST, GOT) 2,254 U/L\nWhich of the following cells in the patient's liver were most likely damaged first?\"",
+      "answer": "Centrilobular hepatocytes",
+      "options": {
+        "A": "Periportal hepatocytes",
+        "B": "Hepatic sinusoidal endothelial cells",
+        "C": "Hepatic Kupffer cells",
+        "D": "Centrilobular hepatocytes"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 58-year-old woman presents to the emergency department because of worsening abdominal pain for the past 2 days. She reports nausea and vomiting and is unable to tolerate oral intake. She appears uncomfortable. Her temperature is 38.1°C (100.6°F), the pulse is 92/min, the respirations are 18/min, and the blood pressure is 132/85 mm Hg. Physical examination shows yellowish discoloration of her sclera. Her abdomen is tender in the right upper quadrant. There is no abdominal distention or organomegaly. The laboratory tests show the following results:\nHemoglobin 13 g/dL\nLeukocyte count 16,000/mm3\nUrea nitrogen 25 mg/dL\nCreatinine 2 mg/dL\nAlkaline phosphatase 432 U/L\nAlanine aminotransferase 196 U/L\nAspartate transaminase 207 U/L\nBilirubin  \nTotal 3.8 mg/dL\nDirect 2.7 mg/dL\nLipase 82 U/L\nUltrasound of the right upper quadrant shows dilated intrahepatic and extrahepatic bile ducts and multiple hyperechoic spheres within the gallbladder. The pancreas is not well visualized. Intravenous fluid resuscitation and antibiotic therapy with ceftriaxone and metronidazole are initiated. After 12 hours, the patient appears acutely ill and is not oriented to time. Her temperature is 39.1°C (102.4°F), the pulse is 105/min, the respirations are 22/min, and the blood pressure is 112/82 mm Hg. Which of the following is the most appropriate next step in management?",
+      "answer": "Endoscopic retrograde cholangiopancreatography (ERCP)",
+      "options": {
+        "A": "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "B": "Laparoscopic cholecystectomy",
+        "C": "Magnetic resonance cholangiopancreatography (MRCP)",
+        "D": "Percutaneous cholecystostomy"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 60-year-old man with a long-standing history of chronic hepatitis C infection comes to the emergency department because of abdominal distention and scleral icterus for the past month. His heart rate is 76/min, respiratory rate is 14/min, temperature is 36.0°C (96.8°F), and blood pressure is 110/86 mm Hg. Physical examination show signs suggestive of liver cirrhosis. Which of the following signs is a direct result of hyperestrinism in cirrhotic patients?",
+      "answer": "Gynecomastia",
+      "options": {
+        "A": "Coagulopathy",
+        "B": "Gynecomastia",
+        "C": "Jaundice",
+        "D": "Caput medusae"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 55-year-old woman presents with severe pruritus and fatigue. She denies any similar symptoms in the past. No significant past medical history. Upon physical examination, scleral icterus is present, and significant hepatosplenomegaly is noted. Mild peripheral edema is also present. Laboratory findings are significant for elevated serum levels of bilirubin, aminotransferases, alkaline phosphatase (ALP), γ-glutamyl transpeptidase (GGTP), immunoglobulins, as well as cholesterol (especially HDL fraction). Antiviral antibodies are not present. The erythrocyte sedimentation rate is also elevated. Anti-mitochondrial antibodies are found. A liver biopsy is performed, and the histopathologic examination shows bile duct injury, cholestasis, and granuloma formation. Which of the following is the most likely diagnosis in this patient?",
+      "answer": "Primary biliary cirrhosis",
+      "options": {
+        "A": "Primary biliary cirrhosis",
+        "B": "Hemolytic anemia",
+        "C": "Hepatitis A",
+        "D": "Gilbert syndrome"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 63-year-old man from the countryside presents with leg swelling and right upper abdominal tenderness. He reports a history of myocardial infarction 4 years ago, but he has no supporting documentation. At the moment, his only medication is aspirin. He also stated that he used to have ‘high blood sugars’ when checked in the hospital 4 years ago, but he did not follow up regarding this issue. He works as a farmer and noticed that it became much harder for him to work in the last few days because of fatigue and syncope. He has a 24-pack-year history of smoking and consumes alcohol occasionally. The vital signs include: blood pressure 150/90 mm Hg, heart rate 83/min, respiratory rate 16/min, and temperature 36.5℃ (97.7℉). On physical examination, the patient is pale and acrocyanotic. There is a visible jugular vein distention and bilateral lower leg pitting edema. The pulmonary auscultation is significant for occasional bilateral wheezes. Cardiac auscultation is significant for a decreased S1, S3 gallop, and grade 3/6 systolic murmur best heard at the left sternal border in the 4th left intercostal space. Abdominal percussion and palpation are suggestive of ascites. The hepatic margin is 3 cm below the right costal margin. Hepatojugular reflux is positive. Which of the following is the most likely clinical finding observed in this patient on an echocardiogram?",
+      "answer": "Increased peak tricuspid regurgitation",
+      "options": {
+        "A": "Left ventricular ejection fraction of 41%",
+        "B": "Increased peak tricuspid regurgitation",
+        "C": "Hypokinetic wall of the left ventricle",
+        "D": "Abnormal left ventricular relaxation"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 46-year-old woman presents to her primary care physician with one week of intermittent nausea and vomiting. She does not have any sick contacts, and her medical history is significant only for diabetes well-controlled on metformin. She also complains of some weakness and back/leg pain. She says that she recently returned from traveling abroad and had been administered an antibiotic during her travels for an unknown infection. On presentation, her temperature is 98.6°F (37°C), blood pressure is 119/78 mmHg, pulse is 62/min, and respirations are 25/min. An EKG is obtained showing flattening of the T wave. After further testing, the physician prescribes a thiazide for this patient. Which of the following diseases is also associated with this patient's most likely diagnosis?",
+      "answer": "Wilson disease",
+      "options": {
+        "A": "Rheumatoid arthritis",
+        "B": "Sjogren syndrome",
+        "C": "Systemic lupus erythematosus",
+        "D": "Wilson disease"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 44-year-old man comes to the clinic because of a 6-month history of progressive fatigue. He has a history of intravenous heroin use. Physical examination shows scleral icterus. A serum study is positive for hepatitis C RNA. Therapy with interferon-α is initiated in combination with a second drug. The expected beneficial effect of the additional drug is most likely due to inhibition of which of the following enzymes?",
+      "answer": "Inosine monophosphate dehydrogenase",
+      "options": {
+        "A": "Inosine monophosphate dehydrogenase",
+        "B": "DNA-dependent RNA polymerase",
+        "C": "DNA gyrase",
+        "D": "Dihydroorotate dehydrogenase"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 42-year-old man comes to the physician to establish care. He recently moved to the area and has not been to a primary care physician for over 5 years. He has no history of serious illness, but has intermittent bilateral knee pain for which he takes 650 mg acetaminophen every other day. He is married with three children and is sexually active with his wife. During the past 10 years, he has unsuccessfully tried to lose weight. He has smoked one half pack of cigarettes daily for 15 years. About 2–3 times per week he has 1–2 glasses of wine with dinner. He is 160 cm (5 ft 3 in) tall and weighs 93 kg (205 lb); BMI is 36.3 kg/m2. Vital signs are within normal limits. On abdominal examination, the liver is palpated 2 to 3 cm below the right costal margin. Laboratory studies show:\nHemoglobin 12.6 g/dL\nPlatelet count 360,000/mm3\nHemoglobin A1c 6.3%\nSerum\nFerritin 194 ng/mL\nTotal bilirubin 0.7 mg/dL\nAlkaline phosphatase 52 U/L\nAspartate aminotransferase 92 U/L\nAlanine aminotransferase 144 U/L\nHepatitis B surface antigen Negative\nHepatitis B core IgM antibody Negative\nHepatitis B surface antibody Positive\nHepatitis C antibody Negative\nAntinuclear antibody titers 1:20 (N = < 1:60)\nSmooth muscle antibody titers Negative\nAnti-LKM1 antibody titers Negative\nTransabdominal ultrasonography shows a mildly enlarged, diffusely hyperechoic liver. Which of the following is the most likely underlying cause of these liver abnormalities?\"",
+      "answer": "Insulin resistance",
+      "options": {
+        "A": "Autoimmune liver damage",
+        "B": "Congestive hepatopathy",
+        "C": "Insulin resistance",
+        "D": "Acetaminophen use"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 50-year-old man presents to the office with complaints of fever and chills for 4 weeks. He adds that he is fatigued all the time and has generalized weakness. He has drenching night sweats and has had 2 episodes of non-bilious vomiting over the past few days. He traveled to the Netherlands for 4 days a month ago. His symptoms started a few days after he returned home. Laboratory testing revealed the following:\nHemoglobin 11.2 g/dL\nHematocrit 29%\nLeukocyte count 2,950/mm3\nNeutrophils  59%\nBands  3%\nEosinophils 1%\nBasophils  0%\nLymphocytes 31%\nMonocytes  4%\nPlatelet count  60,000/mm3\nUnconjugated bilirubin 12 mg/dL\nAlanine aminotransferase 200 IU/L\nAspartate aminotransferase 355 IU/L\nThe peripheral blood smear showed basophilic ring- and pear-shaped structures inside many red cells and extracellular basophilic rings on Wright-Giemsa staining. Further evaluation revealed parasitemia and a few schistocytes, poikilocytes, and merozoites in tetrad formation. The findings are most consistent with which diagnosis?",
+      "answer": "Babesiosis",
+      "options": {
+        "A": "Malaria",
+        "B": "Babesiosis",
+        "C": "Tuberculosis",
+        "D": "Lyme disease"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 7-year-old boy is brought to the physician because of a 3-week history of burning sensation in his mouth. One year ago, a peripheral blood smear performed during workup of fatigue revealed erythrocytes without central pallor. His father had gallstones, for which he underwent a cholecystectomy at the age of 26 years. Examination shows pallor of the mucosal membranes, mild scleral icterus, a swollen, red tongue, and several mouth ulcers. There is darkening of the skin over the dorsal surfaces of the fingers, toes, and creases of the palms and soles. His spleen is enlarged and palpable 3 cm below the left costal margin. Laboratory studies show a hemoglobin concentration of 9.1 gm/dL, mean corpuscular volume of 104 μm3, and a reticulocyte count of 9%. Which of the following would most likely have prevented this patient's oropharyngeal symptoms?",
+      "answer": "Folic acid supplementation",
+      "options": {
+        "A": "Red blood cell transfusions",
+        "B": "Gluten-free diet",
+        "C": "Vitamin B12 injections",
+        "D": "Folic acid supplementation"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 25-year-old man presents to the office because of extreme fatigue for the past 2 days. He is also worried about his skin looking yellow. He does not have any other complaints and denies fever and headache. He admits to using illicit intravenous drugs in the past. He does not have any immunization records because he moved from Africa to the US at the age of 18. His vital signs are as follows: heart rate 72/min, respiratory rate 14/min, temperature 37.9°C (100.2°F), and blood pressure 100/74 mm Hg. Physical examination is not significant except for mild diffuse abdominal tenderness. His blood is drawn for routine tests and shows an alanine aminotransferase level (ALT) of 2,000 IU/L. A hepatitis viral panel is ordered which shows:\nAnti-HAV IgM negative\nHBsAg positive\nAnti-HBs negative\nIgM anti-HBc positive\nAnti-HCV negative\nAnti-HDV negative\nWhat is the most likely diagnosis?",
+      "answer": "Acute hepatitis B",
+      "options": {
+        "A": "Past hepatitis B infection",
+        "B": "Acute hepatitis A",
+        "C": "Acute hepatitis D superinfection",
+        "D": "Acute hepatitis B"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 47-year-old man presents to his family physician with a sudden onset of severe pain and redness in his eyes that started this morning. He is having difficulty seeing properly and is extremely worried about losing his vision. Further history reveals that he has had progressive lower back pain for over 2 months now. The pain is usually at its worst in the morning, but it remains throughout the day. It gets better with movement, however, so he tends to do some light exercises every day. He also has heel pain and feels significant pressure while walking. Laboratory analysis reveals increased ESR and CRP serum levels. Which of the following would most likely be seen in this patient?",
+      "answer": "Aortic regurgitation",
+      "options": {
+        "A": "Dry mouth",
+        "B": "Malabsorption",
+        "C": "Aortic regurgitation",
+        "D": "Hemochromatosis"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 55-year-old caucasian male is transferred to a tertiary care hospital from a small county hospital where he presented with jaundice and severe abdominal pain that radiates to the back. While in the county hospital, he did not develop fever, and his vital signs were stable for the 48 hours he spent at there. Initial laboratory tests are given below:\nTotal bilirubin 7 mg/dL\nDirect bilirubin 6.4 mg/dL\nAST 100\nALT 40\nAlkaline phosphatase 480 IU/L\nGlucose 160 mg/dL\nThe patient’s medical history is relevant for hypertension and diabetes mellitus. He admits to smoking cigarettes since his early teenage years. Moderate icterus is evident during physical examination, the abdomen is distended and dull to percussion, and there is periumbilical tenderness. Which of the following markers would you expect to be elevated in this patient?",
+      "answer": "CA 19-9",
+      "options": {
+        "A": "CA 125",
+        "B": "Desmin",
+        "C": "CA 27-29",
+        "D": "CA 19-9"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A one-week-old boy presents with yellow sclerae, severe lethargy, and decreased muscle tone. His mother notes that the symptoms started shortly after birth and have been progressively worsening. The patient is breast fed and takes no medications. His labs are within normal limits with the exception of his liver function tests as follows:\n\nALT: 8 U/ L\nAST: 10 U/L\nAlkaline phosphatase: 50 U/L\nAlbumin: 3.7 g/dL\nTotal protein: 6.7 g/dL\nBilirubin, total: 29.4 mg/dL\nBilirubin, unconjugated: 29.2 mg/dL\nBilirubin, conjugated: 0.2 mg/dL\n\nThe boy is taken immediately for treatment. What is the most likely underlying cause of his condition?",
+      "answer": "Absence of UDP-glucuronosyltransferase-1A1",
+      "options": {
+        "A": "Absence of UDP-glucuronosyltransferase-1A1",
+        "B": "Alteration in the ankyrin protein",
+        "C": "Reduction in UDP-glucuronosyltransferase-1A1 activity",
+        "D": "Deficiency in glucocerebrosidase"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 20-day-old child is brought to the emergency department by her parents. They are concerned about lethargy and easy bruising. Her mother reports that she has been eating less for the past few days. Today she was difficult to arouse. She normally nurses four-five times a day, but ate less yesterday and this morning. The girl was born at 39 weeks gestation via spontaneous vaginal delivery at home with minimal prenatal or postnatal care. This is her first visit to a physician of any type. The family is carefully questioned and child abuse is ruled out. The daughter’s pulse is 97/min, respirations are 35/min, temperature is 35.8°C (96.4°F), and blood pressure is 71/46 mm Hg. Physical examination shows diffuse petechiae and bruising. Which of the following is the most likely cause?",
+      "answer": "Vitamin K deficiency",
+      "options": {
+        "A": "Group B streptococcus (GBS) infection",
+        "B": "Hepatitis B infection",
+        "C": "Thyroid stimulating hormone deficiency",
+        "D": "Vitamin K deficiency"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "Public health researchers are reviewing data from an outbreak of hepatitis A that was traced to contaminated produce from a popular restaurant. A case series investigation with prospective and retrospective follow-up found that 500 individuals dined at the restaurant during the week of study. The incidence of hepatitis A infection was found to be 25%, and the total number of deaths recorded among the incident cases was 5 individuals. What was the case-fatality rate for the hepatitis A outbreak?",
+      "answer": "4%",
+      "options": {
+        "A": "4%",
+        "B": "10%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 38-year-old woman is brought to the emergency department because of three 1-hour episodes of severe, sharp, penetrating abdominal pain in the right upper quadrant. During these episodes, she has had nausea and vomiting. She has no diarrhea, dysuria, or hematuria and is asymptomatic between episodes. She has hypertension and hyperlipidemia. Seven years ago, she underwent resection of the terminal ileum because of severe Crohn's disease. She is 155 cm (5 ft 2 in) tall and weighs 79 kg (175 lb); BMI is 32 kg/m2. Her temperature is 36.9°C (98.5°F), pulse is 80/min, and blood pressure is 130/95 mm Hg. There is mild scleral icterus. Cardiopulmonary examination shows no abnormalities. The abdomen is soft, and there is tenderness to palpation of the right upper quadrant without guarding or rebound. Bowel sounds are normal. The stool is brown, and test for occult blood is negative. Laboratory studies show:\nHemoglobin 12.5 g/dL\nLeukocyte count 9,500 mm3\nPlatelet count 170,000 mm3\nSerum\nTotal bilirubin 4.1 mg/dL\nAlkaline phosphatase 348 U/L\nAST 187 U/L\nALT 260 U/L\nAbdominal ultrasonography shows a normal liver, a common bile duct caliber of 10 mm (normal < 6 mm) and a gallbladder with multiple gallstones and no wall thickening or pericholecystic fluid. Which of the following is the most likely cause of these findings?\"",
+      "answer": "Choledocholithiasis",
+      "options": {
+        "A": "Acute hepatitis A",
+        "B": "Choledocholithiasis",
+        "C": "Cholecystitis",
+        "D": "Pancreatitis\n\""
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "An 18-year-old woman is brought to the emergency department because of lightheadedness and a feeling of dizziness. She has had nausea, occasional episodes of vomiting, myalgia, and a generalized rash for the past week. She also reports feeling lethargic. She has no shortness of breath. There is no family history of serious illness. She appears ill. Her temperature is 39.1°C (102.3°F), pulse is 118/min, and blood pressure is 94/60 mm Hg. Cardiac examination shows no abnormalities. There is a widespread erythematous rash on the trunk and extremities with skin peeling on the palms and soles. Laboratory studies show:\nHemoglobin 13.6 g/dL\nLeukocyte count 19,300/mm3\nPlatelet count 98,000/mm3\nSerum\nUrea nitrogen 47 mg/dL\nGlucose 88 mg/dL\nCreatinine 1.8 mg/dL\nTotal bilirubin 2.1 mg/dL\nAST 190 U/L\nALT 175 U/L\nUrinalysis shows no abnormalities. Further evaluation of this patient's history is most likely to reveal which of the following?\"",
+      "answer": "Currently menstruating",
+      "options": {
+        "A": "Recent hiking trip",
+        "B": "Intravenous heroin abuse",
+        "C": "Exposure to a patient with mengingococcemia",
+        "D": "Currently menstruating"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 39-year-old woman comes to the physician because of fever, generalized fatigue, and chills for 1 week. She has been having dull right-side abdominal pain during this period. She has nausea. She has no history of travel outside the United States. She has type 1 diabetes mellitus. Current medications include insulin and an oral contraceptive. She appears ill. Her temperature is 40°C (104°F), pulse is 118/min, and blood pressure is 106/70 mm Hg. On examination, the liver is palpated 2–3 cm below the right costal margin and is tender. There are decreased breath sounds over the right lung base. The remainder of the examination shows no abnormalities. Laboratory studies show:\nHemoglobin 14.1 g/dL\nLeukocyte count 17,100/mm3\nSegmented neutrophils 74%\nEosinophils 1%\nLymphocytes 20%\nMonocytes 5%\nSerum\nGlucose 79 mg/dL\nCreatinine 1.1 mg/dL\nTotal bilirubin 0.9 mg/dL\nAlkaline phosphatase 180 U/L\nAST 69 U/L\nALT 100 U/L\nA right upper quadrant ultrasound is shown. Which of the following is the most appropriate next step in management?\"",
+      "answer": "Perform percutaneous drainage\n\"",
+      "options": {
+        "A": "Discontinue the oral contraceptive",
+        "B": "Obtain hepatoiminodiacetic acid scan",
+        "C": "Perform endoscopic retrograde cholangiopancreatography",
+        "D": "Perform percutaneous drainage\n\""
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "An otherwise healthy 49-year-old woman has a routine full blood count complete prior her elective cholecystectomy. The lab test results are as follows:\nLaboratory test\nHemoglobin\n12.1 g/dL\nMean corpuscular volume (MCV)\n85 μm3\nMean corpuscular hemoglobin concentration (MCHC)\n47%\nReticulocyte count\n3.4 %\nWhite blood cell count\n9700/mm3\nPlatelet count\n229,000/mm3\nA peripheral blood smear reveals spherocytes. The Coombs test is negative. The physical examination is remarkable for scleral icterus and moderate splenomegaly. Which of the following is the most appropriate diagnostic test of this patient’s underlying disorder?",
+      "answer": "Eosin-5-maleimide binding test",
+      "options": {
+        "A": "Eosin-5-maleimide binding test",
+        "B": "Flow cytometry for CD55/CD59",
+        "C": "Anti parvovirus B19 antibodies",
+        "D": "Liver function tests"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 27-year-old man presents to the emergency department due to a change in his skin color. The patient went on a long hike this morning, and his girlfriend noticed that his skin had changed color when they were driving home. The patient has a past medical history of marijuana use, IV drug use, alcohol use, and asthma. His current medications include albuterol, fluticasone, and ibuprofen. His temperature is 97.5°F (36.4°C), blood pressure is 120/75 mmHg, pulse is 60/min, respirations are 10/min, and oxygen saturation is 98% on room air. Laboratory studies are ordered and are seen below.\n\nHemoglobin: 10 g/dL\nHematocrit: 32%\nLeukocyte count: 5,500 cells/mm^3 with normal differential\nPlatelet count: 207,000/mm^3\n\nSerum:\nNa+: 139 mEq/L\nCl-: 99 mEq/L\nK+: 4.3 mEq/L\nHCO3-: 24 mEq/L\nBUN: 17 mg/dL\nGlucose: 89 mg/dL\nCreatinine: 1.0 mg/dL\nCa2+: 10.1 mg/dL\nBilirubin, total: 11.3 mg/dL\nBilirubin, direct: 7.8 mg/dL\n\nPhysical exam is notable for a patient with skin that appears yellow/orange. Cardiac, pulmonary, abdominal, and neurological exams are within normal limits. Which of the following is associated with this patient's underlying pathology?",
+      "answer": "Hyperpigmentation of the liver",
+      "options": {
+        "A": "A pathology responsive to sofosbuvir",
+        "B": "Decreased UDP-glucuronyl transferase activity",
+        "C": "Hyperpigmentation of the liver",
+        "D": "Increased consumption of beta-carotene"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 57-year-old homeless man is brought to the emergency department because of several episodes of hematemesis in the past 24 hours. His vital signs include a temperature of 37.1°C (98.8°F), pulse of 95/min, and blood pressure of 85/60 mm Hg. On physical examination, he appears confused and unable to give a complete history. He is noted to have jaundice, palpable firm liver, mild splenomegaly, and shifting dullness consistent with the presence of ascites. Liver function tests are as follows:\nSerum aspartate aminotransferase (AST)  97 U/L\nSerum alanine aminotransferase (ALT) 40 U/L\nSerum albumin 2.5 g/dL\nTotal bilirubin 3 mg/dL\nProthrombin time 20 seconds\nWhich of the following is the most likely cause of this patient's illness?",
+      "answer": "Substance abuse",
+      "options": {
+        "A": "Metabolic disorder",
+        "B": "Substance abuse",
+        "C": "Obesity",
+        "D": " Hepatic venous outflow obstruction"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 56-year-old woman is brought to the emergency department by her husband because of increasing confusion, generalized fatigue, and irritability for the past week. She has been unable to recall her husband's name or their address. She has had insomnia and daytime sleepiness during this period. Her last bowel movement was 3 days ago. One month ago, she underwent a transjugular intrahepatic portal shunt (TIPS) placement. She has alcoholic liver cirrhosis. Current medications include spironolactone and furosemide. She used to drink over a pint of vodka daily but quit 2 months ago. She is oriented to place and person. Her temperature is 37.3°C (99.1°F), pulse is 88/min, and blood pressure is 102/64 mm Hg. Examination shows scleral icterus and jaundice. There are several telangiectasias over the chest and back. Palmar erythema is present. The abdomen is mildly distended and nontender. Shifting dullness is present. There is a flapping tremor of both hands when outstretched and dorsiflexed. Neurologic examination shows no other focal findings. She completes the number connection test slower than the age-normalized standard. Which of the following is the most appropriate next step in management?",
+      "answer": "Administer lactulose",
+      "options": {
+        "A": "Reversal of TIPS",
+        "B": "Paracentesis",
+        "C": "Administer IV ceftriaxone",
+        "D": "Administer lactulose"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 48-year-old man presents to the clinic with nausea, vomiting, fever, and pain in the right upper quadrant of his abdomen for the past 18 hours. He mentions that he has been experiencing intermittent episodes of pain at the same location over the last 3 months and that these episodes usually occur after a heavy meal and subside within 1 or 2 hours. On physical examination, his temperature is 38.5°C (101.3°F), pulse is 130/min, respirations are 24/min, and blood pressure is 130/84 mm Hg. On examination of the abdomen, tenderness is present over the right upper quadrant; palpation over the area produces an inspiratory pause. An urgent bedside ultrasonogram shows a dilated common bile duct stone, but no stone in the common bile duct or in the gallbladder. Laboratory results show the following:\nHemoglobin 15.4 g/dL (9.56 mmol/L)\nTotal leukocyte count 14,000/mm3 (17.4 x 10*9/L)\nSegmented neutrophils 70%\nLymphocytes 25%\nMonocytes 4%\nEosinophils 1%\nBasophils 0%\nPlatelet count 32,0000/mm3 (320 x 10*9/L)\nSerum bilirubin (total) 1.8 mg/dL (30.78 μmol/L)\nSerum bilirubin (direct) 1.1 mg/dL (18.81 μmol/L)\nSerum alanine aminotransferase 96 U/L\nSerum aspartate aminotransferase 88 U/L\nSerum alkaline phosphatase\n350 U/L (5.83 μkat/L)\nWhich of the following is the most appropriate next step in management?",
+      "answer": "Urgent endoscopic retrograde cholangiopancreatography (ECRP)",
+      "options": {
+        "A": "Urgent laparoscopic cholecystectomy",
+        "B": "Medical management followed by elective laparoscopic cholecystectomy",
+        "C": "Urgent endoscopic retrograde cholangiopancreatography (ECRP)",
+        "D": "Cholecystotomy"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 3-year-old boy is brought to the physician because of a 3-day history of fatigue and yellow discoloration of his skin. One week ago, he had an upper respiratory tract infection. Examination shows jaundice of the skin and conjunctivae. The spleen tip is palpated 2 cm below the left costal margin. His hemoglobin concentration is 9.4 g/dl and his mean corpuscular hemoglobin concentration is 39% Hb/cell. A Coombs test is negative. A peripheral blood smear is shown. This patient is at greatest risk for which of the following complications?",
+      "answer": "Cholecystitis",
+      "options": {
+        "A": "Acute myelogenous leukemia",
+        "B": "Cholecystitis",
+        "C": "Renal papillary necrosis",
+        "D": "Splenic sequestration crisis"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 2-hour-old, 3.2 kg (7.0 lb) newborn boy born by cesarean delivery is being evaluated by the resident on-call. The child was born to a gravida 2, para 0 mother with known hepatitis B. The mother made it to all of her prenatal appointments and took the recommended dose of folic acid since conception. She gave up smoking when she discovered she was pregnant. The infant’s heart rate is 150/min, respiratory rate is 48/min, temperature is 37.5°C (99.5°F), and blood pressure is 80/52 mm Hg. APGAR testing exhibits a score of 7 and 8 at 1 and 5 minutes, respectively. The head is normocephalic. No neural tube defects are present on inspection or palpation of the spine. There is strong flexion in all 4 extremities. Cranial nerves 2–12 are intact. Sensory and deep tendon reflexes are without any abnormalities. Which of the following is the best course of action for the newborn child?\nHepatitis B serology\nHBsAg positive\nHBeAg positive\nIgM HBc negative\nTotal anti-HBc positive\nAnti-HBs negative\nAnti-HBc negative\nHBV DNA greater than 1 million IU/mL\nAlanine transferase normal",
+      "answer": "Administer hepatitis B vaccine and HBIG",
+      "options": {
+        "A": "Administer hepatitis B vaccine",
+        "B": "Administer hepatitis B immunoglobulin (HBIG)",
+        "C": "Administer hepatitis B vaccine and HBIG",
+        "D": "Check hepatitis B serology"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 3-year-old refugee with increasing pitting edema and abdominal swelling over the past 2 months is brought to the physician. Her family has been displaced several times over the last few years. Nutrition and housing were frequently inadequate. At the physician’s clinic, the boy appears irritated and drowsy. He is difficult to arouse. Physical examination shows pitting edema over the ankles and feet and around his eyes. Abdominal examination is positive for ascites and hepatomegaly. Oral examination shows several missing teeth. Which of the following best explains these findings?",
+      "answer": "Kwashiorkor",
+      "options": {
+        "A": "Kwashiorkor",
+        "B": "Marasmus",
+        "C": "Beriberi",
+        "D": "Rickets"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 4-year-old girl is brought to the physician because of pallor and rash for 2 days. She had a 4-day history of diarrhea and vomiting that subsided two days ago. One month ago, she had a 3-day episode of high fever, followed by a rash with bright red discoloration over her cheeks for two days before subsiding without treatment. Her vaccinations are up-to-date. She appears pale and irritable. Her vital signs are within normal limits. Examination shows petechiae on her trunk and extremities. Abdominal examination shows diffuse abdominal tenderness with hyperactive bowel sounds. The remainder of the exam shows no abnormalities. Laboratory studies show:\nHemoglobin 8 g/dL\nMean corpuscular volume 82 fL\nLeukocyte count 17,000/mm3\nPlatelet count 49,000/mm3\nProthrombin time 12 seconds\nPartial thromboplastin time 34 seconds\nSerum\nUrea nitrogen 42 mg/dL\nCreatinine 1.4 mg/dL\nBilirubin\nTotal 3 mg/dL\nIndirect 2.8 mg/dL\nLactate dehydrogenase 300 U/L\nUrine\nBlood 2+\nProtein 2+\nA peripheral blood smear shows schistocytes. Which of the following is the most likely underlying cause of these findings?\"",
+      "answer": "Escherichia coli infection",
+      "options": {
+        "A": "Escherichia coli infection",
+        "B": "Disseminated intravascular coagulation",
+        "C": "Immune thrombocytopenic purpura",
+        "D": "Thrombotic thrombocytopenic purpura"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 24-year-old Asian woman is admitted to the hospital at 30 weeks gestation with nausea, vomiting, and right upper quadrant pain. She is gravida 2 para 0 with a history of the same complaints in her last pregnancy which ended with a stillbirth at the 31st week. Her older sister had preeclampsia in both of her pregnancies. Currently, the patient is responsive but lethargic. The vital signs are as follows: blood pressure 150/90 mm Hg, heart rate 85/min, respiratory rate 15/min, and temperature 36.4°C (97.5°F). The physical examination shows jaundice, right upper quadrant tenderness, and 2+ pitting edema of the lower extremities. The patient’s laboratory findings are as follows:\nErythrocyte count 2.7 million/mm3\nHemoglobin 10.1 g/dL\nHematocrit 0.56\nReticulocyte count 1.1%\nLeukocyte count 8,300/mm3\nThrombocyte count 190,000/mm3\nTotal bilirubin 5.3 mg/dL (91 µmol/L)\nConjugated bilirubin 4.2 mg/dL (72 µmol/L)\nAlanine Transaminase (ALT) 101 U/L\nAspartate Transaminase (AST) 99 U/L\nCreatinine 0.9 mg/dL (80 µmol/L)\nWhich of the following factors is a risk factor for this patient’s condition?",
+      "answer": "History in the previous pregnancy",
+      "options": {
+        "A": "The patient’s age",
+        "B": "Nulliparity",
+        "C": "History in the previous pregnancy",
+        "D": "History of preeclampsia in a sibling"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 49-year-old man comes to the physician for a routine health maintenance examination. He feels well and has no history of serious illness. He has smoked one pack of cigarettes daily for the past 25 years and drinks two to three glasses of wine weekly. This patient should be counseled about increased risk for which of the following conditions?",
+      "answer": "Pancreatic adenocarcinoma",
+      "options": {
+        "A": "Pancreatic adenocarcinoma",
+        "B": "Esophageal varices",
+        "C": "Porcelain gallbladder",
+        "D": "Hepatic steatosis"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 61-year-old man presents to the clinic with complaints of excessive thirst, frequent urination, and partial visual loss in both eyes for 1 day. His family history is significant for type 2 diabetes mellitus in his mother and cousin. His weight is 112 kg ( 246.9 lb), height 187 cm (6 ft 1 in), blood pressure: 150/90 mm Hg, heart rate: 89/min, respiratory rate: 14/min, and temperature: 36.7℃ (98.4℉). The physical examination is significant for dry skin, a pustular rash over the patient’s shoulders and back, an accentuated second heart sound (S2) best heard in the second intercostal space at the right sternal border, and distal loss of vibration sensitivity in both feet. A fundoscopic examination shows small red dots in the superficial retinal layers suggestive of microaneurysms. The HbA1c is 9% and the urinalysis shows the following:\nColor Pale yellow (light/pale-to-dark/deep amber)\nClarity Cloudy\npH 6.6\nSpecific gravity 1.010\nGlucose 199 mg/dl\nKetones None\nNitrites Negative\nLeukocyte esterase Negative\nBilirubin Negative\nUrinary bilirubin Traces\nRed blood cells 3 RBCs\nProtein 120 mg/d\nRBCs ≤ 2 RBCs/hpf\nWBCs 22 WBCs/hpf\nEpithelial cells 27 squamous epithelial cells/hpf\nCasts 5 hyaline casts/lpf\nCrystals Occasional\nBacteria None\nYeast Present\nWhich of the following statements best describes the cause of this patient’s glucosuria?",
+      "answer": "Secondary active transporters fail to completely reabsorb glucose in the renal tubules",
+      "options": {
+        "A": "There is a disruption of primary active transport of glucose in the proximal renal tubules",
+        "B": "Secondary active transporters fail to completely reabsorb glucose in the renal tubules",
+        "C": "There is a disruption of passive transport of the glucose in the proximal renal tubules",
+        "D": "Glucosuria results from increased glomerular filtration rate"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 46-year-old man comes to the physician with a 1-week history of yellowish discoloration of his eyes, generalized fatigue, and pruritus. He was diagnosed with ulcerative colitis 7 years ago. At the time of diagnosis, a pANCA test was also positive. Physical examination shows scleral icterus and multiple scratch marks on the trunk and extremities. Abdominal examination is unremarkable. Serum studies show a total bilirubin concentration of 3.2 mg/dL, direct bilirubin concentration of 2.5 mg/dL, and alkaline phosphatase level of 450 U/L. Magnetic resonance cholangiopancreatography shows focal areas of intrahepatic bile duct strictures alternating with areas of dilation. Histologic examination of a liver biopsy specimen is most likely to show which of the following findings?",
+      "answer": "Periductal concentric scarring and fibrosis",
+      "options": {
+        "A": "Periductal concentric scarring and fibrosis",
+        "B": "Periportal lymphocytic infiltration and piecemeal necrosis",
+        "C": "Irregular ductal glands lined by atypical and pleomorphic cells",
+        "D": "Ductopenia and fibrotic degeneration of periportal hepatocytes"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 67-year-old male comes into the ED complaining of dyspnea and a heavy feeling in his chest. He reports that over the past month he has become more easily “winded\" to the point that he now sleeps in his living room because he can’t make it up the stairs. A review of systems is notable for headaches and fatigue. On physical exam you note decreased breath sounds and a dullness to percussion on the right. A chest radiograph is obtained, which shows a right-sided pleural effusion. Thoracocentesis is performed and the fluid is analyzed, with results shown below:\n\nVolume: 30 cc of fluid\nPleural fluid protein: 5.8 g/dL\nSerum protein ratio: 7.0 g/dL\nLactate dehydrogenase (LDH): 258 U/L\n\nWhich of the following conditions may have led to the findings in this patient’s pleural cavity?",
+      "answer": "Lymphoma",
+      "options": {
+        "A": "Congestive heart failure",
+        "B": "Liver cirrhosis",
+        "C": "Lymphoma",
+        "D": "Nephrotic syndrome"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 56-year-old man recently diagnosed with cirrhosis secondary to alcohol use presents to the clinic for a follow up evaluation. He states that he has abstained from alcohol and attends a support group regularly. He has not taken any new medications or encountered any sick contacts. The patient's blood pressure is 110/70 mmHg, pulse is 65/min, and respirations are 15/min. His physical exam is grossly unremarkable. He has brought an gastroduodenoscopy report for review, which reveals that the patient has small esophageal varices with red spots. What is the next best step to prevent bleeding?",
+      "answer": "Nadolol",
+      "options": {
+        "A": "Endoscopic sclerotherapy",
+        "B": "Metoprolol",
+        "C": "Nadolol",
+        "D": "Repeat endoscopy"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 72-year-old woman with a 40 pack-year history of smoking presents to your office with jaundice. After a thorough workup, you determine that the patient has pancreatic cancer. Which of the following is the most appropriate initial statement to inform the patient of her condition?",
+      "answer": "\"I have bad news I need to share with you. Please sit down so we can discuss.\"",
+      "options": {
+        "A": "\"Have you ever heard of pancreatic cancer?\"",
+        "B": "\"I have bad news I need to share with you. Please sit down so we can discuss.\"",
+        "C": "\"Have you designated a healthcare proxy?\"",
+        "D": "\"Your test results are consistent with a pancreatic adenocarcinoma.\""
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "The first 24 hours after delivery, a 2888 g (6.37 lb) male newborn is not feeding well, has a high-pitched cry, and is diaphoretic. He was born at 38 weeks' gestation to a 30-year-old woman, gravida 2, para 1, after an uncomplicated labor and delivery. Apgar scores were 8 and 9 at 1 and 5 minutes, respectively. The mother did not receive prenatal care. She takes codeine syrup frequently for dry cough. The infant's temperature is 37.8°C (100°F), pulse is 165/min, and blood pressure is 83/50 mm Hg. Examination shows hyperreflexia, tremors, and an excessive startle response. The baby is swaddled to prevent excoriations, and fluid resuscitation is initiated. Complete blood count and serum levels of glucose, bilirubin, and calcium are within normal limits. What is the most appropriate next step in treatment of this newborn?",
+      "answer": "Oral morphine therapy",
+      "options": {
+        "A": "Oral morphine therapy",
+        "B": "Intravenous ampicillin and gentamicin combination therapy",
+        "C": "Oral methimazole therapy",
+        "D": "Dextrose infusion"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 57-year-old woman comes to the physician because of a 3-month history of fatigue. She also reports generalized itchiness that started approximately 2 months ago. Two weeks ago, she noticed yellowing of her eyes. She does not smoke or drink alcohol. She uses eyedrops for persistent dryness of the eyes. Her vital signs are within normal limits. Physical examination shows jaundice of the conjunctivae and skin. The mucous membranes of the mouth are dry. The abdomen is soft. The liver edge is palpable 3 cm below the right costal margin. There are generalized skin excoriations. Laboratory studies show:\nHemoglobin 15 g/dL\nLeukocyte count 7,700/mm3\nPlatelet count 332,000/mm3\nSerum\nGlucose 122 mg/dL\nTotal bilirubin 3.1 mg/dL\nDirect 2.5 mg/dL\nAlkaline phosphatase 452 U/L\nAST 155 U/L\nALT 168 U/L\nHepatitis B surface antigen negative\nHepatitis B core IgM antibody negative\nHepatitis B surface antibody positive\nHepatitis C antibody negative\nUltrasonography of the abdomen shows mildly increased echogenicity of the liver. Which of the following additional findings is most likely to be found in this patient?\"",
+      "answer": "Cutaneous xanthomas",
+      "options": {
+        "A": "Inferior vena cava thrombosis",
+        "B": "Cutaneous xanthomas",
+        "C": "Increased CA 19-9 levels",
+        "D": "Kayser-Fleischer rings\n\""
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 78-year-old woman presents to the emergency department with weight loss, abdominal pain, and jaundice. CT demonstrates a mass in the head of the pancreas, and biopsy is planned for the following day. The patient's daughter approaches you outside the room to request that the results of the biopsy not be shared with the patient. She asks that the results instead be shared with her and her brother, who is the patient's documented health care proxy. She explains that she and her brother have discussed the situation and decided that it is best to not inform the patient that she has cancer. Endoscopic ultrasound-guided biopsy the next morning confirms the diagnosis of pancreatic adenocarcinoma. Which of the following is the best response to the patient's daughter's request?",
+      "answer": "Inquire why the patient's daughter feels her mother should not be informed of the diagnosis",
+      "options": {
+        "A": "Ask the patient's son, the documented health care proxy, how he would like to handle the situation",
+        "B": "Inquire why the patient's daughter feels her mother should not be informed of the diagnosis",
+        "C": "Offer to explain the diagnosis to the patient without using the word \"cancer\"",
+        "D": "Tell the patient's daughter that the patient must be informed of the diagnosis"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 25-year-old female with Hodgkin's lymphoma presents with a several day history of edema. Lab studies show:\n\nSerum Na+: 140 mmol/L\nSerum K+: 3.5 mmol/L\nSerum albumin: 1.9 g/dL\nTotal serum bilirubin: 1.0 mg/dL\nSerum creatinine: 1.2 mg/dL\n\nUrinalysis shows 4+ proteinuria and fatty casts. What is the most likely diagnosis?",
+      "answer": "Minimal change disease",
+      "options": {
+        "A": "Focal segmental glomerulosclerosis",
+        "B": "Membranous nephropathy",
+        "C": "Minimal change disease",
+        "D": "Amyloidosis"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 27-year-old college student presents to his physician for constant fatigue. The patient states that for the past several weeks he has felt oddly fatigued and has struggled to complete his work. He is a foreign exchange student and is concerned he will fail out of his academic program. He has experienced some occasional nausea and vomiting which has caused him to lose weight. The patient is a first year college student, drinks alcohol regularly, smokes marijuana, and has unprotected sex with multiple partners. His temperature is 99.5°F (37.5°C), blood pressure is 127/68 mmHg, pulse is 90/min, respirations are 17/min, and oxygen saturation is 98% on room air. Laboratory values are ordered as seen below.\n\nSerum:\nNa+: 139 mEq/L\nCl-: 100 mEq/L\nK+: 4.3 mEq/L\nHCO3-: 25 mEq/L\nBUN: 20 mg/dL\nGlucose: 99 mg/dL\nCreatinine: 1.1 mg/dL\nCa2+: 10.2 mg/dL\nTotal bilirubin: 2.0 mg/dL\nAST: 85 U/L\nALT: 92 U/L\n\nUrine\nColor: Amber/brown\nMarijuana: Positive\nAmphetamines: Positive\nCocaine: Positive\n\nThe patient refuses an examination of his genitals. Which of the following is the best diagnostic test?",
+      "answer": "Viral core antibody",
+      "options": {
+        "A": "CAGE questions",
+        "B": "Uretheral swab and culture",
+        "C": "Viral core antibody",
+        "D": "Viral surface antibody"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 46-year-old man comes to the emergency department because of a 4-week history of fatigue and headache that have gotten progressively worse. He has allergic asthma treated with inhaled salbutamol. He immigrated to the USA from Thailand 9 years ago. He lives by himself and works as a waiter in a restaurant. He has had 6 lifetime male sexual partners and uses condoms inconsistently. He drinks 1–2 beers daily. His temperature is 38.2°C (100.8°F), pulse is 88/min, and blood pressure is 128/76 mm Hg. Examination of the mouth shows several white patches on the tongue and oral mucosa that can be easily scraped off with a tongue blade. On mental status examination, the patient is somnolent and has short-term memory deficits. The remainder of the examination shows no abnormalities. Laboratory studies show:\nHemoglobin 13.6 g/dL\nLeukocyte count 9,600/mm3\nSegmented neutrophils 80%\nEosinophils 1%\nLymphocytes 17%\nMonocytes 2%\nCD4+ T-lymphocytes 80/mm3 (Normal ≥ 500)\nPlatelet count 328,000/mm3\nSerum\npH 7.36\nNa+ 135 mEq/L\nCl- 101 mEq/L\nK+ 4.8 mEq/L\nHCO3- 22 mEq/L\nGlucose 95 mg/dL\nCreatinine 0.9 mg/dL\nBUN 16 mg/dL\nBilirubin, total 0.7 mg/dL\nAST 13 U/L\nALT 15 U/L\nErythrocyte sedimentation rate 10 mm/hour\nHIV test positive\nA lumbar puncture is performed and an opening pressure of 150 mm H2O is noted. Cerebrospinal fluid analysis shows a leukocyte count of 25/mm3 (60% lymphocytes), protein concentration of 52 mg/dL, and a glucose concentration of 37 mg/dL. India ink stain shows organisms with prominent capsules. Blood cultures are drawn. Which of the following is the most appropriate pharmacotherapy for this patient's neurological symptoms?\"",
+      "answer": "Amphotericin B and flucytosine",
+      "options": {
+        "A": "Pyrimethamine, sulfadiazine, and folinic acid",
+        "B": "Amphotericin B and flucytosine",
+        "C": "Fluconazole",
+        "D": "Vancomycin and meropenem"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 48-year-old woman comes to the emergency department because of a 1-day history of fever, vomiting, and abdominal pain. Two weeks ago, while visiting Guatemala, she had an emergency appendectomy under general inhalational anesthesia. During the surgery, she received a transfusion of 1 unit of packed red blood cells. Her temperature is 38.3°C (100.9°F) and blood pressure is 138/76 mm Hg. Examination shows jaundice and tender hepatomegaly. Serum studies show:\nAlkaline phosphatase 102 U/L\nAspartate aminotransferase 760 U/L\nBilirubin\nTotal 3.8 mg/dL\nDirect 3.1 mg/dL\nAnti-HAV IgG positive\nAnti-HAV IgM negative\nAnti-HBs positive\nHBsAg negative\nAnti-HCV antibodies negative\nAbdominal ultrasonography shows an enlarged liver. A biopsy of the liver shows massive centrilobular necrosis. Which of the following is the most likely underlying cause of this patient's condition?\"",
+      "answer": "Adverse effect of anesthetic",
+      "options": {
+        "A": "Acalculous inflammation of the gallbladder",
+        "B": "Virus-mediated hepatocellular injury",
+        "C": "Adverse effect of anesthetic",
+        "D": "Gram-negative bacteria in the bloodstream"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 23-year-old man comes to the physician because of a 1-week history of anorexia, nausea, upper abdominal pain, and dark-colored urine. He recently returned from a trip to Belize. His temperature is 38.3°C (100.9°F). Physical examination shows scleral icterus and tender hepatomegaly. Serum studies show markedly elevated transaminases and anti-hepatitis A virus antibodies. In this patient, infected cells express more MHC class I molecules on their surfaces. This cellular event is primarily induced by a molecule that is also responsible for which of the following changes?",
+      "answer": "Increased breakdown of intracellular RNA",
+      "options": {
+        "A": "Upregulated expression of exogenously synthesized antigens",
+        "B": "Enhanced macrophage phagocytic function",
+        "C": "Activation of eukaryotic initiation factor 2",
+        "D": "Increased breakdown of intracellular RNA"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 67-year-old man is brought to the hospital by his relatives. He complains of early satiety, abdominal discomfort after food intake, and abdominal bloating. These symptoms have been present since the patient was 52, but they were milder at that time so he paid little attention to them since. Tingling and decreased sensation in both lower extremities began a few months ago. His relatives also note that he has become excessively somnolent and forgetful. The patient’s medical history is significant for acute hepatitis B 20 years ago. He smokes a pack of cigarettes per day and drinks alcohol occasionally. His weight is 61 kg (134.5 lb), height is 181 cm (5 ft 11 in), and BMI is 18.6 kg/m2. His vital signs include: blood pressure 110/80 mm Hg, heart rate 89/min, respiratory rate 13/min, and temperature 36.1°C (96.9°F). The patient’s skin is pale, thin, dry, and hypoelastic. Lymph nodes and the thyroid gland are not enlarged. Lung and heart examinations are within normal limits for his age. The patient’s tongue is bright red with atrophic papillae. The abdomen is distended and tender to palpation in the epigastric area. Neurological examination shows symmetrical bilateral distal hypoesthesia for all sensations and decreased muscle strength in both upper and lower extremities. On a mini-mental status examination, the patient scores 25. The patient’s blood test results are as follows:\nErythrocytes 2.8 x 109/mm3\nHb 8.6 g/dL\nHt 37%\nMean corpuscular hemoglobin  49.9 pg/cell (3.1 fmol/cell)\nMean corpuscular volume 142 µm3 (142 fL)\nReticulocyte count 0.3%\nTotal leukocyte count 3,070/mm3\nNeutrophils 54%\nLymphocyte 32%\nEosinophil 3%\nMonocyte 11%\nBasophil 0%\nPlatelet count 195,000/mm3\nHbA1C 4.3%\nFasting plasma glucose 4.6 mmol/l (82.9 mg/dL)\nAspartate aminotransferase 22 U/L\nAlanine aminotransferase 19 U/L\nAmylase 32 U/L\nTotal bilirubin 32 µmol/L (1.87 mg/dL)\nConjugated bilirubin 8 µmol/L (0.4677 mg/L)\nWhich of the following options best explains the patient’s neurological and psychiatric symptoms?",
+      "answer": "Impaired methylation of myelin phospholipids",
+      "options": {
+        "A": "Chronic bilirubin toxicity",
+        "B": "Chronic acetaldehyde influence",
+        "C": "Impaired methylation of myelin phospholipids",
+        "D": "Influence of pseudo-neurotransmitters"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 53-year-old male presents to his primary care physician complaining of fatigue and joint and muscle pain. He reports a 6-month history of slowly progressive tiredness associated with dull achy pain in his knees, hips, and shoulders. His past medical history is notable for hypertension, diabetes, and stable angina. He takes lisinopril, metformin, glyburide, and aspirin. He has a history of intravenous drug use and was homeless in his early 30’s. He drinks alcohol socially and has a 30 pack-year smoking history. His temperature is 98.6°F (37°C), blood pressure is 130/85 mmHg, pulse is 95/min, and respirations are 18/min. Physical examination reveals a generally well-appearing male without evidence of ascites, peripheral edema, or jaundice. Results from laboratory tests are below:\n\nHepatitis A IgM: Negative\nHepatitis A IgG: Negative\nHepatitis B surface antigen: Negative\nHepatitis B E antigen: Negative\nHepatitis B core antigen: Negative\nHepatitis B surface IgG: Positive\nHepatitis B E IgG: Negative\nHepatitis B core IgG: Negative\nHepatitis C IgG: Positive\nHCV RNA: 100,000,000 IU/ml\n\nThis patient should be started on which of the following medications?",
+      "answer": "Sofosbuvir and simeprevir",
+      "options": {
+        "A": "Sofosbuvir and simeprevir",
+        "B": "Interferon-gamma",
+        "C": "Ribavirin",
+        "D": "Lamivudine"
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 66-year-old man comes to the physician because of fatigue and swelling of his legs and feet for 6 weeks. During this time he has felt like his eyes have been unusually puffy in the mornings and his urine has been frothy. He has hypertension and rheumatoid factor-positive rheumatoid arthritis. Current medications include amlodipine, methotrexate, and ibuprofen. He does not smoke. He has a history of chronic alcohol abuse. His temperature is 36.7°C (98°F), pulse is 80/min, and blood pressure is 148/86 mm Hg. Physical examination shows pallor, periorbital edema, 2+ pedal edema, and ascites. He has swan-neck deformities and nodules of multiple fingers and swelling and restricted range of motion of bilateral knee joints. Laboratory studies show:\nHemoglobin 8.2 mg/dl\nProthrombin time 12 seconds\nSerum\nAlbumin 2.8 g/dl\nTotal bilirubin 1.0 mg/dl\nAlkaline phosphatase 120 U/L\nAST 20 U/L\nALT 19 U/L\nUrea 18 mg/dl\nCreatinine 1.2 mg/dl\nUrine\nProtein 3+\nWBCs 5–10/hpf\nRBCs negative\nBacteria negative\nUltrasound of the liver and kidneys shows no abnormalities. Which of the following is the most likely cause of this patient's findings?\"",
+      "answer": "Increased serum amyloid A production",
+      "options": {
+        "A": "Adverse effect of ibuprofen",
+        "B": "Decreased cardiac ejection fraction",
+        "C": "Renal deposition of AL amyloid",
+        "D": "Increased serum amyloid A production"
+      },
+      "answer_idx": "D"
+    },
+    {
+      "question": "A 28-year-old man is brought to the emergency department because of a 3-day history of fever, chills, and generalized weakness. He has no cough. He was treated for a neck abscess 6 months ago. He takes no medications. He has smoked one pack of cigarettes daily for 10 years and drinks two to three beers daily. He has been using intravenous cocaine and heroin for 6 years. He appears ill. His temperature is 38.6°C (101.5°F), pulse is 112/min, respirations are 20/min, and blood pressure is 110/70 mm Hg. Examination shows track marks on both cubital fossae. There are retinal hemorrhages with pale centers. The lungs are clear to auscultation. A grade 3/6 holosystolic murmur is heard best at the lower left sternal border. Laboratory studies show:\nHemoglobin 13.3 g/dL\nLeukocyte count 14,300/mm3\nPlatelet count 278,000/mm3\nSerum\nGlucose 96 mg/dL\nCreatinine 1.0 mg/dL\nTotal bilirubin 0.4 mg/dL\nAST 18 U/L\nALT 22 U/L\nTransthoracic echocardiography shows multiple vegetations on the tricuspid valve and moderate tricuspid regurgitation. Two sets of blood cultures are collected. Which of the following is the most appropriate next step in management?\"",
+      "answer": "Intravenous vancomycin therapy",
+      "options": {
+        "A": "Transesophageal echocardiography",
+        "B": "Intravenous vancomycin therapy",
+        "C": "X-ray of the chest",
+        "D": "CT pulmonary angiogram"
+      },
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 23-year-old man comes to the clinic for yellowing of his eyes. The patient has been relatively healthy and just recently started “intermittent fasting” to try to lose weight. He recalls a similar episode 4 years ago when he was recovering from an emergency appendectomy. The patient denies smoking but endorses an episode of binge drinking 2 days ago. He is sexually active with both men and women. His physical examination is unremarkable besides scleral icterus. What is the most likely explanation for this patient’s symptoms?",
+      "answer": "Decreased activity of UDP-glucuronosyltransferase",
+      "options": {
+        "A": "Autoimmune-mediated fibrosis of biliary tract",
+        "B": "Chronic viral infection of the liver",
+        "C": "Decreased activity of UDP-glucuronosyltransferase",
+        "D": "Defective bilirubin excretion"
+      },
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 31-year-old woman is brought to the emergency department with fever, right upper quadrant pain, and myalgia. Her boyfriend says she recently returned from a trip to Southeast Asia. She appears ill and is lethargic. Her temperature is 39°C (102.2°F). Physical examination shows jaundice and tender hepatomegaly. Laboratory studies show the presence of anti-hepatitis A IgM antibodies. A liver biopsy performed at this time would most likely show which of the following histopathological findings?",
+      "answer": "Hepatocytes with shrunken, eosinophilic cytoplasm and pyknotic nuclei",
+      "options": {
+        "A": "Hepatocytes with shrunken, eosinophilic cytoplasm and pyknotic nuclei",
+        "B": "Cystic spaces with scattered areas of cellular debris",
+        "C": "Basophilic adipocyte remnants, filled with calcifications",
+        "D": "Engorged hepatocytes with red blood cell infiltration\n\""
+      },
+      "answer_idx": "A"
+    },
+    {
+      "question": "A 29-year-old woman comes to the physician with high-grade fever, headache, and muscle pain. A week ago, she returned from India, where she was working with an NGO to build houses in rural areas. The patient took one dose of chloroquine one week before her trip. She also took a further dose during her trip. She has no history of a serious illness. Her temperature is 39.3°C (102.7°F), pulse is 102/min, respirations are 22/min, and blood pressure is 112/78 mm Hg. Physical examination shows jaundice. The abdomen is soft and nontender. The remainder of the examination shows no abnormalities. Her hemoglobin concentration is 10 g/dL and a blood smear shows fragmented erythrocytes and occasional ring-shaped inclusion bodies within erythrocytes. Which of the following is the most likely cause of infection in this patient?",
+      "answer": "Plasmodium falciparum",
+      "options": {
+        "A": "Plasmodium ovale",
+        "B": "Plasmodium falciparum",
+        "C": "Chikungunya virus",
+        "D": "Hepatitis A virus"
+      },
+      "answer_idx": "B"
+    }
+  ],
+  "PubMedQA_test": [
+    {
+      "question": "Specific markers for differentiation of nonalcoholic (NASH) from alcoholic steatohepatitis (ASH) are lacking. We investigated the role of routine laboratory parameters in distinguishing NASH from ASH. Liver biopsies performed at our hospital over a 10-year period were reviewed, 95 patients with steatohepatitis identified and their data prior to biopsy reevaluated. The diagnosis NASH or ASH was assigned (other liver diseases excluded) on the basis of the biopsy and history of alcohol consumption (<140 g/week). Logistic regression models were used for analysis. NASH was diagnosed in 58 patients (61%; 30 f) and ASH in 37 (39%; 9 f). High-grade fibrosis (59% vs. 19%, P<0.0001) and an AST/ALT ratio>1 (54.1% vs 20.7%, P = 0.0008) were more common in ASH. The MCV was elevated in 53% of ASH patients and normal in all NASH patients (P<0.0001). Multivariate analysis identified the MCV (P = 0.0013), the AST/ALT ratio (P = 0.011) and sex (P = 0.0029) as relevant regressors (aROC = 0.92). The AST/ALT ratio (P<0.0001) and age (P = 0.00049) were independent predictors of high-grade fibrosis. Differences in MCV were more marked in high-grade fibrosis.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nDifferentiation of nonalcoholic from alcoholic steatohepatitis: are routine laboratory markers useful?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Kidneys from elderly donors tend to be implanted in recipients who are also elderly. We present the results obtained after 10 years of evolution on transplanting elderly kidneys into young recipients. Ninety-one consecutive transplants are studied, carried out in our center with kidneys from cadaver donors older than 60 years implanted in recipients younger than 60 years. The control group is made up of 91 transplants, matched with those from the study group, whose donor and recipient were younger than 60 years. There were no differences between groups with regard to recipient age, sex, cause of death and renal function of the donor, hepatitis C and cytomegalovirus serologies, cold ischemia time, tubular necrosis, immediate diuresis, need for dialysis, human leukocyte antigen incompatibilities, hypersensitized patients, acute rejection, waiting time on dialysis, and days of admission. Survival in both groups at 1, 5, and 10 years was 97.6%, 87.2%, and 76.6% vs. 98.8%, 87.5%, and 69.5% for the patient (P=0.642), 92.9%, 81.3%, and 64.2% vs. 93.9%, 76.4%, and 69.5% for the graft (P=0.980), and 94.4%, 92.6%, and 77.4% vs. 94.3%, 86.7%, and 84.4% for the graft with death censured (P=0.747), respectively. Creatininaemias at 1, 5, and 10 years were 172, 175, and 210 vs. 139, 134, and 155 (P<0.05).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs it appropriate to implant kidneys from elderly donors in young recipients?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "To assess and compare the value of split-liver transplantation (SLT) and living-related liver transplantation (LRT). The concept of SLT results from the development of reduced-size transplantation. A further development of SLT, the in situ split technique, is derived from LRT, which itself marks the optimized outcome in terms of postoperative graft function and survival. The combination of SLT and LRT has abolished deaths on the waiting list, thus raising the question whether living donor liver transplantation is still necessary. Outcomes and postoperative liver function of 43 primary LRT patients were compared with those of 49 primary SLT patients (14 ex situ, 35 in situ) with known graft weight performed between April 1996 and December 2000. Survival rates were analyzed using the Kaplan-Meier method. After a median follow-up of 35 months, actual patient survival rates were 82% in the SLT group and 88% in the LRT group. Actual graft survival rates were 76% and 81%, respectively. The incidence of primary nonfunction was 12% in the SLT group and 2.3% in the LRT group. Liver function parameters (prothrombin time, factor V, bilirubin clearance) and surgical complication rates did not differ significantly. In the SLT group, mean cold ischemic time was longer than in the LRT group. Serum values of alanine aminotransferase during the first postoperative week were significantly higher in the SLT group. In the LRT group, there were more grafts with signs of fatty degeneration than in the SLT group.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs there still a need for living-related liver transplantation in children?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "The purpose of this study is to examine whether or not well differentiated (w-d) hepatocellular carcinoma (HCC) is indeed clinically early cancer. Seventy six patients with solitary small HCCs up to 3 cm in diameter, who underwent hepatectomy, were observed for at least 2 years for possible recurrence. These patients were divided into two groups: 10 patients with w-d HCCs (Edmondson and Steiner's grade I) and 66 patients with less differentiated (l-d) HCCs (Edmondson and Steiner's grade I-II, II-III, and III). The histological analysis revealed that w-d HCCs had lower incidences of fibrous capsule formation (P<0.01), when compared to l-d HCCs. There were no significant differences in the incidence of intrahepatic metastasis, or portal vein invasion. In a resected specimen of w-d HCC, barium sulfate and gelatin were injected into portal vein and a transparent specimen was made. The transparent specimen showed that the portal vein in the tumor seemed to be intact. Microscopically, cancer cell infiltration into the fibrous frame of the portal tract was present. There were no significant differences in the disease free survival between the two groups. An analysis of tumor volume doubling time in recurrent foci suggested that minute cancerous foci had been present at the time of operation.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nPrognosis of well differentiated small hepatocellular carcinoma--is well differentiated hepatocellular carcinoma clinically early cancer?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "Sulfasalazine is a widely used anti-inflammatory agent in the treatment of inflammatory bowel disease and several rheumatological disorders. Although as many as 20% of treated patients may experience reversible, dose-dependent side effects, less frequent but potentially severe, systemic reactions have also been reported. A severe systemic reaction to sulfasalazine developed in a 21-year old female with rheumatoid arthritis characterized by eosinophilia, granulomatous enteritis and myelotoxicity, cholestatic hepatitis, and seizures. The clinical course and management of this patient are presented as well as a review of the incidence and outcome of severe systemic reactions to sulfasalazine.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs it Crohn's disease?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "maybe",
+      "answer_idx": "C"
+    },
+    {
+      "question": "The purpose of this paper is to evaluate the efficacy of ultrasonographic screening for primary hepatocellular carcinoma. A total of 680 eligible cases were classified into three groups (surveillance, opportunistic, and symptomatic groups) according to their initial exposure. We used survival time, tumor morphology, and T staging as prognostic outcomes. The outcomes of screened/unscreened and sur veillance/nonsur veillance were compared with the use of the logistic regression model. The adjusted odds ratios for the screened group versus the unscreened group, with 1-, 2-, and 3-year survival time being used as outcomes, were 0.33 (95% confidence interval [CI], 0.21-0.52), 0.33 (95% CI, 0.21-0.53), and 0.37 (95% CI, 0.23-0.61), respectively. The adjusted odds ratios for surveillance versus nonsurveillance were 0.58 (95% CI, 0.35-0.97), 0.45 (95% CI, 0.27-0.74), and 0.44 (95% CI, 0.26-0.73). The odds ratios were even smaller when tumor morphology or T stage was taken as the main outcome. All these results were statistically significant. There were significant gradient relationships between prognostic outcomes and extent of screening history.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nDoes screening or surveillance for primary hepatocellular carcinoma with ultrasonography improve the prognosis of patients?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "From 2000 to 2007, 344 patients underwent pancreatoduodenectomy for PA. Fifty-three patients (elevated group) had preoperatively elevated serum CA 19-9 levels (>400 IU/ml) after resolution of obstructive jaundice. Of these, 27 patients had high levels (400-899 IU/ml (HL)) and 26 patients had very high levels>or=900 IU/ml (VHL). Fifty patients with normal preoperative serum CA 19-9 levels (<37 IU/ml) comprised the control group. Median survival of the control group (n = 50) versus elevated group (n = 53) was 22 versus 15 months (p = 0.02) and overall 3-year survival was 32% versus 14% (p = 0.03). There was no statistical difference in the median and 3-year overall survival between patients with HL and VHL. Patients in the elevated group who normalized their CA 19-9 levels after surgery (n = 11) had a survival equivalent to patients in the control group.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nVery high serum CA 19-9 levels: a contraindication to pancreaticoduodenectomy?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "There has never been a nationally representative survey of medical students' personal health-related practices, although they are inherently of interest and may affect patient-counseling practices. This study evaluated the health practices and the vaccination status of first year residents working at the academic hospital Hôtel-Dieu de France. The medical files of all medicine and surgery residents in their first year of specialization between the years 2005 and 2008 were reviewed. These residents were required to go through a preventive medical visit at the University Center of Family and Community Health. One hundred and nine residents (109) were included in the study; 68 (6239%) were male and 41 (37.61%) were female with a mean age of 26 years. Only 6 residents (5.50%) practiced physical activity according to international guidelines (more than three times a week for more than 30 minutes each time). Most residents (n = 76 ; 69.73%) used to skip one or two meals especially breakfast and as a consequence 30 male (44.11%) and 4 female (9.75%) students were overweight, with a statistical difference between the two sexes (Fisher test, p-value = 0.001). Twenty-eight residents (25.69%) were smokers with a male predominance. Fourteen residents of both genders (12.84%) drank alcohol regularly (>3 times a week) and 71 (65.14%) had a drink occasionally (once a month or less). Only 25 residents (23%) of the cohort had a complete and up-to-date immunization status. The immunization gap was basically against measles, mumps, rubella (MMR) and diphtheria, tetanus, poliomyelitis (dT Polio). Ninety-nine residents (90.83%) had full immunization against hepatitis B with an adequate response in 78 residents (71.56%).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nHealth habits and vaccination status of Lebanese residents: are future doctors applying the rules of prevention?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "Cholestasis occurs frequently in patients with small bowel atresia (SBA) and is often attributed to prolonged parental nutrition. When severe or prolonged, patients may undergo unnecessary intensive or invasive investigation. We characterized cholestasis and analyzed the pertinence of investigating this patient population. With Research Ethics Board approval, patients with SBA between 1996 and 2005 were retrospectively reviewed. Demographics, location of atresia, operative findings, complications, investigations, resumption of feeding, duration of prolonged parental nutrition, and follow-up information were examined. Cholestasis was evaluated for incidence, severity, and evolution. Fifty-five patients (29 male, 26 female), with a median gestational age and birth weight of 36 weeks and 2025 g, respectively, were reviewed. Care was withdrawn for 2 patients before repair. For the remaining 53 patients, SBA were duodenal atresia in 18, jejunoileal atresia in 32, and multiple atresia in 3. Of 53, 24 (45%) patients developed cholestasis postoperatively (direct/total bilirubin>20%). All patients with short bowel (4) and 60% (6/10) of patients with a delay of enteral feeding more than 14 days postoperatively had cholestasis. Ten patients (36%) proceeded with in-depth evaluations for cholestasis, with 8 (28%) undergoing liver biopsy. No patient had biliary atresia. No deaths were related to isolated cholestasis/cirrhosis. Cholestasis resolved spontaneously in all the survivors.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nCholestasis associated with small bowel atresia: do we always need to investigate?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "To evaluate surgical outcome and survival benefit after quaternary cytoreduction (QC) in epithelial ovarian cancer (EOC) relapse. We systematically evaluated all consecutive patients undergoing QC in our institution over a 12-year period (October 2000-January 2012). All relevant surgical and clinical outcome parameters were systematically assessed. Forty-nine EOC patients (median age: 57; range: 28-76) underwent QC; in a median of 16 months (range:2-142) after previous chemotherapy. The majority of the patients had an initial FIGO stage III (67.3%), peritoneal carcinomatosis (77.6%) and no ascites (67.3%). At QC, patients presented following tumour pattern: lower abdomen 85.7%; middle abdomen 79.6% and upper abdomen 42.9%. Median duration of surgery was 292 min (range: a total macroscopic tumour clearance could be achieved. Rates of major operative morbidity and 30-day mortality were 28.6% and 2%, respectively.Mean follow-up from QC was 18.41 months (95% confidence interval (CI):12.64-24.18) and mean overall survival (OS) 23.05 months (95% CI: 15.5-30.6). Mean OS for patients without vs any tumour residuals was 43 months (95% CI: 26.4-59.5) vs 13.4 months (95% CI: 7.42-19.4); P=0.001. Mean OS for patients who received postoperative chemotherapy (n=18; 36.7%) vs those who did not was 40.5 months (95% CI: 27.4-53.6) vs 12.03 months (95% CI: 5.9-18.18); P<0.001.Multivariate analysis indentified multifocal tumour dissemination to be of predictive significance for incomplete tumour resection, higher operative morbidity and lower survival, while systemic chemotherapy subsequent to QC had a protective significant impact on OS. No prognostic impact had ascites, platinum resistance, high grading and advanced age.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nQuaternary cytoreductive surgery in ovarian cancer: does surgical effort still matter?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Hepatorenal syndrome (HRS) is the functional renal failure associated with advanced cirrhosis and has also been described in fulminant hepatic failure. Without liver transplantation its prognosis is dismal. Our study included patients with type 1 HRS associated with cirrhosis, who were not liver transplant candidates.AIM: To identify variables associated with improved survival. Sixty-eight patients fulfilled the revised Ascites Club Criteria for type 1 HRS. None of them was suitable for liver transplantation. All the patients were treated with combinations of: albumin, midodrine and octreotide, pressors, and hemodialysis. Median survival was 13 days for the whole group. Survival varied with the end-stage liver disease (ESLD) etiology: autoimmune, 49 days, cardiac cirrhosis, 22 days, idiopathic, 15.5 days, viral, 15 days, hepatitis C and alcohol, 14.5 days, alcohol 8 days, and neoplasia 4 days (p = 0.048). Survival of HRS associated with alcoholic liver disease versus other etiologies was not statistically significant (p = 0.1). Increased serum creatinine (p = 0.02) and urinary sodium 6-10 mEq/l (p = 0.027) at the initiation of therapy were prognostic factors for mortality. HRS treatment modalities (p = 0.73), use of dialysis (p = 0.56), dialysis modality (p = 0.35), use of vasopressors (p = 0.26), pre-existing renal disease (p = 0.49), gender (p = 0.90), and age (p = 0.57) were not associated with survival.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nHepatorenal syndrome: are we missing some prognostic factors?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Ascitis and undernutrition are frequent complications of cirrhosis, however ascitis volume and anthropometric assessment are not routinely documented or considered in prognostic evaluation. In a homogeneous cohort followed during two years these variables were scrutinized, aiming to ascertain relevance for longterm outcome. Population (N = 25, all males with alcoholic cirrhosis) was recruited among patients hospitalized for uncomplicated ascitis. Exclusion criteria were refractory or tense ascitis, cancer, spontaneous bacterial peritonitis, bleeding varices and critical illness. Measurements included ultrasonographically estimated ascitis volume, dry body mass index/BMI , upper arm anthropometrics, hematologic counts and liver function tests. Population (age 48.3 ± 11.3 years, BMI 21.1 ± 3.5 kg/m², serum albumin 2.5 ± 0.8 g/dL) was mostly in the Child-Pugh C category (77.8%) but clinically stable. During the follow-up period of 22.6 ± 3.8 months, additional hospitalizations numbered 1.7 ± 1.0 and more than one quarter succumbed. Admission ascitis volume corresponded to 7.1 ± 3.6 L and dry BMI to 18.3 ± 3.5 kg/m². Child Pugh index was relevant for both mortality and rehospitalization. Nevertheless, similar matches for mortality were documented with ascitis volume and dry BMI, and arm circumference below the 5th percentile was highly significantly associated with rehospitalization.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nShould ascitis volume and anthropometric measurements be estimated in hospitalized alcoholic cirrotics?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Hepatitis G virus can cause chronic infection in man but the role of this agent in chronic liver disease is poorly understood. Little is known about the relation of another newly discovered agent, the TT virus, with chronic liver disease.AIM: To investigate the rate of infection with hepatitis G virus and TT virus in patients with cryptogenic chronic liver disease. A total of 23 subjects with chronically raised alanine transaminase and a liver biopsy in whom all known causes of liver disease had been excluded, and 40 subjects with hepatitis C virus-related chronic liver disease. Evaluation of anti-hepatitis G virus by enzyme immunoassay. Hepatitis G virus-RNA by polymerase chain reaction with primers from the 5' NC and NS5a regions. TT virus-DNA by nested polymerase chain reaction with primers from the ORF1 region. Results. Hepatitis G virus-RNA was detected in 4 out of 23 patients with cryptogenic chronic hepatitis and in 6 out of 40 with hepatitis C virus chronic hepatitis (17.4% vs 15% p=ns). At least one marker of hepatitis G virus infection (hepatitis G virus-RNA and/or anti-hepatitis G virus, mostly mutually exclusive) was present in 6 out of 23 patients with cryptogenic hepatitis and 16 out of 40 with hepatitis C virus liver disease (26. 1% vs 40% p=ns). T virus-DNA was present in serum in 3 subjects, 1 with cryptogenic and 2 with hepatitis C virus-related chronic liver disease. Demographic and clinical features, including stage and grade of liver histology, were comparable between hepatitis G virus-infected and uninfected subjects. Severe liver damage [chronic hepatitis with fibrosis or cirrhosis) were significantly more frequent in subjects with hepatitis C virus liver disease.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nAre hepatitis G virus and TT virus involved in cryptogenic chronic liver disease?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "There is no standard protocol for the evaluation of antiseptics used for skin and mucous membranes in the presence of interfering substances. Our objective was to suggest trial conditions adapted from the NF EN 13727 standard, for the evaluation of antiseptics used in gynecology and dermatology. Three antiseptic solutions were tested in vitro: a chlorhexidine-benzalkonium (CB) combination, a hexamidine-chlorhexidine-chlorocresol (HCC) combination, and povidone iodine (P). The adaptation of trial conditions to the standard involved choosing dilutions, solvent, and interfering substances. The activity of solutions was assessed on the recommended strains at concentrations of 97% (pure solution), 50%, and 10% (diluted solution), and 1%. A logarithmic reduction ≥ 5 was expected after 60seconds of contact, to meet requirements of bactericidal activity. HCC did not present any bactericidal activity except on P. aeruginosa at a concentration of 97%. P was not bactericidal on E. hirae at any concentration and on S. aureus at 97%. CB had the most homogeneous bactericidal activity with a reduction>5 log on the 4 bacterial strains at concentrations of 97%, 50% and 10%.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nBactericidal activity of 3 cutaneous/mucosal antiseptic solutions in the presence of interfering substances: Improvement of the NF EN 13727 European Standard?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "maybe",
+      "answer_idx": "C"
+    },
+    {
+      "question": "Acute fibrinous and organizing pneumonia (AFOP) is a recently described histologic pattern of diffuse pulmonary disease. In children, all cases reported to date have been fatal. In this study, we describe the first nonfatal AFOP in a child and review the literature. A 10-year-old boy developed very severe aplastic anemia (VSAA) after being admitted to our hospital with a fulminant hepatic failure of unknown origin. A chest computed tomography scan revealed multiple lung nodules and a biopsy of a pulmonary lesion showed all the signs of AFOP. Infectious workup remained negative. We started immunosuppressive therapy with antithymocyte globulin and cyclosporine to treat VSAA. Subsequent chest computed tomography scans showed a considerable diminution of the lung lesions but the VSAA did not improve until we performed hematopoietic stem cell transplantation 5 months later.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs acute fibrinous and organizing pneumonia the expression of immune dysregulation?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "To evaluate retrospectively whether technical factors of hepatic arterial embolization affect the prognosis of patients with hepatocellular carcinoma (HCC). Inclusion criteria of this study were the following: (1) patients received embolization as the initial treatment during 2003-2004, (2) Child A or B liver profile, (3) five or fewer HCCs with maximum diameter of 7 cm or smaller, and (4) no extrahepatic metastasis. Patient data were gathered from 43 centers. Prognostic factors were evaluated using univariate and multivariate analyses. Eight hundred fifteen patients were enrolled. The 1-, 3-, 5-, and 7-year overall survival rates were 92.0 % (95 % CI 90.1-93.9), 62.9 % (95 % CI 59.3-66.6), 39.0 % (95 % CI 35.1-43.0), and 26.7 % (95 % CI 22.6-30.8) in all patients. Univariate analysis showed a Child-Pugh class-A, alpha-fetoprotein level lower than 100 ng/ml, tumor size of 3 cm or smaller, tumor number of 3 or fewer, one-lobe tumor distribution, nodular tumor type, within the Milan criteria, stage I or II, no portal venous invasion, use of iodized oil, and selective embolization were significantly better prognostic factors. In the multivariate Cox model, the benefit to survival of selective embolization remained significant (hazard ratio 0.68; 95 % CI 0.48-0.97; p = 0.033).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nHepatic arterial embolization for unresectable hepatocellular carcinomas: do technical factors affect prognosis?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Staging laparoscopy (SL) is not regularly performed for patients with hepatocellular carcinoma (HCC). It may change treatment strategy, preventing unnecessary open exploration. An additional advantage of SL is possible biopsy of the nontumorous liver to assess fibrosis/cirrhosis. This study aimed to determine whether SL for patients with HCC still is useful. Patients with HCC who underwent SL between January 1999 and December 2011 were analyzed. Their demographics, preoperative imaging studies, surgical findings, and histology were assessed. The 56 patients (34 men and 22 women; mean age, 60 ± 14 years) in this study underwent SL for assessment of extensive disease or metastases. For two patients, SL was unsuccessful because of intraabdominal adhesions. For four patients (7.1 %), SL showed unresectability because of metastases (n = 1), tumor progression (n = 1), or severe cirrhosis in the contralateral lobe (n = 2). An additional five patients did not undergo laparotomy due to disease progression detected on imaging after SL. Exploratory laparotomy for the remaining 47 patients showed 6 (13 %) additional unresectable tumors due to advanced tumor (n = 5) or nodal metastases (n = 1). Consequently, the yield of SL was 7 % (95 % confidence interval (CI), 3-17 %), and the accuracy was 27 % (95 % CI, 11-52 %). A biopsy of the contralateral liver was performed for 45 patients who underwent SL, leading to changes in management for 4 patients (17 %) with cirrhosis.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nStaging laparoscopy in patients with hepatocellular carcinoma: is it useful?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "To investigate the association between primary systemic vasculitis (PSV) and environmental risk factors. Seventy-five PSV cases and 273 controls (220 nonvasculitis, 19 secondary vasculitis, and 34 asthma controls) were interviewed using a structured questionnaire. Factors investigated were social class, occupational and residential history, smoking, pets, allergies, vaccinations, medications, hepatitis, tuberculosis, and farm exposure in the year before symptom onset (index year). The Standard Occupational Classification 2000 and job-exposure matrices were used to assess occupational silica, solvent, and metal exposure. Stepwise multiple logistic regression was used to calculate the odds ratio (OR) and 95% confidence interval (95% CI) adjusted for potential confounders. Total PSV, subgroups (47 Wegener's granulomatosis [WG], 12 microscopic polyangiitis, 16 Churg-Strauss syndrome [CSS]), and antineutrophil cytoplasmic antibody (ANCA)-positive cases were compared with control groups. Farming in the index year was significantly associated with PSV (OR 2.3 [95% CI 1.2-4.6]), with WG (2.7 [1.2-5.8]), with MPA (6.3 [1.9-21.6]), and with perinuclear ANCA (pANCA) (4.3 [1.5-12.7]). Farming during working lifetime was associated with PSV (2.2 [1.2-3.8]) and with WG (2.7 [1.3-5.7]). Significant associations were found for high occupational silica exposure in the index year (with PSV 3.0 [1.0-8.4], with CSS 5.6 [1.3-23.5], and with ANCA 4.9 [1.3-18.6]), high occupational solvent exposure in the index year (with PSV 3.4 [0.9-12.5], with WG 4.8 [1.2-19.8], and with classic ANCA [cANCA] 3.9 [1.6-9.5]), high occupational solvent exposure during working lifetime (with PSV 2.7 [1.1-6.6], with WG 3.4 [1.3-8.9], and with cANCA 3.3 [1.0-10.8]), drug allergy (with PSV 3.6 [1.8-7.0], with WG 4.0 [1.8-8.7], and with cANCA 4.7 [1.9-11.7]), and allergy overall (with PSV 2.2 [1.2-3.9], with WG 2.7 [1.4-5.7]). No other significant associations were found.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nAre environmental factors important in primary systemic vasculitis?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Acute hepatitis C virus infection in the era of universal screening of blood products has not disappeared, and is thought to be transmitted primarily via injecting drug use. A growing body of evidence supports iatrogenic transmission as an important mode of transmission. The aim of this study was to examine transmission routes and clinical characteristics in a group of patients with acute hepatitis C in Israel. A retrospective chart review was conducted in three different liver clinics in Israel, of all new hepatitis C patients. Patients identified as possible acute hepatitis C were re-interviewed and all other sources such as blood bank records and pre-employment check-ups reviewed in order to establish the diagnosis of acute hepatitis C infection and to identify the transmission route. Twenty-nine patients were found to have acute hepatitis C, representing 0.75% of all new referrals for hepatitis C. The most frequent (65%) mode of transmission was iatrogenic involving several, often minimal, procedures and clinical settings. The group in which iatrogenic transmission was suspected was older and the patients more often in monogamous relationship compared with other transmission routes groups. Injecting drug use was the second most common route of infection. Spontaneous seroconversion has occurred in approximately one third of the patients.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nAcute hepatitis C in Israel: a predominantly iatrogenic disease?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "To determine the perinatal predictors of discordant screening outcomes based on a two-stage screening protocol with transient-evoked otoacoustic emissions (TEOAE) and automated auditory brainstem response (AABR). A cross-sectional study of infants tested with TEOAE and AABR under a hospital-based universal newborn hearing screening program in Lagos, Nigeria. Maternal and infant factors associated with discordant TEOAE and AABR outcomes were determined with multivariable logistic regression analyses adjusting for potential confounding factors. Of the 4718 infants enrolled under the program 1745 (36.9%) completed both TEOAE and AABR. Of this group, 1060 (60.7%) passed both TEOAE and AABR (\"true-negatives\"); 92 (5.3%) failed both TEOAE and AABR (\"true-positive\"); 571 (32.7%) failed TEOAE but passed AABR (\"false-positives\") while 22 (1.3%) passed TEOAE but failed AABR (\"false-negatives\"). Infants with false-positives were likely to be admitted into well-baby nursery (p=0.001), belong to mothers who attended antenatal care (p=0.010) or who delivered vaginally (p<0.001) compared to infants with true-negatives while infants with true-positives were also more likely to be delivered vaginally (p=0.002) or admitted into well-baby nursery (p=0.035) compared to infants with false-negatives. Infants with true-positives were significantly more likely to be delivered vaginally (p<0.001) and have severe hyperbilirubinemia (p=0.045) compared with infants with true-negatives. No association was observed between false-negatives and true-negatives. Antenatal care status, mode of delivery and nursery type were useful predictors of discordant outcomes among all infants undergoing screening (c-statistic=0.73).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs discordance in TEOAE and AABR outcomes predictable in newborns?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "The management of noncorrectable extra hepatic biliary atresia includes portoenterostomy, although the results of the surgery are variable. This study was done to develop criteria that could successfully predict the outcome of surgery based on preoperative data, including percutaneous liver biopsy, allowing a more selective approach to the care of these babies. The charts and biopsy results of 31 patients who underwent a Kasai procedure for biliary atresia between 1984 and 1994 were reviewed. Values for preoperative albumin, bilirubin, age of patient at Kasai, and lowest postoperative bilirubin were recorded. Surgical success was defined as postoperative bilirubin that returned to normal. A pathologist blinded to the child's eventual outcome graded the pre-Kasai needle liver biopsy results according to duct proliferation, ductal plate lesion, bile in ducts, lobular inflammation, giant cells, syncitial giant cells, focal necrosis, bridging necrosis, hepatocyte ballooning, bile in zone 1, 2, and 3, cholangitis, and end-stage cirrhosis. Clinical outcome was then predicted. Success after portoenterostomy could not reliably be predicted based on gender, age at Kasai, preoperative bilirubin or albumin levels. Histological criteria, however, predicted outcome in 27 of 31 patients (P<.01). Fifteen of 17 clinical successes were correctly predicted; as were 12 of 14 clinical failures (sensitivity, 86%; specificity, 88%). Individually, the presence of syncitial giant cells, lobular inflammation, focal necrosis, bridging necrosis, and cholangitis, were each associated with failure of the portoenterostomy (P<.05). Bile in zone 1 was associated with clinical success of the procedure (P<.05).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nBiliary atresia: should all patients undergo a portoenterostomy?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "Paraffin-embedded tissues in Cukurova University Faculty of Medicine Department of Pathology between January 2002 and February 2006 were searched restrospectively to investigate this issue. We performed immunohistochemistry on biopsies of 125 patients with HBV infection, grouped as: mild, moderate and severe hepatitis, cirrhosis and HCC, 25 patients in each of them, using anti c-kit monoclonal antibody. The severity of parenchymal inflammation and of interface hepatitis was semiquantitatively graded on a haematoxylin and eosin stained paraffin sections. Additionally, 50 more HCC, formed on HBV basis, were studied to determine the prevalence of c-kit overexpression. In cirrhotic liver, lower intensity of staining and rarely c-kit positivity were present. The greatest number of the c-kit positivity and higher intensity of staining was found in the livers of patients with severe hepatitis and HCC. In chronic hepatitis B infection, the staining intensity was parallel with the grade and stage of the disease. In the areas where fibrosis was seen, c-kit positivity was rare or absent. In the HCC specimens, c-kit positivity appeared both inside and around the cancerous nodes. C-kit expression was observed in 62 of 75 HCC tissue specimens (82%) (p<0.001).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nExpression of c-kit protooncogen in hepatitis B virus-induced chronic hepatitis, cirrhosis and hepatocellular carcinoma: has it a diagnostic role?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "maybe",
+      "answer_idx": "C"
+    },
+    {
+      "question": "To investigate the influence of laparoscopic procedures on perisinusoidal cell function. In 31 patients who underwent laparoscopic cholecystectomy for symptomatic cholelithiasis, the serum levels of beta-N-acetyl hexosaminidase (beta-NAH) and hyaluronic acid (HA) were measured. Six female patients, who underwent other laparoscopic procedures, not involving the hepatobiliary system, served as controls. HA serum levels increased significantly in both study and control groups, while beta-NAH serum levels remained within normal values. Post-operative AST and ALT serum levels increased significantly only in the study group. No elevation of serum ALP was noted in any of our patients, and post-operative bilirubin levels did not increase in patients with normal pre-operative levels.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nDoes laparoscopic cholecystectomy influence peri-sinusoidal cell activity?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "This study was designed to determine prospectively whether the systematic use of PET/CT associated with conventional techniques could improve the accuracy of staging in patients with liver metastases of colorectal carcinoma. We also assessed the impact on the therapeutic strategy. Between 2006 and 2008, 97 patients who were evaluated for resection of LMCRC were prospectively enrolled. Preoperative workup included multidetector-CT (MDCT) and PET/CT. In 11 patients with liver steatosis or iodinated contrast allergy, MR also was performed. Sixty-eight patients underwent laparotomy. Sensitivity, specificity, positive predictive value (PPV), and negative predictive values for hepatic and extrahepatic staging of MDCT and PET-CT were calculated. In a lesion-by-lesion analysis of the hepatic staging, the sensitivity of MDCT/RM was superior to PET/CT (89.2 vs. 55%, p < 0.001). On the extrahepatic staging, PET/CT was superior to MDCT/MR only for the detection of locoregional recurrence (p = 0.03) and recurrence in uncommon sites (p = 0.016). New findings in PET/CT resulted in a change in therapeutic strategy in 17 patients. However, additional information was correct only in eight cases and wrong in nine patients.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nPreoperative staging of patients with liver metastases of colorectal carcinoma. Does PET/CT really add something to multidetector CT?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "The objective was to evaluate the efficacy of diffusion-weighted imaging (DWI) in predicting the development of vascularization in hypovascular hepatocellular lesions (HHLs). Forty-two HHLs that were diagnosed by computed tomographic (CT) arteriography were evaluated retrospectively. The lesion on DWI was classified as isointense, hypointense, or hyperintense. Follow-up studies that included intravenous dynamic CT or magnetic resonance imaging were performed. The 730-day cumulative developments of vascularization in hypointense, isointense, and hyperintense lesions were 17%, 30%, and 40%, respectively. The differences among these developments were not statistically significant.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs diffusion-weighted imaging a significant indicator of the development of vascularization in hypovascular hepatocellular lesions?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "no",
+      "answer_idx": "B"
+    },
+    {
+      "question": "Esophageal varices are present in 30% to 40% of patients in compensated cirrhosis (Child-Pugh class A) and in 60% to 85% of patients in decompensated cirrhosis (Child-Pugh classes B and C). It is important to identify patients with compensated cirrhosis at risk for esophageal varix development. We evaluated the accuracy of a duplex Doppler ultrasonographic index for predicting the presence or absence of esophageal varices in patients with compensated hepatic cirrhosis (Child-Pugh class A) by using endoscopy as the reference standard. Fifty-six enrolled patients underwent duplex Doppler ultrasonography followed by screening endoscopy. Mean portal vein velocity (PVV), splenic index (SI), splenoportal index (SPI), hepatic and splenic arterial resistive, and pulsatility indices (hepatic artery resistive index [HARI], hepatic artery pulsatility index [HAPI], splenic artery resistive index [SARI], splenic artery pulsatility index [SAPI]) were recorded. Univariate logistic regression analysis was followed by receiver operating characteristic (ROC) curve construction for the indices that were significant. The indices HARI, HAPI, SARI, SAPI were not helpful (p > 0.05). Mean PVV, SI, and SPI were all predictive of the presence of esophageal varices (p < 0.05) and SPI was found to be the most accurate parameter. Of the various cut-off levels of SPI evaluated, a cut-off value of SPI at 5.0, offered the highest diagnostic accuracy (88%). For the 28 patients with SPI<5.0, the absence of esophageal varices in 27 of them could be correctly diagnosed using only SPI without invasive screening endoscopy, with high negative predictive value (96%) and sensitivity (96%). Of the remaining 28 patients with SPI ≥5.0, presence of esophageal varices could be similarly correctly diagnosed in 22 of them by using SPI without screening endoscopy, with high positive predictive value (79%) and specificity (82%).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs non-invasive diagnosis of esophageal varices in patients with compensated hepatic cirrhosis possible by duplex Doppler ultrasonography?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Esophagogastric variceal hemorrhage is a life-threatening complication of portal hypertension. In this study, we compared the therapeutic effect of a novel surgical procedure, esophagogastric devascularization without splenectomy (EDWS), with the widely used modified esophagogastric devascularization (MED) with splenectomy for the treatment of portal hypertension. Fifty-five patients with portal hypertension were included in this retrospective study. Among them, 27 patients underwent EDWS, and the other 28 patients underwent MED. Patients' characteristics, perioperative parameters and long-term follow-up were analyzed. The portal venous pressure was decreased by 20% postoperatively in both groups. The morbidity rate of portal venous system thrombosis in the EDWS group was significantly lower than that in the MED group (P=0.032). The 1- and 3-year recurrence rates of esophagogastric variceal hemorrhage were 0% and 4.5% in the EDWS group, and 0% and 8.7% in the MED group, respectively (P=0.631).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nEsophagogastric devascularization without splenectomy in portal hypertension: safe and effective?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Treatment of HBeAg-negative chronic hepatitis B (CHB) with nucleos(t)ide analogues (NA) is usually indefinite, since the loss of HBsAg, as a criterion for its discontinuation, is a rare event. Recent evidence suggests that discontinuing NA therapy may be feasible in selected patients. To analyze the rate of virological relapse in patients with HBeAg-negative CHB who discontinued treatment with NAs. We performed a single-center observational study that included 140 patients with HBsAg-negative CHB. Twenty-two patients, who received only NAs, discontinued treatment for different reasons and were subsequently monitored. All had normal ALT and AST, undetectable DNA and absence of cirrhosis or significant comorbidities before stopping treatment. Twelve patients showed virologic relapse (54.54%). The mean interval between discontinuation and relapse was 6.38 months (± 1.9) (75% relapsed during the first 12 months after discontinuation). Five received adefovir, 1 lamivudine and adefovir, 1 tenofovir and 5 lamivudine alone. The mean treatment duration in this group was 38.5 months (± 4.5). The sustained response group had a higher mean age and longer treatment duration than patients with virologic relapse but these differences were not statistically significant.\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs it possible to stop treatment with nucleos(t)ide analogs in patients with e-antigen negative chronic hepatitis B?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "maybe",
+      "answer_idx": "C"
+    },
+    {
+      "question": "Previous studies have reported that the total bilirubin (TB) level is associated with coronary artery disease, heart failure and atrial fibrillation. These heart diseases can produce cardiogenic cerebral embolism and cause cardioembolic stroke. However, whether the serum TB could be a biomarker to differentiate cardioembolic stroke from other stroke subtypes is unclear. Our study consisted of 628 consecutive patients with ischaemic stroke. Various clinical and laboratory variables of the patients were analysed according to serum TB quartiles and stroke subtypes. The higher TB quartile group was associated with atrial fibrillation, larger left atrium diameter, lower left ventricular fractional shortening and cardioembolic stroke (P<0.001, P = 0.001, P = 0.033, P<0.001, respectively). Furthermore, serum TB was a statistically significant independent predictor of cardioembolic stroke in a multivariable setting (Continuous, per unit increase OR = 1.091, 95%CI: 1.023-1.164, P = 0.008).\n\nUsing the above document as a reference, please review the following question and choose the option you find most appropriate.\nIs serum total bilirubin useful to differentiate cardioembolic stroke from other stroke subtypes?",
+      "options": {
+        "A": "yes",
+        "B": "no",
+        "C": "maybe"
+      },
+      "answer": "yes",
+      "answer_idx": "A"
+    }
+  ],
+  "MMLU-Pro_Medical_test": [
+    {
+      "question": "A 75-year-old woman comes to the office because she has band-like, burning pain in her right upper abdomen extending from the epigastrium around to the midline of the back. Physical examination discloses no abdominal tenderness to palpation. Findings on ultrasonography of the gallbladder are normal. Serum amylase concentration is within the reference range. Which of the following is the most likely diagnosis?",
+      "options": {
+        "A": "Gallstones",
+        "B": "Gastric cancer",
+        "C": "Peptic Ulcer Disease",
+        "D": "Herpes zoster",
+        "E": "Irritable Bowel Syndrome",
+        "F": "Appendicitis",
+        "G": "Acalculous cholecystitis",
+        "H": "Diverticulitis of the cecum",
+        "I": "Hepatitis C"
+      },
+      "answer": "Herpes zoster",
+      "answer_idx": "D"
+    },
+    {
+      "question": "The replication of hepatitis B includes which of the following stages?",
+      "options": {
+        "A": "Movement of intact virus to the cellular cytoplasm for replication",
+        "B": "Conversion of relaxed circular viral DNA in to covalently closed circular (CCC) DNA in the nucleus",
+        "C": "Virions produced in the cytoplasm by cellular DNA polymerase",
+        "D": "Oncogenic activity to transform liver cells."
+      },
+      "answer": "Virions produced in the cytoplasm by cellular DNA polymerase",
+      "answer_idx": "C"
+    },
+    {
+      "question": "A 22-year-old woman comes to the physician in October for a follow-up examination. She feels well. She has a 2-year history of type 1 diabetes mellitus controlled with insulin. She had a normal Pap smear 3 months ago and saw her ophthalmologist 6 months ago. Her 67-year-old grandmother has breast cancer. She is 168 cm (5 ft 6 in) tall and weighs 57 kg (125 lb); BMI is 20 kg/m2 . Her hemoglobin A1c is 6.2%, and fingerstick blood glucose concentration is 118 mg/dL. Which of the following health maintenance recommendations is most appropriate at this time?",
+      "options": {
+        "A": "Pneumococcal vaccine",
+        "B": "Mammography",
+        "C": "Dietary modification for weight loss",
+        "D": "Screening for cervical cancer",
+        "E": "Screening for colon cancer",
+        "F": "Influenza virus vaccine",
+        "G": "Routine eye examination",
+        "H": "Colonoscopy",
+        "I": "Human papillomavirus testing",
+        "J": "Hepatitis B virus vaccine"
+      },
+      "answer": "Influenza virus vaccine",
+      "answer_idx": "F"
+    },
+    {
+      "question": "A 22-year-old woman comes to the physician in October for a follow-up examination. She feels well. She has a 2-year history of type 1 diabetes mellitus controlled with insulin. She had a normal Pap smear 3 months ago and saw her ophthalmologist 6 months ago. Her 67-year-old grandmother has breast cancer. She is 168 cm (5 ft 6 in) tall and weighs 57 kg (125 lb); BMI is 20 kg/m2 . Her hemoglobin A1c is 6.2%, and fingerstick blood glucose concentration is 118 mg/dL. Which of the following health maintenance recommendations is most appropriate at this time?",
+      "options": {
+        "A": "Mammography",
+        "B": "Dietary modification for weight loss",
+        "C": "Screening for cervical cancer",
+        "D": "Screening for colon cancer",
+        "E": "Influenza virus vaccine",
+        "F": "Routine eye examination",
+        "G": "Colonoscopy",
+        "H": "Human papillomavirus testing",
+        "I": "Hepatitis B virus vaccine"
+      },
+      "answer": "Influenza virus vaccine",
+      "answer_idx": "E"
+    },
+    {
+      "question": "A 13-month-old child is brought to the emergency department because of urticaria, swelling of the lips, and difficulty breathing immediately after eating an egg. A potential risk for hypersensitivity reaction is posed by vaccination against which of the following illnesses?",
+      "options": {
+        "A": "Hepatitis",
+        "B": "Influenza",
+        "C": "Pertussis",
+        "D": "Poliomyelitis"
+      },
+      "answer": "Influenza",
+      "answer_idx": "B"
+    },
+    {
+      "question": "A 13-month-old child is brought to the emergency department because of urticaria, swelling of the lips, and difficulty breathing immediately after eating an egg. A potential risk for hypersensitivity reaction is posed by vaccination against which of the following illnesses?",
+      "options": {
+        "A": "Influenza",
+        "B": "Rotavirus",
+        "C": "Human papillomavirus",
+        "D": "Poliomyelitis",
+        "E": "Measles",
+        "F": "Meningitis",
+        "G": "Varicella",
+        "H": "Tuberculosis",
+        "I": "Pertussis",
+        "J": "Hepatitis"
+      },
+      "answer": "Influenza",
+      "answer_idx": "A"
+    },
+    {
+      "question": "Which virus infection was not first identified by clinical observation?",
+      "options": {
+        "A": "HIV",
+        "B": "Rubella teratogenicity",
+        "C": "Microcephaly and Zika",
+        "D": "Hepatitis C"
+      },
+      "answer": "Hepatitis C",
+      "answer_idx": "D"
+    },
+    {
+      "question": "Loss of stomach lining can lead to symptoms that resemble",
+      "options": {
+        "A": "Diabetes",
+        "B": "Dementia",
+        "C": "Osteoporosis",
+        "D": "Tuberculosis",
+        "E": "Hepatitis",
+        "F": "Senescence",
+        "G": "Leukemia",
+        "H": "Anorexia",
+        "I": "Parkinson's disease",
+        "J": "Hypertension"
+      },
+      "answer": "Dementia",
+      "answer_idx": "B"
+    },
+    {
+      "question": "Which of the following is not a recognized complication of cystic fibrosis?",
+      "options": {
+        "A": "Cancer of the oesophagus",
+        "B": "Liver cirrhosis",
+        "C": "Congenital absence of the vas deferens",
+        "D": "Diabetes mellitus"
+      },
+      "answer": "Cancer of the oesophagus",
+      "answer_idx": "A"
+    }
+  ],
+  "GPQA_Medical_test": []
+}

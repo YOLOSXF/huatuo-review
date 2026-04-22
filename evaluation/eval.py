@@ -31,7 +31,7 @@ def load_file(input_fp):
 
 def main():
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser() #创建命令行解析器
     parser.add_argument('--model_name', type=str,
                         default="meta-llama/Llama-2-7b-chat-hf")
     parser.add_argument('--eval_file', type=str, required=True)

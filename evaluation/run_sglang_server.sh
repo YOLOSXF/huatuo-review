@@ -2,14 +2,14 @@
 # 启动 SGLang 服务 + 执行评估的一体化脚本
 
 # ===================== 核心配置参数（可修改）=====================
-log_num=0
-model_name="/jeyzhang/shenxiaofeng/Liver/HuatuoGPT-o1/ckpts/sft_stage1/checkpoint-2-14778/tfmr"  # 模型路径
-cuda_device=1                                    # GPU 设备编号（多卡用 "0,1"）
+log_num=2
+model_name="/jeyzhang/shenxiaofeng/Liver/HuatuoGPT-o1/ckpts/sft_stage1/checkpoint-1-210/tfmr"  # 模型路径
+cuda_device=2                                    # GPU 设备编号（多卡用 "0,1"）
 mem_fraction_static=0.8                          # 静态内存占比
 dp=1                                             # 数据并行数
 tp=1                                             # 张量并行数
-eval_file="/jeyzhang/shenxiaofeng/Liver/HuatuoGPT-o1/evaluation/data/eval_data.json"        # 评估数据文件路径
-eval_delay=40                                    # 启动服务后等待时间（秒），确保服务就绪
+eval_file="/jeyzhang/shenxiaofeng/Liver/HuatuoGPT-o1/evaluation/data/eval_filtered.json"        # 评估数据文件路径
+eval_delay=50                                  # 启动服务后等待时间（秒），确保服务就绪
 # ===================== 日志目录（无需修改） =====================
 logs_dir="/jeyzhang/shenxiaofeng/Liver/HuatuoGPT-o1/evaluation/logs"
 # ====================================================================
@@ -91,6 +91,7 @@ for attempt in $(seq 1 $eval_max_retries); do
     --eval_file "$eval_file" \
     --port "$port" \
     --strict_promp \
+    --task "tuning1_other" \
     >> "$logs_dir/$eval_log" 2>&1
 
   if [ $? -eq 0 ]; then
@@ -112,24 +113,6 @@ if [ $eval_ok -ne 1 ]; then
   echo "❌ 评估重试仍失败，退出。"
   echo "服务仍在运行（PID: $server_pid），如需停止：kill -9 $server_pid"
   exit 1
-fi
-
-# ===================== 步骤3：可选：停止服务 =====================
-read -p $'\n是否停止 SGLang 服务？(y/n，默认n)：' stop_choice
-stop_choice=${stop_choice:-n}  # 默认不停止
-
-if [ "$stop_choice" = "y" ] || [ "$stop_choice" = "Y" ]; then
-  echo -e "\n停止服务（PID: $server_pid）..."
-  kill -9 $server_pid
-  if ! check_process $server_pid; then
-    echo "✅ 服务已成功停止"
-  else
-    echo "❌ 服务停止失败，请手动执行：kill -9 $server_pid"
-  fi
-else
-  echo -e "\nℹ️  服务保持运行（PID: $server_pid）"
-  echo "后续停止服务：kill -9 $server_pid"
-  echo "查看服务日志：tail -f $logs_dir/$server_log"
 fi
 
 echo -e "\n========================================"
